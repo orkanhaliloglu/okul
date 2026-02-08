@@ -116,7 +116,14 @@ export default async function HighSchoolDetailPage({ params }: { params: Promise
                                         {school.images && school.images.length > 0 && (
                                             <div className="mt-6 grid grid-cols-2 gap-4">
                                                 {school.images.map((img, idx) => (
-                                                    <img key={idx} src={img} alt={`${school.name} ${idx + 1}`} className="rounded-lg object-cover w-full h-48" />
+                                                    <img
+                                                        key={idx}
+                                                        src={img}
+                                                        alt={`${school.name} ${idx + 1}`}
+                                                        className="rounded-lg object-cover w-full h-48 bg-muted"
+                                                        referrerPolicy="no-referrer"
+                                                        loading="lazy"
+                                                    />
                                                 ))}
                                             </div>
                                         )}
