@@ -204,7 +204,7 @@ export default function Home() {
                               </div>
                             </div>
                             <Link
-                              href={`/search?type=lise&admission=${admissionType}${filters.liseCity ? `&city=${filters.liseCity}` : ''}${filters.liseMinScore ? `&minScore=${filters.liseMinScore}` : ''}`}
+                              href={`/lgs-tercih-robotu?admission=${admissionType}${filters.liseCity ? `&city=${filters.liseCity}` : ''}${filters.liseMinScore ? `&minScore=${filters.liseMinScore}` : ''}`}
                               className="block w-full"
                             >
                               <Button size="lg" className="w-full bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white shadow-lg shadow-indigo-500/25 mt-4">
@@ -258,7 +258,7 @@ export default function Home() {
                               </div>
                             </div>
                             <Link
-                              href={`/search?type=universite${filters.uniQuery ? `&q=${filters.uniQuery}` : ''}${filters.uniCity ? `&city=${filters.uniCity}` : ''}${filters.uniMinScore ? `&minScore=${filters.uniMinScore}` : ''}`}
+                              href={`/yks-tercih-robotu?${filters.uniQuery ? `q=${filters.uniQuery}` : ''}${filters.uniQuery && filters.uniCity ? '&' : ''}${filters.uniCity ? `city=${filters.uniCity}` : ''}${filters.uniMinScore ? `&minScore=${filters.uniMinScore}` : ''}`}
                               className="block w-full"
                             >
                               <Button size="lg" className="w-full bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white shadow-lg shadow-indigo-500/25 mt-4">

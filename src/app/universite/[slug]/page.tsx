@@ -29,8 +29,8 @@ export default async function UniversityDetailPage({ params }: { params: Promise
                     <span className="sr-only">Ana Sayfa</span>
                 </Link>
                 <ChevronRight className="h-4 w-4 mx-2 text-muted-foreground/50" />
-                <Link href="/search?type=universite" className="hover:text-primary transition-colors">
-                    Üniversiteler
+                <Link href="/yks-tercih-robotu" className="hover:text-primary transition-colors">
+                    <ArrowLeft className="h-6 w-6" />
                 </Link>
                 <ChevronRight className="h-4 w-4 mx-2 text-muted-foreground/50" />
                 <span className="font-medium text-foreground truncate max-w-[200px] sm:max-w-none">{uni.universityName}</span>

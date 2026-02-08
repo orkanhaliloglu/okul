@@ -7,7 +7,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Static routes
     const routes = [
         '',
-        '/search',
+        '/lgs-tercih-robotu',
+        '/yks-tercih-robotu',
     ].map((route) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),

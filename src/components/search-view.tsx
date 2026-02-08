@@ -61,27 +61,40 @@ export function SearchView({ initialType }: SearchViewProps) {
         }
     }, [typeParam, initialType]);
 
+    // Sync filters to URL
+    useEffect(() => {
+        const params = new URLSearchParams();
+
+        if (type === 'lise') {
+            if (liseCity) params.set('city', liseCity);
+            if (liseMinScore) params.set('minScore', liseMinScore);
+            if (admissionType) params.set('admission', admissionType);
+        } else {
+            if (uniQuery) params.set('q', uniQuery);
+            if (uniCity) params.set('city', uniCity);
+            if (uniMinScore) params.set('minScore', uniMinScore);
+            if (uniScoreType && uniScoreType !== 'ALL') params.set('scoreType', uniScoreType);
+        }
+
+        // Only update if params changed (to avoid infinite loops or unnecessary replaces)
+        const currentString = searchParams.toString();
+        const newString = params.toString();
+
+        if (currentString !== newString) {
+            router.replace(`${pathname}?${newString}`, { scroll: false });
+        }
+    }, [type, liseCity, liseMinScore, admissionType, uniQuery, uniCity, uniMinScore, uniScoreType, pathname, router, searchParams]);
 
     const filteredResults = useMemo(() => {
         if (type === "lise") {
             return highSchools.filter(school => {
                 const matchesCity = liseCity === "" || school.city.toLowerCase().includes(liseCity.toLowerCase());
-                const matchesScore = liseMinScore === "" || (school.score && school.score <= parseFloat(liseMinScore));
-                // Logic fix: usually people search for "my score is X, show me schools I can enter". 
-                // If school score is LOWER than my score, I can enter. 
-                // So matches if school.score <= myScore.
-                // Wait, 'taban puan' means minimum score to enter.
-                // If I have 450, I can enter schools with 450 or less.
-                // So user inputs THEIR score. We show schools where school.score <= userScore.
-
-                // However, if user treats this as "Show me schools above 400", then logic is >=.
-                // Let's assume standard behavior: "Puanım (veya hedefim) bu, nereler gelir?" -> school.score <= input
-
-                // Let's check filter logic. "Min Puan" field usually implies "Show me schools with AT LEAST this score". 
-                // BUT for a "Preference Robot", you usually enter YOUR score.
-                // Let's assume the user enters THEIR score.
+                // Logic: Show schools where school.score <= userScore (if user enters score)
+                // Filter logic for "Min Score" usually means "Filter out schools below this score" (min threshold)
+                // BUT for exam preference, users enter THEIR score.
+                // "My score is 450. Show me schools I can enter." -> Schools with <= 450.
                 const scoreVal = parseFloat(liseMinScore);
-                const matchesScoreLogic = liseMinScore === "" || (school.score <= scoreVal + 10); // buffer
+                const matchesScoreLogic = liseMinScore === "" || (school.score && school.score <= scoreVal + 5); // +5 buffer
 
                 const matchesAdmission = school.admissionType === admissionType;
 
@@ -93,7 +106,10 @@ export function SearchView({ initialType }: SearchViewProps) {
                     uni.universityName.toLowerCase().includes(uniQuery.toLowerCase()) ||
                     uni.programName.toLowerCase().includes(uniQuery.toLowerCase());
                 const matchesCity = uniCity === "" || uni.city.toLowerCase().includes(uniCity.toLowerCase());
-                const matchesScore = uniMinScore === "" || (uni.score && uni.score <= parseFloat(uniMinScore));
+                // Same logic for University: user enters THEIR score.
+                const scoreVal = parseFloat(uniMinScore);
+                const matchesScore = uniMinScore === "" || (uni.score && uni.score <= scoreVal + 10);
+
                 const matchesType = uniScoreType === "ALL" || uni.scoreType === uniScoreType;
 
                 return matchesQuery && matchesCity && matchesScore && matchesType;

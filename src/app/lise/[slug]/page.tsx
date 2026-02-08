@@ -30,8 +30,8 @@ export default async function HighSchoolDetailPage({ params }: { params: Promise
                     <span className="sr-only">Ana Sayfa</span>
                 </Link>
                 <ChevronRight className="h-4 w-4 mx-2 text-muted-foreground/50" />
-                <Link href="/search?type=lise" className="hover:text-primary transition-colors">
-                    Liseler
+                <Link href="/lgs-tercih-robotu" className="hover:text-primary transition-colors">
+                    <ArrowLeft className="h-6 w-6" />
                 </Link>
                 <ChevronRight className="h-4 w-4 mx-2 text-muted-foreground/50" />
                 <span className="font-medium text-foreground truncate max-w-[200px] sm:max-w-none">{school.name}</span>
