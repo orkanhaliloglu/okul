@@ -55,7 +55,7 @@ export default function RootLayout({
         <Header />
         <StudentBackground />
         {children}
-        <GoogleAnalytics gaId="G-PLACEHOLDER" />
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || "G-PLACEHOLDER"} />
       </body>
     </html>
   );
