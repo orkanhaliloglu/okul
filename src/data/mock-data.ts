@@ -596,6 +596,57 @@ export const universities: UniversityProgram[] = [
         description: "Ege Üniversitesi kampüsü içinde yer alan fakülte, modern klinikleri ile hizmet vermektedir.",
         address: "Erzene, 35040 Bornova/İzmir",
         website: "https://dent.ege.edu.tr"
+    },
+    {
+        id: "u11",
+        slug: "bogazici-ceviri-bilimi",
+        universityName: "Boğaziçi Üniversitesi",
+        programName: "Çeviribilimi (İngilizce)",
+        faculty: "Fen-Edebiyat Fakültesi",
+        type: "Devlet",
+        city: "İstanbul",
+        scoreType: "DİL",
+        score: 518,
+        ranking: 150,
+        quota: 60,
+        description: "Türkiye'nin en prestijli çeviribilim bölümlerinden biridir. Edebiyat, teknik ve sözlü çeviri alanlarında uzmanlaşma imkanı sunar.",
+        address: "Boğaziçi Üniversitesi Kuzey Kampüs, 34342 Bebek/İstanbul",
+        website: "https://transint.boun.edu.tr",
+        images: ["https://images.unsplash.com/photo-1592280771884-1bf133503c58?auto=format&fit=crop&q=80&w=1000"]
+    },
+    {
+        id: "u12",
+        slug: "odtu-ingilizce-ogretmenligi",
+        universityName: "Orta Doğu Teknik Üniversitesi",
+        programName: "İngilizce Öğretmenliği",
+        faculty: "Eğitim Fakültesi",
+        type: "Devlet",
+        city: "Ankara",
+        scoreType: "DİL",
+        score: 495,
+        ranking: 2000,
+        quota: 80,
+        description: "ODTÜ Eğitim Fakültesi bünyesinde, modern eğitim teknikleri ile donatılmış İngilizce öğretmenleri yetiştirir.",
+        address: "Üniversiteler, Dumlupınar Blv. No:1, 06800 Çankaya/Ankara",
+        website: "https://fle.metu.edu.tr",
+        images: ["https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1000"]
+    },
+    {
+        id: "u13",
+        slug: "istanbul-universitesi-ingiliz-dili",
+        universityName: "İstanbul Üniversitesi",
+        programName: "İngiliz Dili ve Edebiyatı",
+        faculty: "Edebiyat Fakültesi",
+        type: "Devlet",
+        city: "İstanbul",
+        scoreType: "DİL",
+        score: 475,
+        ranking: 5000,
+        quota: 90,
+        description: "Türkiye'nin en köklü İngiliz Dili ve Edebiyatı bölümlerinden biridir. Zengin kütüphanesi ve akademik kadrosu ile öne çıkar.",
+        address: "Laleli, Ordu Cd. No:6, 34134 Fatih/İstanbul",
+        website: "https://edebiyat.istanbul.edu.tr",
+        images: ["https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1000"]
     }
 
 ];
