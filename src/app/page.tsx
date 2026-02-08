@@ -13,6 +13,13 @@ import { ScoreWizard } from "@/components/score-wizard";
 export default function Home() {
   const [activeTab, setActiveTab] = useState<string | null>(null);
   const [admissionType, setAdmissionType] = useState<'LGS' | 'OBP'>('LGS');
+  const [filters, setFilters] = useState({
+    liseCity: '',
+    liseMinScore: '',
+    uniQuery: '',
+    uniCity: '',
+    uniMinScore: ''
+  });
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -33,7 +40,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background"></div>
 
             {/* Student Image - Realistic & Charming */}
-            <div className="absolute right-[-25%] bottom-0 h-[85%] sm:h-[90%] md:h-[100%] w-auto z-0 pointer-events-none select-none md:right-[-5%] lg:right-[2%] flex items-end justify-end">
+            <div className="absolute right-[-10%] md:right-0 lg:right-[5%] bottom-0 h-[80%] sm:h-[85%] md:h-[95%] w-auto z-0 pointer-events-none select-none flex items-end justify-end">
               {/* Back Glow for Dark Mode */}
               <div className="absolute bottom-1/4 right-1/4 w-[80%] h-[60%] bg-indigo-500/30 blur-[120px] rounded-full dark:bg-indigo-600/20 mix-blend-screen"></div>
 
@@ -45,7 +52,6 @@ export default function Home() {
 
               {/* Blending Gradients */}
               <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent h-[30%] bottom-0"></div>
-              <div className="absolute inset-0 bg-gradient-to-l from-transparent via-transparent to-background/20 w-[20%] left-0"></div>
             </div>
           </div>
 
@@ -175,18 +181,32 @@ export default function Home() {
                                 <label className="text-sm font-medium">Şehir</label>
                                 <div className="relative">
                                   <MapPin className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-                                  <Input placeholder="İl Seçiniz (Örn: İstanbul)" className="pl-9" />
+                                  <Input
+                                    placeholder="İl Seçiniz (Örn: İstanbul)"
+                                    className="pl-9"
+                                    value={filters.liseCity}
+                                    onChange={(e) => setFilters({ ...filters, liseCity: e.target.value })}
+                                  />
                                 </div>
                               </div>
                               <div className="space-y-2 text-left">
-                                <label className="text-sm font-medium">Puan Aralığı</label>
+                                <label className="text-sm font-medium">Puan (Min)</label>
                                 <div className="relative">
                                   <School className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-                                  <Input placeholder="Örn: 400-450" className="pl-9" type="number" />
+                                  <Input
+                                    placeholder="Örn: 400"
+                                    className="pl-9"
+                                    type="number"
+                                    value={filters.liseMinScore}
+                                    onChange={(e) => setFilters({ ...filters, liseMinScore: e.target.value })}
+                                  />
                                 </div>
                               </div>
                             </div>
-                            <Link href={`/search?type=lise&admission=${admissionType}`} className="block w-full">
+                            <Link
+                              href={`/search?type=lise&admission=${admissionType}${filters.liseCity ? `&city=${filters.liseCity}` : ''}${filters.liseMinScore ? `&minScore=${filters.liseMinScore}` : ''}`}
+                              className="block w-full"
+                            >
                               <Button size="lg" className="w-full bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white shadow-lg shadow-indigo-500/25 mt-4">
                                 <Search className="mr-2 h-5 w-5" />
                                 Liseleri Listele
@@ -200,28 +220,47 @@ export default function Home() {
                             </p>
                             <div className="grid gap-6 md:grid-cols-3">
                               <div className="space-y-2 text-left">
-                                <label className="text-sm font-medium">Bölüm Adı</label>
+                                <label className="text-sm font-medium">Bölüm / Üniversite Adı</label>
                                 <div className="relative">
                                   <BookOpen className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-                                  <Input placeholder="Örn: Bilgisayar Müh." className="pl-9" />
+                                  <Input
+                                    placeholder="Örn: Bilgisayar, ODTÜ..."
+                                    className="pl-9"
+                                    value={filters.uniQuery}
+                                    onChange={(e) => setFilters({ ...filters, uniQuery: e.target.value })}
+                                  />
                                 </div>
                               </div>
                               <div className="space-y-2 text-left">
                                 <label className="text-sm font-medium">Şehir</label>
                                 <div className="relative">
                                   <MapPin className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-                                  <Input placeholder="İl Seçiniz" className="pl-9" />
+                                  <Input
+                                    placeholder="İl Seçiniz"
+                                    className="pl-9"
+                                    value={filters.uniCity}
+                                    onChange={(e) => setFilters({ ...filters, uniCity: e.target.value })}
+                                  />
                                 </div>
                               </div>
                               <div className="space-y-2 text-left">
-                                <label className="text-sm font-medium">Puan Türü</label>
+                                <label className="text-sm font-medium">Puan (Min)</label>
                                 <div className="relative">
                                   <GraduationCap className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-                                  <Input placeholder="SAY, EA, SÖZ..." className="pl-9" />
+                                  <Input
+                                    placeholder="Örn: 450"
+                                    className="pl-9"
+                                    type="number"
+                                    value={filters.uniMinScore}
+                                    onChange={(e) => setFilters({ ...filters, uniMinScore: e.target.value })}
+                                  />
                                 </div>
                               </div>
                             </div>
-                            <Link href="/search?type=universite" className="block w-full">
+                            <Link
+                              href={`/search?type=universite${filters.uniQuery ? `&q=${filters.uniQuery}` : ''}${filters.uniCity ? `&city=${filters.uniCity}` : ''}${filters.uniMinScore ? `&minScore=${filters.uniMinScore}` : ''}`}
+                              className="block w-full"
+                            >
                               <Button size="lg" className="w-full bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white shadow-lg shadow-indigo-500/25 mt-4">
                                 <Search className="mr-2 h-5 w-5" />
                                 Üniversite Ara
