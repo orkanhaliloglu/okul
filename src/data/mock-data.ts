@@ -38,7 +38,8 @@ export const highSchools: HighSchool[] = [
         phone: "0212 514 15 70",
         address: "Hobyar, Türkocağı Cd. No:4, 34112 Fatih/İstanbul",
         admissionType: "LGS",
-        departments: ["Fen Bilimleri", "Matematik-Fen"]
+        departments: ["Fen Bilimleri", "Matematik-Fen"],
+        images: ["https://images.unsplash.com/photo-1590327773236-47b744d21f87?auto=format&fit=crop&q=80&w=1000", "https://images.unsplash.com/photo-1544531696-6b22530d9519?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "3",
@@ -57,7 +58,8 @@ export const highSchools: HighSchool[] = [
         phone: "0212 227 49 53",
         address: "Ortaköy, Çırağan Cd. No:40, 34347 Beşiktaş/İstanbul",
         admissionType: "LGS",
-        departments: ["Fen Bilimleri", "Türkçe-Matematik"]
+        departments: ["Fen Bilimleri", "Türkçe-Matematik"],
+        images: ["https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1000", "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "4",
@@ -76,7 +78,8 @@ export const highSchools: HighSchool[] = [
         phone: "0312 285 20 23",
         address: "Çiğdem, 1557. Sk. No:29, 06530 Çankaya/Ankara",
         admissionType: "LGS",
-        departments: ["Fen Bilimleri"]
+        departments: ["Fen Bilimleri"],
+        images: ["https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "5",
@@ -95,7 +98,8 @@ export const highSchools: HighSchool[] = [
         phone: "0232 388 10 30",
         address: "Erzene, 35040 Bornova/İzmir",
         admissionType: "LGS",
-        departments: ["Fen Bilimleri"]
+        departments: ["Fen Bilimleri"],
+        images: ["https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "6",
@@ -113,7 +117,8 @@ export const highSchools: HighSchool[] = [
         description: "Tarihi yarımadada bulunan okul, Almanca eğitim vermekte ve DSD diploması imkanı sunmaktadır.",
         website: "http://cagalogluanadolulisesi.meb.k12.tr",
         phone: "0212 522 56 04",
-        address: "Mollafenari, Bab-ı Ali Cd. No:15, 34120 Fatih/İstanbul"
+        address: "Mollafenari, Bab-ı Ali Cd. No:15, 34120 Fatih/İstanbul",
+        images: ["https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "7",
@@ -130,7 +135,8 @@ export const highSchools: HighSchool[] = [
         admissionType: "LGS",
         address: "Eğitim Mah. Dr. Erkin Cad. No:1 Kadıköy/İSTANBUL",
         description: "İstanbul Anadolu yakasının en prestijli fen liselerinden biridir.",
-        website: "https://iafl.meb.k12.tr"
+        website: "https://iafl.meb.k12.tr",
+        images: ["https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "8",
@@ -147,7 +153,8 @@ export const highSchools: HighSchool[] = [
         admissionType: "LGS",
         address: "Türkali, Şehit Asım Cad. No:62, 34357 Beşiktaş/İstanbul",
         description: "Boğaziçi manzaralı konumu ve başarılı mezunları ile tanınan köklü bir anadolu lisesidir.",
-        website: "http://besikitasanadolulisesi.meb.k12.tr"
+        website: "http://besikitasanadolulisesi.meb.k12.tr",
+        images: ["https://images.unsplash.com/photo-1592280771884-1bf133503c58?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "9",
@@ -164,7 +171,8 @@ export const highSchools: HighSchool[] = [
         admissionType: "LGS",
         address: "Belediye Evleri, 84208. Sk., 01170 Seyhan/Adana",
         description: "Akdeniz bölgesinin öncü eğitim kurumlarından biridir.",
-        website: "https://adanafenlisesi.meb.k12.tr"
+        website: "https://adanafenlisesi.meb.k12.tr",
+        images: ["https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "10",
@@ -181,7 +189,8 @@ export const highSchools: HighSchool[] = [
         admissionType: "LGS",
         address: "Çekirge, 1. Murat Cd. No:10, 16070 Osmangazi/Bursa",
         description: "Bursa'nın en köklü ve başarılı anadolu liselerinden biridir.",
-        website: "https://bursaanadolulisesi.meb.k12.tr"
+        website: "https://bursaanadolulisesi.meb.k12.tr",
+        images: ["https://images.unsplash.com/photo-1590327773236-47b744d21f87?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "11",
@@ -200,7 +209,8 @@ export const highSchools: HighSchool[] = [
         description: "Üsküdar'ın önde gelen Anadolu liselerinden biridir. Akademik başarıları ve sosyal etkinlikleri ile tanınır. Modern binası ve donanımlı sınıfları ile kaliteli bir eğitim ortamı sunar.",
         website: "http://mustafasaffetanadolulisesi.meb.k12.tr",
         phone: "0216 324 00 00",
-        departments: ["Fen Bilimleri", "Türkçe-Matematik"]
+        departments: ["Fen Bilimleri", "Türkçe-Matematik"],
+        images: ["https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "12",
@@ -218,7 +228,8 @@ export const highSchools: HighSchool[] = [
         address: "Yenişehir, Dedepaşa Cd. No:18, 34912 Pendik/İstanbul",
         description: "Gönüllü Hizmet Vakfı Mustafa Saffet Fen Lisesi, Pendik'te yer alan modern bir fen lisesidir. Bilimsel çalışmaları ve proje tabanlı eğitimi ile öne çıkar.",
         website: "https://ghvmustafasaffetfenlisesi.meb.k12.tr",
-        departments: ["Fen Bilimleri"]
+        departments: ["Fen Bilimleri"],
+        images: ["https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "13",
@@ -234,7 +245,8 @@ export const highSchools: HighSchool[] = [
         language: "İngilizce",
         admissionType: "LGS",
         address: "Kalenderhane, Dede Efendi Cd. No:5, 34134 Fatih/İstanbul",
-        description: "Türkiye'nin en köklü liselerinden biri olan Vefa Lisesi, tarihi dokusu ve akademik başarısı ile tanınır."
+        description: "Türkiye'nin en köklü liselerinden biri olan Vefa Lisesi, tarihi dokusu ve akademik başarısı ile tanınır.",
+        images: ["https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "14",
@@ -249,7 +261,8 @@ export const highSchools: HighSchool[] = [
         educationDuration: 4,
         language: "İngilizce",
         admissionType: "LGS",
-        address: "Altunizade, Validebağ Korusu, 34662 Üsküdar/İstanbul"
+        address: "Altunizade, Validebağ Korusu, 34662 Üsküdar/İstanbul",
+        images: ["https://images.unsplash.com/photo-1592280771884-1bf133503c58?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "15",
@@ -264,7 +277,8 @@ export const highSchools: HighSchool[] = [
         educationDuration: 4,
         language: "İngilizce",
         admissionType: "LGS",
-        address: "İskenderpaşa, Atatürk Blv. No:42, 34091 Fatih/İstanbul"
+        address: "İskenderpaşa, Atatürk Blv. No:42, 34091 Fatih/İstanbul",
+        images: ["https://images.unsplash.com/photo-1590327773236-47b744d21f87?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "16",
@@ -279,7 +293,8 @@ export const highSchools: HighSchool[] = [
         educationDuration: 4,
         language: "Fransızca",
         admissionType: "LGS",
-        address: "Soğanlık Yeni, Atatürk Cd. No:5, 34880 Kartal/İstanbul"
+        address: "Soğanlık Yeni, Atatürk Cd. No:5, 34880 Kartal/İstanbul",
+        images: ["https://images.unsplash.com/photo-1544531696-6b22530d9519?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "17",
@@ -294,7 +309,8 @@ export const highSchools: HighSchool[] = [
         educationDuration: 4,
         language: "Arapça-İngilizce",
         admissionType: "LGS",
-        address: "Koşuyolu, Koşuyolu Cd. No:5, 34718 Kadıköy/İstanbul"
+        address: "Koşuyolu, Koşuyolu Cd. No:5, 34718 Kadıköy/İstanbul",
+        images: ["https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "18",
@@ -309,7 +325,8 @@ export const highSchools: HighSchool[] = [
         educationDuration: 4,
         language: "İngilizce",
         admissionType: "LGS",
-        address: "Barış, 34520 Beylikdüzü/İstanbul"
+        address: "Barış, 34520 Beylikdüzü/İstanbul",
+        images: ["https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "19",
@@ -324,7 +341,8 @@ export const highSchools: HighSchool[] = [
         educationDuration: 4,
         language: "İngilizce",
         admissionType: "LGS",
-        address: "Alkent 2000, 34500 Büyükçekmece/İstanbul"
+        address: "Alkent 2000, 34500 Büyükçekmece/İstanbul",
+        images: ["https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "20",
@@ -339,7 +357,8 @@ export const highSchools: HighSchool[] = [
         educationDuration: 4,
         language: "İngilizce",
         admissionType: "LGS",
-        address: "Bahçelievler, Talatpaşa Cd., 34180 Bahçelievler/İstanbul"
+        address: "Bahçelievler, Talatpaşa Cd., 34180 Bahçelievler/İstanbul",
+        images: ["https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "21",
@@ -354,7 +373,8 @@ export const highSchools: HighSchool[] = [
         educationDuration: 4,
         language: "İngilizce",
         admissionType: "LGS",
-        address: "Küçükbakkalköy, 34750 Ataşehir/İstanbul"
+        address: "Küçükbakkalköy, 34750 Ataşehir/İstanbul",
+        images: ["https://images.unsplash.com/photo-1592280771884-1bf133503c58?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "22",
@@ -370,7 +390,8 @@ export const highSchools: HighSchool[] = [
         language: "İngilizce",
         admissionType: "OBP",
         description: "Beşiktaş'ın köklü okullarından biri olan Atatürk Anadolu Lisesi, akademik başarıları ve sosyal faaliyetleri ile öne çıkmaktadır.",
-        address: "Cihannüma, 34353 Beşiktaş/İstanbul"
+        address: "Cihannüma, 34353 Beşiktaş/İstanbul",
+        images: ["https://images.unsplash.com/photo-1590327773236-47b744d21f87?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "23",
@@ -386,7 +407,8 @@ export const highSchools: HighSchool[] = [
         language: "İngilizce",
         admissionType: "OBP",
         description: "Tarihi Moda semtinde bulunan Kadıköy Lisesi, öğrencilerine hem akademik hem de kültürel açıdan zengin bir ortam sunar.",
-        address: "Caferağa, Moda Cd. No:168, 34710 Kadıköy/İstanbul"
+        address: "Caferağa, Moda Cd. No:168, 34710 Kadıköy/İstanbul",
+        images: ["https://images.unsplash.com/photo-1544531696-6b22530d9519?auto=format&fit=crop&q=80&w=1000"]
     },
     {
         id: "24",
@@ -402,7 +424,8 @@ export const highSchools: HighSchool[] = [
         language: "İngilizce",
         admissionType: "OBP",
         description: "Şişli merkezinde yer alan okul, ulaşım kolaylığı ve başarılı eğitim kadrosu ile tercih edilmektedir.",
-        address: "Meşrutiyet, Halaskargazi Cd. No:168, 34363 Şişli/İstanbul"
+        address: "Meşrutiyet, Halaskargazi Cd. No:168, 34363 Şişli/İstanbul",
+        images: ["https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1000"]
     }
 ];
 
