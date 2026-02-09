@@ -112,7 +112,7 @@ export function SearchView({ initialType }: SearchViewProps) {
                     if (admissionType) query = query.eq('admission_type', admissionType);
 
                     // Limit results
-                    query = query.order('score', { ascending: false }).limit(50);
+                    query = query.order('score', { ascending: false }).limit(500);
 
                 } else {
                     query = supabase.from('universities').select('*');
@@ -131,7 +131,7 @@ export function SearchView({ initialType }: SearchViewProps) {
                     if (uniScoreType && uniScoreType !== 'ALL') query = query.eq('score_type', uniScoreType);
 
                     // Limit results
-                    query = query.order('score', { ascending: false }).limit(50);
+                    query = query.order('score', { ascending: false }).limit(500);
                 }
 
                 const { data, error } = await query;
