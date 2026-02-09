@@ -1,8 +1,7 @@
-import { MetadataRoute } from 'next';
-import { highSchools, universities } from '@/data/mock-data';
+import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://okul-bul.vercel.app'; // Change this to your real domain when purchased
+    const baseUrl = 'https://okultercihi.site'
 
     // Static routes
     const routes = [
@@ -13,24 +12,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${baseUrl}${route}`,
         lastModified: new Date(),
         changeFrequency: 'daily' as const,
-        priority: 1,
-    }));
+        priority: route === '' ? 1 : 0.9,
+    }))
 
-    // High School Routes
-    const highSchoolRoutes = highSchools.map((school) => ({
-        url: `${baseUrl}/lise/${school.slug}`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly' as const,
-        priority: 0.8,
-    }));
-
-    // University Routes
-    const universityRoutes = universities.map((school) => ({
-        url: `${baseUrl}/universite/${school.slug}`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly' as const,
-        priority: 0.8,
-    }));
-
-    return [...routes, ...highSchoolRoutes, ...universityRoutes];
+    return routes
 }

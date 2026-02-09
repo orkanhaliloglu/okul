@@ -11,26 +11,33 @@ import { StudentBackground } from "@/components/student-background";
 
 export const metadata: Metadata = {
   title: {
-    default: "Okul Bul - En Doğru Okulu Keşfet",
-    template: "%s | Okul Bul"
+    default: "Okul Bul - LGS & YKS Tercih Robotu 2025 | Lise ve Üniversite Taban Puanları",
+    template: "%s | Okul Bul - Tercih Robotu"
   },
-  description: "LGS ve YKS puanına göre lise ve üniversite arama motoru. Puan hesaplama, okul karşılaştırma ve detaylı filtreleme özellikleri.",
-  keywords: ["lise bul", "üniversite bul", "lgs puan hesaplama", "yks tercih", "okul arama"],
+  description: "2025 LGS ve YKS (TYT-AYT) puanına göre en doğru lise ve üniversiteyi bulun. MEB ve YÖK Atlas verileriyle güncel taban puanlar, yüzdelik dilimler ve başarı sıralamaları Okul Bul'da.",
+  keywords: [
+    "okul bul", "okul tercihi", "tercih robotu", "lise taban puanları 2025", "üniversite taban puanları 2025",
+    "lgs tercih robotu", "yks tercih robotu", "yök atlas tercih", "meb lise puanları",
+    "lise yüzdelik dilimleri", "üniversite sıralamaları", "tyt ayt puan hesaplama"
+  ],
   authors: [{ name: "Orkan Haliloglu" }],
   creator: "Orkan Haliloglu",
-  metadataBase: new URL("https://okul-bul.vercel.app"), // Placeholder domain, change when live
+  metadataBase: new URL("https://okultercihi.site"),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     type: "website",
     locale: "tr_TR",
-    url: "https://okul-bul.vercel.app",
-    title: "Okul Bul - Geleceğini Şansa Bırakma",
-    description: "Sana en uygun lise veya üniversiteyi saniyeler içinde bul.",
+    url: "https://okultercihi.site",
+    title: "Okul Bul - LGS & YKS Tercih Robotu",
+    description: "Sana en uygun lise veya üniversiteyi saniyeler içinde keşfet. 2025 güncel verilerle tercih yap.",
     siteName: "Okul Bul",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Okul Bul",
-    description: "En doğru okulu keşfet.",
+    title: "Okul Bul - Tercih Robotu",
+    description: "En doğru okulu keşfet. LGS ve YKS tercih rehberi.",
     creator: "@urkanhaliloglu",
   },
   robots: {

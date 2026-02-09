@@ -1,12 +1,12 @@
-import { MetadataRoute } from 'next';
+import { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
     return {
         rules: {
             userAgent: '*',
             allow: '/',
-            disallow: '/private/',
+            disallow: ['/admin/', '/private/'],
         },
-        sitemap: 'https://okul-bul.vercel.app/sitemap.xml',
-    };
+        sitemap: 'https://okultercihi.site/sitemap.xml',
+    }
 }

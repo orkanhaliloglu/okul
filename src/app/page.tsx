@@ -26,7 +26,7 @@ export default function Home() {
       {/* Header removed - now in RootLayout */}
 
       <main className="flex-1">
-        <section className="relative space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
+        <section className="relative space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32 min-h-[95vh] flex flex-col justify-center overflow-hidden">
           {/* Background Image with Overlay */}
           {/* Background Image with Overlay */}
           <div className="absolute inset-0 z-0 overflow-hidden">
@@ -40,13 +40,13 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background"></div>
 
             {/* Student Image - Realistic & Charming */}
-            <div className="absolute right-0 md:right-10 lg:right-20 bottom-0 h-[60vh] md:h-[80vh] lg:h-[90vh] w-auto z-0 pointer-events-none select-none flex items-end justify-end">
+            <div className="absolute right-0 md:right-0 lg:right-10 bottom-0 h-[50vh] md:h-[65vh] lg:h-[75vh] w-auto z-0 pointer-events-none select-none flex items-end justify-end">
               {/* Back Glow for Dark Mode */}
               <div className="absolute bottom-1/4 right-1/4 w-[80%] h-[60%] bg-indigo-500/30 blur-[120px] rounded-full dark:bg-indigo-600/20 mix-blend-screen"></div>
 
               <img
-                src="/images/hero-student-new.png"
-                alt="Mutlu Öğrenci"
+                src="/images/hero-student.png"
+                alt="Lise ve Üniversite Tercih Robotu Kullanan Mutlu Öğrenci"
                 className="h-full w-auto object-contain object-bottom drop-shadow-2xl dark:drop-shadow-[0_0_30px_rgba(79,70,229,0.3)] animate-in fade-in slide-in-from-bottom-10 duration-1000"
               />
 
@@ -62,8 +62,10 @@ export default function Home() {
             <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground">
               Geleceğini Şansa Bırakma, <br className="hidden md:block" />
               <span className="text-primary bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-600 dark:from-indigo-400 dark:to-violet-400">
-                En Doğru Okulu Bul!
+                LGS & YKS Tercih Robotu
               </span>
+              <br />
+              ile En Doğru Okulu Bul!
             </h1>
             <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
               LGS, OBP veya YKS puanına göre sana en uygun liseyi veya üniversiteyi saniyeler içinde keşfet. Detaylı filtreleme ile hayalindeki okula bir adım daha yaklaş.
