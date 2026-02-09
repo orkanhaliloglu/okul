@@ -1,4 +1,4 @@
-export type SchoolType = 'Fen' | 'Anadolu' | 'Anadolu İmam Hatip' | 'Sosyal Bilimler' | 'Mesleki ve Teknik';
+export type SchoolType = 'Fen' | 'Anadolu' | 'Anadolu İmam Hatip' | 'İmam Hatip' | 'Sosyal Bilimler' | 'Mesleki ve Teknik';
 
 export interface HighSchool {
     id: string;

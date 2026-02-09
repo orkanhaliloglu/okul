@@ -39,7 +39,7 @@ export default function TercihNasilYapilirPage() {
                         <p>
                             Puanın yetse de yetmese de gitmek istediğin tüm okulları listene ekle.
                             <strong>Yüzdelik dilim</strong> puanından daha güvenilir bir kriterdir.
-                            Kendi yüzdelik diliminin biraz üstünden başlayarak (örneğin %5 isen %2-3'ten başlayarak)
+                            Kendi yüzdelik diliminin biraz üstünden başlayarak (örneğin %5 isen %2-3&apos;ten başlayarak)
                             garanti görebileceğin seviyeye (%8-10) kadar inen bir liste hazırla.
                         </p>
                     </CardContent>

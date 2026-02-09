@@ -6,7 +6,8 @@
         "score": 554.91557,
         "rank": 31,
         "type": "SAY",
-        "slug": "istanbul-medipol-universitesi-tip-ingilizce-burslu-6-yillik"
+        "slug": "istanbul-medipol-universitesi-tip-ingilizce-burslu-6-yillik",
+        "program_code": "203110477"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -15,7 +16,8 @@
         "score": 555.4201,
         "rank": 24,
         "type": "SAY",
-        "slug": "koc-universitesi-tip-ingilizce-burslu-6-yillik"
+        "slug": "koc-universitesi-tip-ingilizce-burslu-6-yillik",
+        "program_code": "203910699"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -24,7 +26,8 @@
         "score": 550.88113,
         "rank": 122,
         "type": "SAY",
-        "slug": "koc-universitesi-bilgisayar-muhendisligi-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-bilgisayar-muhendisligi-ingilizce-burslu-4-yillik",
+        "program_code": "203910363"
     },
     {
         "university": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
@@ -33,7 +36,8 @@
         "score": 549.12085,
         "rank": 203,
         "type": "SAY",
-        "slug": "acibadem-mehmet-ali-aydinlar-universitesi-tip-ingilizce-burslu-6-yillik"
+        "slug": "acibadem-mehmet-ali-aydinlar-universitesi-tip-ingilizce-burslu-6-yillik",
+        "program_code": "200110071"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -42,7 +46,8 @@
         "score": 545.60719,
         "rank": 386,
         "type": "SAY",
-        "slug": "koc-universitesi-elektrik-elektronik-muhendisligi-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-elektrik-elektronik-muhendisligi-ingilizce-burslu-4-yillik",
+        "program_code": "203910399"
     },
     {
         "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
@@ -51,7 +56,8 @@
         "score": 547.38649,
         "rank": 286,
         "type": "SAY",
-        "slug": "ihsan-dogramaci-bilkent-universitesi-bilgisayar-muhendisligi-ingilizce-burslu-4-yillik"
+        "slug": "ihsan-dogramaci-bilkent-universitesi-bilgisayar-muhendisligi-ingilizce-burslu-4-yillik",
+        "program_code": "202110408"
     },
     {
         "university": "İSTANBUL MEDİPOL ÜNİVERSİTESİ",
@@ -60,7 +66,8 @@
         "score": 0,
         "rank": 0,
         "type": "SAY",
-        "slug": "istanbul-medipol-universitesi-yapay-zeka-muhendisligi-ingilizce-burslu-4-yillik"
+        "slug": "istanbul-medipol-universitesi-yapay-zeka-muhendisligi-ingilizce-burslu-4-yillik",
+        "program_code": "203190981"
     },
     {
         "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
@@ -69,7 +76,8 @@
         "score": 544.67094,
         "rank": 452,
         "type": "SAY",
-        "slug": "ihsan-dogramaci-bilkent-universitesi-elektrik-elektronik-muhendisligi-ingilizce-burslu-4-yillik"
+        "slug": "ihsan-dogramaci-bilkent-universitesi-elektrik-elektronik-muhendisligi-ingilizce-burslu-4-yillik",
+        "program_code": "202110426"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -78,7 +86,8 @@
         "score": 541.61792,
         "rank": 758,
         "type": "SAY",
-        "slug": "koc-universitesi-endustri-muhendisligi-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-endustri-muhendisligi-ingilizce-burslu-4-yillik",
+        "program_code": "203910424"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -87,7 +96,8 @@
         "score": 543.48383,
         "rank": 550,
         "type": "SAY",
-        "slug": "koc-universitesi-fizik-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-fizik-ingilizce-burslu-4-yillik",
+        "program_code": "203910054"
     },
     {
         "university": "İSTANBUL MEDİPOL ÜNİVERSİTESİ",
@@ -96,7 +106,8 @@
         "score": 545.97879,
         "rank": 363,
         "type": "SAY",
-        "slug": "istanbul-medipol-universitesi-tip-burslu-6-yillik"
+        "slug": "istanbul-medipol-universitesi-tip-burslu-6-yillik",
+        "program_code": "203110477"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -105,7 +116,8 @@
         "score": 537.27415,
         "rank": 1234,
         "type": "SAY",
-        "slug": "koc-universitesi-matematik-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-matematik-ingilizce-burslu-4-yillik",
+        "program_code": "203910115"
     },
     {
         "university": "HACETTEPE ÜNİVERSİTESİ",
@@ -114,7 +126,8 @@
         "score": 537.19919,
         "rank": 1242,
         "type": "SAY",
-        "slug": "hacettepe-universitesi-tip-ingilizce-6-yillik"
+        "slug": "hacettepe-universitesi-tip-ingilizce-6-yillik",
+        "program_code": "104810626"
     },
     {
         "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
@@ -123,7 +136,8 @@
         "score": 539.85314,
         "rank": 945,
         "type": "SAY",
-        "slug": "orta-dogu-teknik-universitesi-bilgisayar-muhendisligi-ingilizce-4-yillik"
+        "slug": "orta-dogu-teknik-universitesi-bilgisayar-muhendisligi-ingilizce-4-yillik",
+        "program_code": "108410336"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -132,7 +146,8 @@
         "score": 535.83881,
         "rank": 1391,
         "type": "SAY",
-        "slug": "koc-universitesi-makine-muhendisligi-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-makine-muhendisligi-ingilizce-burslu-4-yillik",
+        "program_code": "203910487"
     },
     {
         "university": "İSTANBUL MEDİPOL ÜNİVERSİTESİ",
@@ -141,7 +156,8 @@
         "score": 0,
         "rank": 0,
         "type": "SAY",
-        "slug": "istanbul-medipol-universitesi-tip-ingilizce-burslu-6-yillik"
+        "slug": "istanbul-medipol-universitesi-tip-ingilizce-burslu-6-yillik",
+        "program_code": "203110477"
     },
     {
         "university": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
@@ -150,7 +166,8 @@
         "score": 536.61927,
         "rank": 1311,
         "type": "SAY",
-        "slug": "istanbul-universitesi-cerrahpasa-tip-ingilizce-6-yillik"
+        "slug": "istanbul-universitesi-cerrahpasa-tip-ingilizce-6-yillik",
+        "program_code": "111610025"
     },
     {
         "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
@@ -159,7 +176,8 @@
         "score": 536.3077,
         "rank": 1348,
         "type": "SAY",
-        "slug": "istanbul-teknik-universitesi-bilgisayar-muhendisligi-ingilizce-4-yillik"
+        "slug": "istanbul-teknik-universitesi-bilgisayar-muhendisligi-ingilizce-4-yillik",
+        "program_code": "105510608"
     },
     {
         "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
@@ -168,7 +186,8 @@
         "score": 539.31607,
         "rank": 1008,
         "type": "SAY",
-        "slug": "bogazici-universitesi-bilgisayar-muhendisligi-ingilizce-4-yillik"
+        "slug": "bogazici-universitesi-bilgisayar-muhendisligi-ingilizce-4-yillik",
+        "program_code": "102210277"
     },
     {
         "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
@@ -177,7 +196,8 @@
         "score": 534.41115,
         "rank": 1603,
         "type": "SAY",
-        "slug": "orta-dogu-teknik-universitesi-elektrik-elektronik-muhendisligi-ingilizce-4-yillik"
+        "slug": "orta-dogu-teknik-universitesi-elektrik-elektronik-muhendisligi-ingilizce-4-yillik",
+        "program_code": "108410354"
     },
     {
         "university": "ÖZYEĞİN ÜNİVERSİTESİ",
@@ -186,7 +206,8 @@
         "score": 525.79407,
         "rank": 3064,
         "type": "SAY",
-        "slug": "ozyegin-universitesi-pilotaj-ingilizce-burslu-4-yillik"
+        "slug": "ozyegin-universitesi-pilotaj-ingilizce-burslu-4-yillik",
+        "program_code": "204811077"
     },
     {
         "university": "HACETTEPE ÜNİVERSİTESİ",
@@ -195,7 +216,8 @@
         "score": 532.11949,
         "rank": 1935,
         "type": "SAY",
-        "slug": "hacettepe-universitesi-tip-6-yillik"
+        "slug": "hacettepe-universitesi-tip-6-yillik",
+        "program_code": "104810626"
     },
     {
         "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
@@ -204,7 +226,8 @@
         "score": 533.26505,
         "rank": 1763,
         "type": "SAY",
-        "slug": "istanbul-teknik-universitesi-yapay-zeka-ve-veri-muhendisligi-ingilizce-4-yillik"
+        "slug": "istanbul-teknik-universitesi-yapay-zeka-ve-veri-muhendisligi-ingilizce-4-yillik",
+        "program_code": "105590133"
     },
     {
         "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
@@ -213,7 +236,8 @@
         "score": 532.61394,
         "rank": 1858,
         "type": "SAY",
-        "slug": "bogazici-universitesi-elektrik-elektronik-muhendisligi-ingilizce-4-yillik"
+        "slug": "bogazici-universitesi-elektrik-elektronik-muhendisligi-ingilizce-4-yillik",
+        "program_code": "102210286"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -222,7 +246,8 @@
         "score": 535.6393,
         "rank": 1419,
         "type": "SAY",
-        "slug": "koc-universitesi-molekuler-biyoloji-ve-genetik-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-molekuler-biyoloji-ve-genetik-ingilizce-burslu-4-yillik",
+        "program_code": "203910557"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -231,7 +256,8 @@
         "score": 530.85631,
         "rank": 2140,
         "type": "SAY",
-        "slug": "koc-universitesi-kimya-biyoloji-muhendisligi-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-kimya-biyoloji-muhendisligi-ingilizce-burslu-4-yillik",
+        "program_code": "203910451"
     },
     {
         "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
@@ -240,7 +266,8 @@
         "score": 531.37897,
         "rank": 2053,
         "type": "SAY",
-        "slug": "bogazici-universitesi-endustri-muhendisligi-ingilizce-4-yillik"
+        "slug": "bogazici-universitesi-endustri-muhendisligi-ingilizce-4-yillik",
+        "program_code": "102210295"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -249,7 +276,8 @@
         "score": 526.63166,
         "rank": 2887,
         "type": "SAY",
-        "slug": "koc-universitesi-tip-ingilizce-50-indirimli-6-yillik"
+        "slug": "koc-universitesi-tip-ingilizce-50-indirimli-6-yillik",
+        "program_code": "203910699"
     },
     {
         "university": "ESKİŞEHİR TEKNİK ÜNİVERSİTESİ",
@@ -258,7 +286,8 @@
         "score": 528.66706,
         "rank": 2519,
         "type": "SAY",
-        "slug": "eskisehir-teknik-universitesi-pilotaj-4-yillik"
+        "slug": "eskisehir-teknik-universitesi-pilotaj-4-yillik",
+        "program_code": "112410952"
     },
     {
         "university": "SABANCI ÜNİVERSİTESİ",
@@ -267,7 +296,8 @@
         "score": 536.76188,
         "rank": 1288,
         "type": "SAY",
-        "slug": "sabanci-universitesi-muhendislik-ve-doga-bilimleri-programlari-ingilizce-burslu-4-yillik"
+        "slug": "sabanci-universitesi-muhendislik-ve-doga-bilimleri-programlari-ingilizce-burslu-4-yillik",
+        "program_code": "205110117"
     },
     {
         "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
@@ -276,7 +306,8 @@
         "score": 543.68639,
         "rank": 532,
         "type": "SAY",
-        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-tip-burslu-6-yillik"
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-tip-burslu-6-yillik",
+        "program_code": "205411015"
     },
     {
         "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
@@ -285,7 +316,8 @@
         "score": 529.41707,
         "rank": 2388,
         "type": "SAY",
-        "slug": "istanbul-teknik-universitesi-elektronik-ve-haberlesme-muhendisligi-ingilizce-4-yillik"
+        "slug": "istanbul-teknik-universitesi-elektronik-ve-haberlesme-muhendisligi-ingilizce-4-yillik",
+        "program_code": "105510626"
     },
     {
         "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
@@ -294,7 +326,8 @@
         "score": 533.90009,
         "rank": 1676,
         "type": "SAY",
-        "slug": "ihsan-dogramaci-bilkent-universitesi-endustri-muhendisligi-ingilizce-burslu-4-yillik"
+        "slug": "ihsan-dogramaci-bilkent-universitesi-endustri-muhendisligi-ingilizce-burslu-4-yillik",
+        "program_code": "202110444"
     },
     {
         "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
@@ -303,7 +336,8 @@
         "score": 532.97144,
         "rank": 1804,
         "type": "SAY",
-        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-bilgisayar-muhendisligi-burslu-4-yillik"
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-bilgisayar-muhendisligi-burslu-4-yillik",
+        "program_code": "205410114"
     },
     {
         "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
@@ -312,7 +346,8 @@
         "score": 526.27204,
         "rank": 2963,
         "type": "SAY",
-        "slug": "istanbul-teknik-universitesi-ucak-muhendisligi-4-yillik"
+        "slug": "istanbul-teknik-universitesi-ucak-muhendisligi-4-yillik",
+        "program_code": "105510538"
     },
     {
         "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
@@ -321,7 +356,8 @@
         "score": 531.1867,
         "rank": 2086,
         "type": "SAY",
-        "slug": "ihsan-dogramaci-bilkent-universitesi-makine-muhendisligi-ingilizce-burslu-4-yillik"
+        "slug": "ihsan-dogramaci-bilkent-universitesi-makine-muhendisligi-ingilizce-burslu-4-yillik",
+        "program_code": "202110877"
     },
     {
         "university": "TÜRK HAVA KURUMU ÜNİVERSİTESİ",
@@ -330,7 +366,8 @@
         "score": 528.77936,
         "rank": 2508,
         "type": "SAY",
-        "slug": "turk-hava-kurumu-universitesi-pilotaj-ingilizce-burslu-4-yillik"
+        "slug": "turk-hava-kurumu-universitesi-pilotaj-ingilizce-burslu-4-yillik",
+        "program_code": "205710544"
     },
     {
         "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
@@ -339,7 +376,8 @@
         "score": 527.10936,
         "rank": 2792,
         "type": "SAY",
-        "slug": "orta-dogu-teknik-universitesi-havacilik-ve-uzay-muhendisligi-ingilizce-4-yillik"
+        "slug": "orta-dogu-teknik-universitesi-havacilik-ve-uzay-muhendisligi-ingilizce-4-yillik",
+        "program_code": "108410381"
     },
     {
         "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
@@ -348,7 +386,8 @@
         "score": 393.55538,
         "rank": 89543,
         "type": "SAY",
-        "slug": "orta-dogu-teknik-universitesi-makine-muhendisligi-ingilizce-kktc-uyruklu-4-yillik"
+        "slug": "orta-dogu-teknik-universitesi-makine-muhendisligi-ingilizce-kktc-uyruklu-4-yillik",
+        "program_code": "108470117"
     },
     {
         "university": "YEDİTEPE ÜNİVERSİTESİ",
@@ -357,7 +396,8 @@
         "score": 524.93678,
         "rank": 3237,
         "type": "SAY",
-        "slug": "yeditepe-universitesi-tip-ingilizce-burslu-6-yillik"
+        "slug": "yeditepe-universitesi-tip-ingilizce-burslu-6-yillik",
+        "program_code": "206110759"
     },
     {
         "university": "ANKARA ÜNİVERSİTESİ",
@@ -366,7 +406,8 @@
         "score": 526.9789,
         "rank": 2826,
         "type": "SAY",
-        "slug": "ankara-universitesi-tip-ingilizce-6-yillik"
+        "slug": "ankara-universitesi-tip-ingilizce-6-yillik",
+        "program_code": "101190208"
     },
     {
         "university": "ÖZYEĞİN ÜNİVERSİTESİ",
@@ -375,7 +416,8 @@
         "score": 533.51781,
         "rank": 1734,
         "type": "SAY",
-        "slug": "ozyegin-universitesi-bilgisayar-muhendisligi-ingilizce-burslu-4-yillik"
+        "slug": "ozyegin-universitesi-bilgisayar-muhendisligi-ingilizce-burslu-4-yillik",
+        "program_code": "204810176"
     },
     {
         "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
@@ -384,7 +426,8 @@
         "score": 529.32583,
         "rank": 2408,
         "type": "SAY",
-        "slug": "orta-dogu-teknik-universitesi-endustri-muhendisligi-ingilizce-4-yillik"
+        "slug": "orta-dogu-teknik-universitesi-endustri-muhendisligi-ingilizce-4-yillik",
+        "program_code": "108410363"
     },
     {
         "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
@@ -393,7 +436,8 @@
         "score": 527.87995,
         "rank": 2681,
         "type": "SAY",
-        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-elektrik-elektronik-muhendisligi-burslu-4-yillik"
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-elektrik-elektronik-muhendisligi-burslu-4-yillik",
+        "program_code": "205410132"
     },
     {
         "university": "BAHÇEŞEHİR ÜNİVERSİTESİ",
@@ -402,7 +446,8 @@
         "score": 521.18041,
         "rank": 4035,
         "type": "SAY",
-        "slug": "bahcesehir-universitesi-pilotaj-ingilizce-burslu-4-yillik"
+        "slug": "bahcesehir-universitesi-pilotaj-ingilizce-burslu-4-yillik",
+        "program_code": "200590143"
     },
     {
         "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
@@ -411,7 +456,8 @@
         "score": 522.83058,
         "rank": 3658,
         "type": "SAY",
-        "slug": "istanbul-teknik-universitesi-elektronik-ve-haberlesme-muhendisligi-4-yillik"
+        "slug": "istanbul-teknik-universitesi-elektronik-ve-haberlesme-muhendisligi-4-yillik",
+        "program_code": "105510626"
     },
     {
         "university": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
@@ -420,7 +466,8 @@
         "score": 524.62574,
         "rank": 3294,
         "type": "SAY",
-        "slug": "istanbul-universitesi-cerrahpasa-tip-6-yillik"
+        "slug": "istanbul-universitesi-cerrahpasa-tip-6-yillik",
+        "program_code": "111610025"
     },
     {
         "university": "İSTANBUL AYDIN ÜNİVERSİTESİ",
@@ -429,7 +476,8 @@
         "score": 503.30512,
         "rank": 9296,
         "type": "SAY",
-        "slug": "istanbul-aydin-universitesi-pilotaj-ingilizce-burslu-4-yillik"
+        "slug": "istanbul-aydin-universitesi-pilotaj-ingilizce-burslu-4-yillik",
+        "program_code": "202490863"
     },
     {
         "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
@@ -438,7 +486,8 @@
         "score": 522.82995,
         "rank": 3659,
         "type": "SAY",
-        "slug": "orta-dogu-teknik-universitesi-makine-muhendisligi-ingilizce-4-yillik"
+        "slug": "orta-dogu-teknik-universitesi-makine-muhendisligi-ingilizce-4-yillik",
+        "program_code": "108470117"
     },
     {
         "university": "ANKARA ÜNİVERSİTESİ",
@@ -447,6 +496,7 @@
         "score": 523.29917,
         "rank": 3577,
         "type": "SAY",
-        "slug": "ankara-universitesi-tip-6-yillik"
+        "slug": "ankara-universitesi-tip-6-yillik",
+        "program_code": "101190208"
     }
 ]

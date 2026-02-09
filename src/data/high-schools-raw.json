@@ -1,0 +1,420 @@
+[
+  {
+    "name": "Galatasaray Lisesi",
+    "raw_data": [
+      "İSTANBUL BEYOĞLU",
+      "Galatasaray Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (Fransızca)",
+      "500,0000",
+      "0,01"
+    ],
+    "score": 500.0
+  },
+  {
+    "name": "İstanbul Erkek Lisesi",
+    "raw_data": [
+      "İSTANBUL FATİH",
+      "İstanbul Erkek Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (Almanca)",
+      "500,0000",
+      "0,01"
+    ],
+    "score": 500.0
+  },
+  {
+    "name": "Kabataş Erkek Lisesi",
+    "raw_data": [
+      "İSTANBUL BEŞİKTAŞ",
+      "Kabataş Erkek Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (İngilizce)",
+      "497,4675",
+      "0,06"
+    ],
+    "score": 497.4675
+  },
+  {
+    "name": "Kabataş Erkek Lisesi",
+    "raw_data": [
+      "İSTANBUL BEŞİKTAŞ",
+      "Kabataş Erkek Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (Almanca)",
+      "497,4675",
+      "0,06"
+    ],
+    "score": 497.4675
+  },
+  {
+    "name": "Ankara Fen Lisesi",
+    "raw_data": [
+      "ANKARA ÇANKAYA",
+      "Ankara Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "494,5027",
+      "0,08"
+    ],
+    "score": 494.5027
+  },
+  {
+    "name": "İstanbul Atatürk Fen Lisesi",
+    "raw_data": [
+      "İSTANBUL KADIKÖY",
+      "İstanbul Atatürk Fen Lisesi",
+      "Hazırlık Sınıfı Bulunan Fen Lisesi (İngilizce)",
+      "494,2019",
+      "0,16"
+    ],
+    "score": 494.2019
+  },
+  {
+    "name": "İzmir Fen Lisesi",
+    "raw_data": [
+      "İZMİR BORNOVA",
+      "İzmir Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "494,2019",
+      "0,16"
+    ],
+    "score": 494.2019
+  },
+  {
+    "name": "Cağaloğlu Anadolu Lisesi",
+    "raw_data": [
+      "İSTANBUL FATİH",
+      "Cağaloğlu Anadolu Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (Almanca)",
+      "491,7958",
+      "0,28"
+    ],
+    "score": 491.7958
+  },
+  {
+    "name": "Atatürk Lisesi",
+    "raw_data": [
+      "İZMİR KONAK",
+      "Atatürk Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (Almanca)",
+      "491,6694",
+      "0,29"
+    ],
+    "score": 491.6694
+  },
+  {
+    "name": "Tofaş Fen Lisesi",
+    "raw_data": [
+      "BURSA NİLÜFER",
+      "Tofaş Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "490,1540",
+      "0,33"
+    ],
+    "score": 490.154
+  },
+  {
+    "name": "Çapa Fen Lisesi",
+    "raw_data": [
+      "İSTANBUL FATİH",
+      "Çapa Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "489,0049",
+      "0,36"
+    ],
+    "score": 489.0049
+  },
+  {
+    "name": "Hüseyin Avni Sözen Anadolu Lisesi",
+    "raw_data": [
+      "İSTANBUL ÜSKÜDAR",
+      "Hüseyin Avni Sözen Anadolu Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (Almanca)",
+      "489,0049",
+      "0,36"
+    ],
+    "score": 489.0049
+  },
+  {
+    "name": "Ankara Pursaklar Fen Lisesi",
+    "raw_data": [
+      "ANKARA PURSAKLAR",
+      "Ankara Pursaklar Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "488,7046",
+      "0,41"
+    ],
+    "score": 488.7046
+  },
+  {
+    "name": "Osman Ulubaş Kayseri Fen Lisesi",
+    "raw_data": [
+      "KAYSERİ KOCASİNAN",
+      "Osman Ulubaş Kayseri Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "488,7046",
+      "0,41"
+    ],
+    "score": 488.7046
+  },
+  {
+    "name": "Hüseyin Avni Sözen Anadolu Lisesi",
+    "raw_data": [
+      "İSTANBUL ÜSKÜDAR",
+      "Hüseyin Avni Sözen Anadolu Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (İngilizce)",
+      "488,7046",
+      "0,41"
+    ],
+    "score": 488.7046
+  },
+  {
+    "name": "Adana Fen Lisesi",
+    "raw_data": [
+      "ADANA SEYHAN",
+      "Adana Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "488,7046",
+      "0,41"
+    ],
+    "score": 488.7046
+  },
+  {
+    "name": "Yusuf Ziya Öner Fen Lisesi",
+    "raw_data": [
+      "ANTALYA DÖŞEMEALTI",
+      "Yusuf Ziya Öner Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "488,4034",
+      "0,53"
+    ],
+    "score": 488.4034
+  },
+  {
+    "name": "Beşiktaş Sakıp Sabancı Anadolu Lisesi",
+    "raw_data": [
+      "İSTANBUL BEŞİKTAŞ",
+      "Beşiktaş Sakıp Sabancı Anadolu Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (İngilizce)",
+      "488,4034",
+      "0,53"
+    ],
+    "score": 488.4034
+  },
+  {
+    "name": "Kartal Anadolu İmam Hatip Lisesi",
+    "raw_data": [
+      "İSTANBUL KARTAL",
+      "Kartal Anadolu İmam Hatip Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu İmam Hatip Lisesi (İngilizce)",
+      "488,4034",
+      "0,53"
+    ],
+    "score": 488.4034
+  },
+  {
+    "name": "Prof. Dr. Aziz Sancar Fen Lisesi",
+    "raw_data": [
+      "ANKARA ÇANKAYA",
+      "Prof. Dr. Aziz Sancar Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "488,4034",
+      "0,53"
+    ],
+    "score": 488.4034
+  },
+  {
+    "name": "Baykar Milli Teknoloji Mesleki ve Teknik Anadolu Lisesi",
+    "raw_data": [
+      "İSTANBUL BAŞAKŞEHİR",
+      "Baykar Milli Teknoloji Mesleki ve Teknik Anadolu Lisesi",
+      "Bilişim Teknolojileri Alanı (İngilizce)",
+      "488,4034",
+      "0,53"
+    ],
+    "score": 488.4034
+  },
+  {
+    "name": "Nilüfer Borsa İstanbul Fen Lisesi",
+    "raw_data": [
+      "BURSA NİLÜFER",
+      "Nilüfer Borsa İstanbul Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "487,2531",
+      "0,63"
+    ],
+    "score": 487.2531
+  },
+  {
+    "name": "Eyüp Aygar Fen Lisesi",
+    "raw_data": [
+      "MERSİN YENİŞEHİR",
+      "Eyüp Aygar Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "486,1814",
+      "0,68"
+    ],
+    "score": 486.1814
+  },
+  {
+    "name": "Kadıköy Anadolu Lisesi",
+    "raw_data": [
+      "İSTANBUL KADIKÖY",
+      "Kadıköy Anadolu Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (İngilizce)",
+      "486,1721",
+      "0,68"
+    ],
+    "score": 486.1721
+  },
+  {
+    "name": "Erbakır Fen Lisesi",
+    "raw_data": [
+      "DENİZLİ MERKEZEFENDİ",
+      "Erbakır Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "486,1721",
+      "0,68"
+    ],
+    "score": 486.1721
+  },
+  {
+    "name": "Aydın Fen Lisesi",
+    "raw_data": [
+      "AYDIN EFELER",
+      "Aydın Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "485,9977",
+      "0,73"
+    ],
+    "score": 485.9977
+  },
+  {
+    "name": "Buca İnci-Özer Tırnaklı Fen Lisesi",
+    "raw_data": [
+      "İZMİR BUCA",
+      "Buca İnci-Özer Tırnaklı Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "485,9977",
+      "0,73"
+    ],
+    "score": 485.9977
+  },
+  {
+    "name": "Meram Fen Lisesi",
+    "raw_data": [
+      "KONYA MERAM",
+      "Meram Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "485,8709",
+      "0,75"
+    ],
+    "score": 485.8709
+  },
+  {
+    "name": "Atatürk Lisesi",
+    "raw_data": [
+      "İZMİR KONAK",
+      "Atatürk Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (İngilizce)",
+      "485,6941",
+      "0,79"
+    ],
+    "score": 485.6941
+  },
+  {
+    "name": "Atatürk Lisesi",
+    "raw_data": [
+      "İZMİR KONAK",
+      "Atatürk Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (Fransızca)",
+      "484,2763",
+      "0,82"
+    ],
+    "score": 484.2763
+  },
+  {
+    "name": "Atatürk Anadolu Lisesi",
+    "raw_data": [
+      "ANKARA YENİMAHALLE",
+      "Atatürk Anadolu Lisesi",
+      "Anadolu Lisesi (İngilizce)",
+      "483,9397",
+      "0,84"
+    ],
+    "score": 483.9397
+  },
+  {
+    "name": "Haydarpaşa Lisesi",
+    "raw_data": [
+      "İSTANBUL ÜSKÜDAR",
+      "Haydarpaşa Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (Almanca)",
+      "483,7658",
+      "0,85"
+    ],
+    "score": 483.7658
+  },
+  {
+    "name": "Samsun Garip Zeycan Yıldırım Fen Lisesi",
+    "raw_data": [
+      "SAMSUN ATAKUM",
+      "Samsun Garip Zeycan Yıldırım Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "483,5076",
+      "0,86"
+    ],
+    "score": 483.5076
+  },
+  {
+    "name": "Sümer Fen Lisesi",
+    "raw_data": [
+      "KAYSERİ KOCASİNAN",
+      "Sümer Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "483,3332",
+      "0,88"
+    ],
+    "score": 483.3332
+  },
+  {
+    "name": "Kocaeli Fen Lisesi",
+    "raw_data": [
+      "KOCAELİ İZMİT",
+      "Kocaeli Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "483,2068",
+      "0,90"
+    ],
+    "score": 483.2068
+  },
+  {
+    "name": "Baykar Milli Teknoloji Mesleki ve Teknik Anadolu Lisesi",
+    "raw_data": [
+      "İSTANBUL BAŞAKŞEHİR",
+      "Baykar Milli Teknoloji Mesleki ve Teknik Anadolu Lisesi",
+      "Havacılık ve Uzay Teknolojisi Alanı (İngilizce)",
+      "483,0329",
+      "0,97"
+    ],
+    "score": 483.0329
+  },
+  {
+    "name": "Vehbi Dinçerler Fen Lisesi",
+    "raw_data": [
+      "GAZİANTEP ŞEHİTKAMİL",
+      "Vehbi Dinçerler Fen Lisesi",
+      "Fen Lisesi (İngilizce)",
+      "483,0329",
+      "0,97"
+    ],
+    "score": 483.0329
+  },
+  {
+    "name": "Vefa Lisesi",
+    "raw_data": [
+      "İSTANBUL FATİH",
+      "Vefa Lisesi",
+      "Hazırlık Sınıfı Bulunan Anadolu Lisesi (İngilizce)",
+      "483,0329",
+      "0,97"
+    ],
+    "score": 483.0329
+  }
+]

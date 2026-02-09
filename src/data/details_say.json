@@ -1,0 +1,12 @@
+[
+  { "id": "203110477", "quota": 10, "tyt": { "turkce": 37.7, "sosyal": 18.9, "matematik": 39.3, "fen": 19.8 }, "ayt": { "matematik": 40.0, "fizik": 14.0, "kimya": 13.0, "biyoloji": 12.8 } },
+  { "id": "203910699", "quota": 6, "tyt": { "turkce": 38.8, "sosyal": 18.4, "matematik": 39.1, "fen": 19.7 }, "ayt": { "matematik": 40.0, "fizik": 14.0, "kimya": 12.7, "biyoloji": 13.0 } },
+  { "id": "203910363", "quota": 18, "tyt": { "turkce": 38.0, "sosyal": 18.4, "matematik": 38.6, "fen": 19.5 }, "ayt": { "matematik": 39.8, "fizik": 13.9, "kimya": 13.0, "biyoloji": 12.8 } },
+  { "id": "200110071", "quota": 6, "tyt": { "turkce": 37.1, "sosyal": 17.6, "matematik": 38.0, "fen": 19.6 }, "ayt": { "matematik": 39.6, "fizik": 13.8, "kimya": 12.8, "biyoloji": 13.0 } },
+  { "id": "203910399", "quota": 15, "tyt": { "turkce": 36.9, "sosyal": 17.3, "matematik": 37.1, "fen": 19.5 }, "ayt": { "matematik": 39.9, "fizik": 13.9, "kimya": 12.9, "biyoloji": 12.9 } },
+  { "id": "202110408", "quota": 42, "tyt": { "turkce": 36.8, "sosyal": 17.9, "matematik": 38.1, "fen": 19.6 }, "ayt": { "matematik": 39.7, "fizik": 13.8, "kimya": 12.9, "biyoloji": 12.7 } },
+  { "id": "203190981", "quota": 10, "tyt": { "turkce": 37.2, "sosyal": 17.3, "matematik": 37.0, "fen": 19.4 }, "ayt": { "matematik": 39.4, "fizik": 14.0, "kimya": 12.8, "biyoloji": 12.9 } },
+  { "id": "202110426", "quota": 42, "tyt": { "turkce": 36.6, "sosyal": 17.8, "matematik": 37.4, "fen": 19.7 }, "ayt": { "matematik": 39.7, "fizik": 13.8, "kimya": 13.0, "biyoloji": 12.7 } },
+  { "id": "203910424", "quota": 17, "tyt": { "turkce": 36.3, "sosyal": 16.9, "matematik": 36.9, "fen": 19.2 }, "ayt": { "matematik": 39.6, "fizik": 13.6, "kimya": 12.9, "biyoloji": 12.8 } },
+  { "id": "203910054", "quota": 7, "tyt": { "turkce": 34.8, "sosyal": 18.2, "matematik": 37.2, "fen": 19.7 }, "ayt": { "matematik": 39.7, "fizik": 14.0, "kimya": 13.0, "biyoloji": 11.8 } }
+]

@@ -6,7 +6,8 @@
         "score": 527.81326,
         "rank": 94,
         "type": "EA",
-        "slug": "koc-universitesi-ekonomi-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-ekonomi-ingilizce-burslu-4-yillik",
+        "program_code": "203910275"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -15,7 +16,8 @@
         "score": 513.53934,
         "rank": 277,
         "type": "EA",
-        "slug": "koc-universitesi-isletme-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-isletme-ingilizce-burslu-4-yillik",
+        "program_code": "203910309"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -24,7 +26,8 @@
         "score": 504.59636,
         "rank": 473,
         "type": "EA",
-        "slug": "koc-universitesi-hukuk-burslu-4-yillik"
+        "slug": "koc-universitesi-hukuk-burslu-4-yillik",
+        "program_code": "203910796"
     },
     {
         "university": "SABANCI ÜNİVERSİTESİ",
@@ -33,7 +36,8 @@
         "score": 514.67764,
         "rank": 256,
         "type": "EA",
-        "slug": "sabanci-universitesi-yonetim-bilimleri-programlari-ingilizce-burslu-4-yillik"
+        "slug": "sabanci-universitesi-yonetim-bilimleri-programlari-ingilizce-burslu-4-yillik",
+        "program_code": "205110144"
     },
     {
         "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
@@ -42,7 +46,8 @@
         "score": 511.77162,
         "rank": 305,
         "type": "EA",
-        "slug": "ihsan-dogramaci-bilkent-universitesi-hukuk-burslu-4-yillik"
+        "slug": "ihsan-dogramaci-bilkent-universitesi-hukuk-burslu-4-yillik",
+        "program_code": "202111106"
     },
     {
         "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
@@ -51,7 +56,8 @@
         "score": 511.5179,
         "rank": 311,
         "type": "EA",
-        "slug": "ihsan-dogramaci-bilkent-universitesi-iktisat-ingilizce-burslu-4-yillik"
+        "slug": "ihsan-dogramaci-bilkent-universitesi-iktisat-ingilizce-burslu-4-yillik",
+        "program_code": "202110205"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -60,7 +66,8 @@
         "score": 497.91293,
         "rank": 651,
         "type": "EA",
-        "slug": "koc-universitesi-uluslararasi-iliskiler-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-uluslararasi-iliskiler-ingilizce-burslu-4-yillik",
+        "program_code": "203910336"
     },
     {
         "university": "GALATASARAY ÜNİVERSİTESİ",
@@ -69,7 +76,8 @@
         "score": 506.5822,
         "rank": 425,
         "type": "EA",
-        "slug": "galatasaray-universitesi-hukuk-fransizca-4-yillik"
+        "slug": "galatasaray-universitesi-hukuk-fransizca-4-yillik",
+        "program_code": "104010052"
     },
     {
         "university": "SABANCI ÜNİVERSİTESİ",
@@ -78,7 +86,8 @@
         "score": 507.45773,
         "rank": 403,
         "type": "EA",
-        "slug": "sabanci-universitesi-sanat-ve-sosyal-bilimler-programlari-ingilizce-burslu-4-yillik"
+        "slug": "sabanci-universitesi-sanat-ve-sosyal-bilimler-programlari-ingilizce-burslu-4-yillik",
+        "program_code": "205110074"
     },
     {
         "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
@@ -87,7 +96,8 @@
         "score": 507.02582,
         "rank": 414,
         "type": "EA",
-        "slug": "ihsan-dogramaci-bilkent-universitesi-psikoloji-ingilizce-burslu-4-yillik"
+        "slug": "ihsan-dogramaci-bilkent-universitesi-psikoloji-ingilizce-burslu-4-yillik",
+        "program_code": "202110241"
     },
     {
         "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
@@ -96,7 +106,8 @@
         "score": 499.55354,
         "rank": 609,
         "type": "EA",
-        "slug": "bogazici-universitesi-isletme-ingilizce-4-yillik"
+        "slug": "bogazici-universitesi-isletme-ingilizce-4-yillik",
+        "program_code": "102210223"
     },
     {
         "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
@@ -105,7 +116,8 @@
         "score": 502.36817,
         "rank": 529,
         "type": "EA",
-        "slug": "bogazici-universitesi-iktisat-ingilizce-4-yillik"
+        "slug": "bogazici-universitesi-iktisat-ingilizce-4-yillik",
+        "program_code": "102210214"
     },
     {
         "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
@@ -114,7 +126,8 @@
         "score": 496.90655,
         "rank": 691,
         "type": "EA",
-        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-hukuk-burslu-4-yillik"
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-hukuk-burslu-4-yillik",
+        "program_code": "205410283"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -123,7 +136,8 @@
         "score": 498.66994,
         "rank": 630,
         "type": "EA",
-        "slug": "koc-universitesi-psikoloji-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-psikoloji-ingilizce-burslu-4-yillik",
+        "program_code": "203910133"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -132,7 +146,8 @@
         "score": 497.41116,
         "rank": 670,
         "type": "EA",
-        "slug": "koc-universitesi-sosyoloji-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-sosyoloji-ingilizce-burslu-4-yillik",
+        "program_code": "203910169"
     },
     {
         "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
@@ -141,7 +156,8 @@
         "score": 502.7933,
         "rank": 515,
         "type": "EA",
-        "slug": "ihsan-dogramaci-bilkent-universitesi-isletme-ingilizce-burslu-4-yillik"
+        "slug": "ihsan-dogramaci-bilkent-universitesi-isletme-ingilizce-burslu-4-yillik",
+        "program_code": "202110383"
     },
     {
         "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
@@ -150,7 +166,8 @@
         "score": 492.59774,
         "rank": 845,
         "type": "EA",
-        "slug": "bogazici-universitesi-yonetim-bilisim-sistemleri-ingilizce-4-yillik"
+        "slug": "bogazici-universitesi-yonetim-bilisim-sistemleri-ingilizce-4-yillik",
+        "program_code": "102270154"
     },
     {
         "university": "ÖZYEĞİN ÜNİVERSİTESİ",
@@ -159,7 +176,8 @@
         "score": 494.20987,
         "rank": 768,
         "type": "EA",
-        "slug": "ozyegin-universitesi-yonetim-bilisim-sistemleri-ingilizce-burslu-4-yillik"
+        "slug": "ozyegin-universitesi-yonetim-bilisim-sistemleri-ingilizce-burslu-4-yillik",
+        "program_code": "204810476"
     },
     {
         "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
@@ -168,7 +186,8 @@
         "score": 484.7241,
         "rank": 1169,
         "type": "EA",
-        "slug": "bogazici-universitesi-uluslararasi-ticaret-ingilizce-4-yillik"
+        "slug": "bogazici-universitesi-uluslararasi-ticaret-ingilizce-4-yillik",
+        "program_code": "102270147"
     },
     {
         "university": "ÖZYEĞİN ÜNİVERSİTESİ",
@@ -177,7 +196,8 @@
         "score": 497.13665,
         "rank": 683,
         "type": "EA",
-        "slug": "ozyegin-universitesi-ekonomi-ingilizce-burslu-4-yillik"
+        "slug": "ozyegin-universitesi-ekonomi-ingilizce-burslu-4-yillik",
+        "program_code": "204810334"
     },
     {
         "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
@@ -186,7 +206,8 @@
         "score": 494.57446,
         "rank": 756,
         "type": "EA",
-        "slug": "ihsan-dogramaci-bilkent-universitesi-uluslararasi-iliskiler-ingilizce-burslu-4-yillik"
+        "slug": "ihsan-dogramaci-bilkent-universitesi-uluslararasi-iliskiler-ingilizce-burslu-4-yillik",
+        "program_code": "202110286"
     },
     {
         "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
@@ -195,7 +216,8 @@
         "score": 489.07795,
         "rank": 975,
         "type": "EA",
-        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-iktisat-burslu-4-yillik"
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-iktisat-burslu-4-yillik",
+        "program_code": "205410053"
     },
     {
         "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
@@ -204,7 +226,8 @@
         "score": 489.15509,
         "rank": 972,
         "type": "EA",
-        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-isletme-burslu-4-yillik"
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-isletme-burslu-4-yillik",
+        "program_code": "205410071"
     },
     {
         "university": "ÖZYEĞİN ÜNİVERSİTESİ",
@@ -213,7 +236,8 @@
         "score": 491.53017,
         "rank": 879,
         "type": "EA",
-        "slug": "ozyegin-universitesi-isletme-ingilizce-burslu-4-yillik"
+        "slug": "ozyegin-universitesi-isletme-ingilizce-burslu-4-yillik",
+        "program_code": "204810016"
     },
     {
         "university": "ÖZYEĞİN ÜNİVERSİTESİ",
@@ -222,7 +246,8 @@
         "score": 486.42701,
         "rank": 1091,
         "type": "EA",
-        "slug": "ozyegin-universitesi-hukuk-burslu-4-yillik"
+        "slug": "ozyegin-universitesi-hukuk-burslu-4-yillik",
+        "program_code": "204810228"
     },
     {
         "university": "KOÇ ÜNİVERSİTESİ",
@@ -231,7 +256,8 @@
         "score": 468.7967,
         "rank": 2083,
         "type": "EA",
-        "slug": "koc-universitesi-felsefe-ingilizce-burslu-4-yillik"
+        "slug": "koc-universitesi-felsefe-ingilizce-burslu-4-yillik",
+        "program_code": "203910036"
     },
     {
         "university": "GALATASARAY ÜNİVERSİTESİ",
@@ -240,7 +266,8 @@
         "score": 479.22046,
         "rank": 1447,
         "type": "EA",
-        "slug": "galatasaray-universitesi-iktisat-fransizca-4-yillik"
+        "slug": "galatasaray-universitesi-iktisat-fransizca-4-yillik",
+        "program_code": "104010061"
     },
     {
         "university": "GALATASARAY ÜNİVERSİTESİ",
@@ -249,7 +276,8 @@
         "score": 480.42451,
         "rank": 1389,
         "type": "EA",
-        "slug": "galatasaray-universitesi-isletme-fransizca-4-yillik"
+        "slug": "galatasaray-universitesi-isletme-fransizca-4-yillik",
+        "program_code": "104010079"
     },
     {
         "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
@@ -258,7 +286,8 @@
         "score": 477.59202,
         "rank": 1520,
         "type": "EA",
-        "slug": "orta-dogu-teknik-universitesi-isletme-ingilizce-4-yillik"
+        "slug": "orta-dogu-teknik-universitesi-isletme-ingilizce-4-yillik",
+        "program_code": "108410212"
     },
     {
         "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
@@ -267,7 +296,8 @@
         "score": 483.20477,
         "rank": 1240,
         "type": "EA",
-        "slug": "bogazici-universitesi-hukuk-4-yillik"
+        "slug": "bogazici-universitesi-hukuk-4-yillik",
+        "program_code": "102270035"
     },
     {
         "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
@@ -276,7 +306,8 @@
         "score": 477.75383,
         "rank": 1512,
         "type": "EA",
-        "slug": "orta-dogu-teknik-universitesi-iktisat-ingilizce-4-yillik"
+        "slug": "orta-dogu-teknik-universitesi-iktisat-ingilizce-4-yillik",
+        "program_code": "108410203"
     },
     {
         "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
@@ -285,7 +316,8 @@
         "score": 480.89713,
         "rank": 1362,
         "type": "EA",
-        "slug": "bogazici-universitesi-siyaset-bilimi-ve-uluslararasi-iliskiler-ingilizce-4-yillik"
+        "slug": "bogazici-universitesi-siyaset-bilimi-ve-uluslararasi-iliskiler-ingilizce-4-yillik",
+        "program_code": "102210232"
     },
     {
         "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
@@ -294,7 +326,8 @@
         "score": 484.19353,
         "rank": 1191,
         "type": "EA",
-        "slug": "ihsan-dogramaci-bilkent-universitesi-hukuk-50-indirimli-4-yillik"
+        "slug": "ihsan-dogramaci-bilkent-universitesi-hukuk-50-indirimli-4-yillik",
+        "program_code": "202111106"
     },
     {
         "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
@@ -303,7 +336,8 @@
         "score": 475.94136,
         "rank": 1608,
         "type": "EA",
-        "slug": "istanbul-teknik-universitesi-ekonomi-ingilizce-4-yillik"
+        "slug": "istanbul-teknik-universitesi-ekonomi-ingilizce-4-yillik",
+        "program_code": "105511051"
     },
     {
         "university": "ÖZYEĞİN ÜNİVERSİTESİ",
@@ -312,7 +346,8 @@
         "score": 479.91833,
         "rank": 1417,
         "type": "EA",
-        "slug": "ozyegin-universitesi-uluslararasi-ticaret-ve-isletmecilik-ingilizce-burslu-4-yillik"
+        "slug": "ozyegin-universitesi-uluslararasi-ticaret-ve-isletmecilik-ingilizce-burslu-4-yillik",
+        "program_code": "204810016"
     },
     {
         "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
@@ -321,7 +356,8 @@
         "score": 487.99344,
         "rank": 1027,
         "type": "EA",
-        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-uluslararasi-girisimcilik-burslu-4-yillik"
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-uluslararasi-girisimcilik-burslu-4-yillik",
+        "program_code": "205410389"
     },
     {
         "university": "ÖZYEĞİN ÜNİVERSİTESİ",
@@ -330,7 +366,8 @@
         "score": 485.20757,
         "rank": 1142,
         "type": "EA",
-        "slug": "ozyegin-universitesi-uluslararasi-finans-ingilizce-burslu-4-yillik"
+        "slug": "ozyegin-universitesi-uluslararasi-finans-ingilizce-burslu-4-yillik",
+        "program_code": "204811014"
     },
     {
         "university": "GALATASARAY ÜNİVERSİTESİ",
@@ -339,7 +376,8 @@
         "score": 472.78185,
         "rank": 1819,
         "type": "EA",
-        "slug": "galatasaray-universitesi-uluslararasi-iliskiler-fransizca-4-yillik"
+        "slug": "galatasaray-universitesi-uluslararasi-iliskiler-fransizca-4-yillik",
+        "program_code": "104010097"
     },
     {
         "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
@@ -348,7 +386,8 @@
         "score": 473.37888,
         "rank": 1779,
         "type": "EA",
-        "slug": "bogazici-universitesi-psikoloji-ingilizce-4-yillik"
+        "slug": "bogazici-universitesi-psikoloji-ingilizce-4-yillik",
+        "program_code": "102270203"
     },
     {
         "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
@@ -357,7 +396,8 @@
         "score": 474.99118,
         "rank": 1671,
         "type": "EA",
-        "slug": "ihsan-dogramaci-bilkent-universitesi-siyaset-bilimi-ve-kamu-yonetimi-ingilizce-burslu-4-yillik"
+        "slug": "ihsan-dogramaci-bilkent-universitesi-siyaset-bilimi-ve-kamu-yonetimi-ingilizce-burslu-4-yillik",
+        "program_code": "202110268"
     },
     {
         "university": "İSTANBUL ÜNİVERSİTESİ",
@@ -366,7 +406,8 @@
         "score": 475.74286,
         "rank": 1619,
         "type": "EA",
-        "slug": "istanbul-universitesi-hukuk-uolp-hamburg-universitesi-ucretli-4-yillik"
+        "slug": "istanbul-universitesi-hukuk-uolp-hamburg-universitesi-ucretli-4-yillik",
+        "program_code": "105690587"
     },
     {
         "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
@@ -375,7 +416,8 @@
         "score": 467.93389,
         "rank": 2149,
         "type": "EA",
-        "slug": "orta-dogu-teknik-universitesi-uluslararasi-iliskiler-ingilizce-4-yillik"
+        "slug": "orta-dogu-teknik-universitesi-uluslararasi-iliskiler-ingilizce-4-yillik",
+        "program_code": "108410275"
     },
     {
         "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
@@ -384,7 +426,8 @@
         "score": 469.99593,
         "rank": 1993,
         "type": "EA",
-        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-siyaset-bilimi-ve-uluslararasi-iliskiler-burslu-4-yillik"
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-siyaset-bilimi-ve-uluslararasi-iliskiler-burslu-4-yillik",
+        "program_code": "205411112"
     },
     {
         "university": "YEDİTEPE ÜNİVERSİTESİ",
@@ -393,7 +436,8 @@
         "score": 476.80859,
         "rank": 1559,
         "type": "EA",
-        "slug": "yeditepe-universitesi-hukuk-burslu-4-yillik"
+        "slug": "yeditepe-universitesi-hukuk-burslu-4-yillik",
+        "program_code": "206111969"
     },
     {
         "university": "YEDİTEPE ÜNİVERSİTESİ",
@@ -402,7 +446,8 @@
         "score": 471.35727,
         "rank": 1900,
         "type": "EA",
-        "slug": "yeditepe-universitesi-ekonomi-ingilizce-burslu-4-yillik"
+        "slug": "yeditepe-universitesi-ekonomi-ingilizce-burslu-4-yillik",
+        "program_code": "206190353"
     },
     {
         "university": "ÖZYEĞİN ÜNİVERSİTESİ",
@@ -411,7 +456,8 @@
         "score": 475.21132,
         "rank": 1657,
         "type": "EA",
-        "slug": "ozyegin-universitesi-uluslararasi-iliskiler-ingilizce-burslu-4-yillik"
+        "slug": "ozyegin-universitesi-uluslararasi-iliskiler-ingilizce-burslu-4-yillik",
+        "program_code": "204810731"
     },
     {
         "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
@@ -420,7 +466,8 @@
         "score": 464.11191,
         "rank": 2450,
         "type": "EA",
-        "slug": "bogazici-universitesi-turizm-isletmeciligi-ingilizce-4-yillik"
+        "slug": "bogazici-universitesi-turizm-isletmeciligi-ingilizce-4-yillik",
+        "program_code": "102210223"
     },
     {
         "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
@@ -429,7 +476,8 @@
         "score": 476.6765,
         "rank": 1568,
         "type": "EA",
-        "slug": "orta-dogu-teknik-universitesi-isletme-ingilizce-uolp-suny-binghamton-50-indirimli-4-yillik"
+        "slug": "orta-dogu-teknik-universitesi-isletme-ingilizce-uolp-suny-binghamton-50-indirimli-4-yillik",
+        "program_code": "108410212"
     },
     {
         "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
@@ -438,7 +486,8 @@
         "score": 467.83988,
         "rank": 2155,
         "type": "EA",
-        "slug": "orta-dogu-teknik-universitesi-psikoloji-ingilizce-4-yillik"
+        "slug": "orta-dogu-teknik-universitesi-psikoloji-ingilizce-4-yillik",
+        "program_code": "108410178"
     },
     {
         "university": "YEDİTEPE ÜNİVERSİTESİ",
@@ -447,6 +496,7 @@
         "score": 467.99321,
         "rank": 2143,
         "type": "EA",
-        "slug": "yeditepe-universitesi-yonetim-bilisim-sistemleri-ingilizce-burslu-4-yillik"
+        "slug": "yeditepe-universitesi-yonetim-bilisim-sistemleri-ingilizce-burslu-4-yillik",
+        "program_code": "206190547"
     }
 ]

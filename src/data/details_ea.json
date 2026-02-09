@@ -1,0 +1,12 @@
+[
+  { "id": "203910275", "quota": 19, "tyt": { "turkce": 36.4, "sosyal": 17.6, "matematik": 34.0, "fen": 18.5 }, "ayt": { "matematik": 38.7, "edebiyat": 22.6, "tarih1": 9.7, "cografya1": 5.3 } },
+  { "id": "203910309", "quota": 23, "tyt": { "turkce": 35.5, "sosyal": 17.4, "matematik": 33.4, "fen": 18.2 }, "ayt": { "matematik": 37.5, "edebiyat": 21.4, "tarih1": 9.2, "cografya1": 4.7 } },
+  { "id": "203910796", "quota": 21, "tyt": { "turkce": 35.5, "sosyal": 17.3, "matematik": 33.1, "fen": 17.8 }, "ayt": { "matematik": 35.9, "edebiyat": 21.1, "tarih1": 9.6, "cografya1": 4.7 } },
+  { "id": "205110144", "quota": 27, "tyt": { "turkce": 34.2, "sosyal": 16.7, "matematik": 32.5, "fen": 17.4 }, "ayt": { "matematik": 37.1, "edebiyat": 20.5, "tarih1": 9.4, "cografya1": 4.8 } },
+  { "id": "202111106", "quota": 20, "tyt": { "turkce": 34.9, "sosyal": 17.2, "matematik": 31.7, "fen": 16.9 }, "ayt": { "matematik": 35.4, "edebiyat": 21.7, "tarih1": 9.8, "cografya1": 5.2 } },
+  { "id": "202110205", "quota": 17, "tyt": { "turkce": 35.7, "sosyal": 16.5, "matematik": 32.8, "fen": 16.8 }, "ayt": { "matematik": 37.5, "edebiyat": 20.6, "tarih1": 8.8, "cografya1": 4.5 } },
+  { "id": "203910336", "quota": 13, "tyt": { "turkce": 34.0, "sosyal": 17.0, "matematik": 30.4, "fen": 17.4 }, "ayt": { "matematik": 35.8, "edebiyat": 20.5, "tarih1": 8.9, "cografya1": 4.8 } },
+  { "id": "104010052", "quota": 35, "tyt": { "turkce": 35.0, "sosyal": 16.8, "matematik": 30.6, "fen": 16.8 }, "ayt": { "matematik": 36.0, "edebiyat": 21.6, "tarih1": 9.4, "cografya1": 5.2 } },
+  { "id": "205110074", "quota": 27, "tyt": { "turkce": 34.1, "sosyal": 16.9, "matematik": 30.4, "fen": 17.5 }, "ayt": { "matematik": 36.0, "edebiyat": 20.9, "tarih1": 9.1, "cografya1": 4.6 } },
+  { "id": "202110241", "quota": 10, "tyt": { "turkce": 36.0, "sosyal": 17.5, "matematik": 31.2, "fen": 16.7 }, "ayt": { "matematik": 35.9, "edebiyat": 21.8, "tarih1": 8.7, "cografya1": 5.3 } }
+]

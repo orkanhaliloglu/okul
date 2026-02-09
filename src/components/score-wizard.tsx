@@ -35,7 +35,7 @@ export function ScoreWizard({ targetScore, schoolName }: ScoreWizardProps) {
 
     // LGS State
     const [lgsInputs, setLgsInputs] = useState<Record<string, { correct: number; wrong: number }>>(() => {
-        const initialStates: any = {};
+        const initialStates: Record<string, { correct: number; wrong: number }> = {};
         subjects.forEach(s => {
             initialStates[s.id] = { correct: 0, wrong: 0 };
         });
@@ -242,7 +242,7 @@ export function ScoreWizard({ targetScore, schoolName }: ScoreWizardProps) {
                                                 key={field}
                                                 variant={yksField === field ? "default" : "outline"}
                                                 size="sm"
-                                                onClick={() => setYksField(field as any)}
+                                                onClick={() => setYksField(field as 'SAY' | 'EA' | 'SÖZ' | 'DİL')}
                                                 className="flex-1"
                                             >
                                                 {field}

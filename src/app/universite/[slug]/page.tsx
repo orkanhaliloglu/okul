@@ -60,8 +60,9 @@ export default async function UniversityDetailPage({ params }: { params: Promise
 
                 {/* Main Content Tabs */}
                 <Tabs defaultValue="overview" className="w-full mt-6">
-                    <TabsList className="grid w-full grid-cols-2 lg:w-[400px]">
+                    <TabsList className="grid w-full grid-cols-3 lg:w-[600px]">
                         <TabsTrigger value="overview">Genel Bakış</TabsTrigger>
+                        <TabsTrigger value="nets">YKS Netleri</TabsTrigger>
                         <TabsTrigger value="contact">İletişim</TabsTrigger>
                     </TabsList>
 
@@ -104,6 +105,13 @@ export default async function UniversityDetailPage({ params }: { params: Promise
                                 </CardContent>
                             </Card>
                         </div>
+
+                        {uni.program_code && (
+                            <div className="bg-muted/30 p-4 rounded-lg flex items-center justify-between border">
+                                <span className="text-muted-foreground font-medium">YÖK Program Kodu (YOP)</span>
+                                <span className="font-mono font-bold bg-muted px-2 py-1 rounded">{uni.program_code}</span>
+                            </div>
+                        )}
 
                         {uni.scholarship && (
                             <div className="bg-green-100 dark:bg-green-900/20 border border-green-200 dark:border-green-800 p-4 rounded-lg flex items-center">
@@ -154,6 +162,106 @@ export default async function UniversityDetailPage({ params }: { params: Promise
                                 </Card>
                             </div>
                         </div>
+                    </TabsContent>
+
+                    <TabsContent value="nets" className="mt-6">
+                        <Card>
+                            <CardHeader>
+                                <CardTitle>Yerleşenlerin Net Ortalamaları (2024)</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                {!uni.tyt_turkce_net ? (
+                                    <div className="text-center py-8 text-muted-foreground">
+                                        Bu program için net verisi henüz eklenmemiş.
+                                    </div>
+                                ) : (
+                                    <div className="space-y-8">
+                                        <div>
+                                            <h3 className="font-semibold text-lg mb-4 flex items-center">
+                                                <span className="bg-primary/10 text-primary p-1 rounded mr-2">TYT</span>
+                                                Temel Yeterlilik Testi
+                                            </h3>
+                                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                                                <div className="bg-muted/40 p-4 rounded-lg border text-center">
+                                                    <div className="text-sm text-muted-foreground mb-1">Türkçe</div>
+                                                    <div className="text-2xl font-bold text-primary">{uni.tyt_turkce_net}</div>
+                                                    <div className="text-xs text-muted-foreground mt-1">40 soru</div>
+                                                </div>
+                                                <div className="bg-muted/40 p-4 rounded-lg border text-center">
+                                                    <div className="text-sm text-muted-foreground mb-1">Sosyal</div>
+                                                    <div className="text-2xl font-bold text-primary">{uni.tyt_sosyal_net}</div>
+                                                    <div className="text-xs text-muted-foreground mt-1">20 soru</div>
+                                                </div>
+                                                <div className="bg-muted/40 p-4 rounded-lg border text-center">
+                                                    <div className="text-sm text-muted-foreground mb-1">Matematik</div>
+                                                    <div className="text-2xl font-bold text-primary">{uni.tyt_mat_net}</div>
+                                                    <div className="text-xs text-muted-foreground mt-1">40 soru</div>
+                                                </div>
+                                                <div className="bg-muted/40 p-4 rounded-lg border text-center">
+                                                    <div className="text-sm text-muted-foreground mb-1">Fen</div>
+                                                    <div className="text-2xl font-bold text-primary">{uni.tyt_fen_net}</div>
+                                                    <div className="text-xs text-muted-foreground mt-1">20 soru</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <h3 className="font-semibold text-lg mb-4 flex items-center">
+                                                <span className="bg-primary/10 text-primary p-1 rounded mr-2">AYT</span>
+                                                Alan Yeterlilik Testi
+                                            </h3>
+                                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                                                <div className="bg-muted/40 p-4 rounded-lg border text-center">
+                                                    <div className="text-sm text-muted-foreground mb-1">Matematik</div>
+                                                    <div className="text-2xl font-bold text-primary">{uni.ayt_mat_net}</div>
+                                                    <div className="text-xs text-muted-foreground mt-1">40 soru</div>
+                                                </div>
+
+                                                {uni.score_type === 'SAY' && (
+                                                    <>
+                                                        <div className="bg-muted/40 p-4 rounded-lg border text-center">
+                                                            <div className="text-sm text-muted-foreground mb-1">Fizik</div>
+                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_fizik_net}</div>
+                                                            <div className="text-xs text-muted-foreground mt-1">14 soru</div>
+                                                        </div>
+                                                        <div className="bg-muted/40 p-4 rounded-lg border text-center">
+                                                            <div className="text-sm text-muted-foreground mb-1">Kimya</div>
+                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_kimya_net}</div>
+                                                            <div className="text-xs text-muted-foreground mt-1">13 soru</div>
+                                                        </div>
+                                                        <div className="bg-muted/40 p-4 rounded-lg border text-center">
+                                                            <div className="text-sm text-muted-foreground mb-1">Biyoloji</div>
+                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_biyoloji_net}</div>
+                                                            <div className="text-xs text-muted-foreground mt-1">13 soru</div>
+                                                        </div>
+                                                    </>
+                                                )}
+
+                                                {uni.score_type === 'EA' && (
+                                                    <>
+                                                        <div className="bg-muted/40 p-4 rounded-lg border text-center">
+                                                            <div className="text-sm text-muted-foreground mb-1">Edebiyat</div>
+                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_edebiyat_net}</div>
+                                                            <div className="text-xs text-muted-foreground mt-1">24 soru</div>
+                                                        </div>
+                                                        <div className="bg-muted/40 p-4 rounded-lg border text-center">
+                                                            <div className="text-sm text-muted-foreground mb-1">Tarih-1</div>
+                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_tarih1_net}</div>
+                                                            <div className="text-xs text-muted-foreground mt-1">10 soru</div>
+                                                        </div>
+                                                        <div className="bg-muted/40 p-4 rounded-lg border text-center">
+                                                            <div className="text-sm text-muted-foreground mb-1">Coğrafya-1</div>
+                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_cografya1_net}</div>
+                                                            <div className="text-xs text-muted-foreground mt-1">6 soru</div>
+                                                        </div>
+                                                    </>
+                                                )}
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
+                            </CardContent>
+                        </Card>
                     </TabsContent>
 
                     <TabsContent value="contact" className="mt-6">

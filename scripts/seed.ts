@@ -1,4 +1,5 @@
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { createClient } from '@supabase/supabase-js';
 import fs from 'fs';
 import path from 'path';
@@ -53,23 +54,43 @@ async function seed() {
     }
 
     // --- 2. Seed Universities ---
-    const files = ['universities_say.json', 'universities_ea.json'];
-    const allUniversities: any[] = [];
+    const universitiesSayPath = path.join(process.cwd(), 'src', 'data', 'universities_say.json');
+    const universitiesEaPath = path.join(process.cwd(), 'src', 'data', 'universities_ea.json');
 
-    for (const file of files) {
-        const filePath = path.join(process.cwd(), 'src', 'data', file);
-        if (fs.existsSync(filePath)) {
-            try {
-                const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-                allUniversities.push(...data);
-            } catch (e) {
-                console.error(`Error reading ${file}:`, e);
-            }
-        }
-    }
+    const detailsSayPath = path.join(process.cwd(), 'src', 'data', 'details_say.json');
+    const detailsEaPath = path.join(process.cwd(), 'src', 'data', 'details_ea.json');
+
+    let universitiesSayData: any[] = [];
+    let universitiesEaData: any[] = [];
+    let detailsSayData: any[] = [];
+    let detailsEaData: any[] = [];
+
+    try {
+        universitiesSayData = JSON.parse(fs.readFileSync(universitiesSayPath, 'utf-8'));
+        console.log(`Read ${universitiesSayData.length} SAY universities.`);
+    } catch (e) { console.log('No SAY universities found or error reading universities_say.json'); }
+
+    try {
+        universitiesEaData = JSON.parse(fs.readFileSync(universitiesEaPath, 'utf-8'));
+        console.log(`Read ${universitiesEaData.length} EA universities.`);
+    } catch (e) { console.log('No EA universities found or error reading universities_ea.json'); }
+
+    try {
+        detailsSayData = JSON.parse(fs.readFileSync(detailsSayPath, 'utf-8'));
+        console.log(`Read ${detailsSayData.length} SAY details.`);
+    } catch (e) { console.log('No SAY details found or error reading details_say.json'); }
+
+    try {
+        detailsEaData = JSON.parse(fs.readFileSync(detailsEaPath, 'utf-8'));
+        console.log(`Read ${detailsEaData.length} EA details.`);
+    } catch (e) { console.log('No EA details found or error reading details_ea.json'); }
+
+    const allUniversities = [...universitiesSayData, ...universitiesEaData];
+    const allDetails = [...detailsSayData, ...detailsEaData];
 
     if (allUniversities.length > 0) {
         console.log(`Read ${allUniversities.length} universities total.`);
+        console.log(`Read ${allDetails.length} details total.`);
 
         // Known Vakıf Universities for type inference
         const vakifUniversities = [
@@ -106,19 +127,36 @@ async function seed() {
                 city = 'Eskişehir';
             }
 
+            // Find details if available
+            const detail = allDetails.find((d: any) => d.id === item.program_code);
+
             // Normalize fields
             const newItem = {
                 slug: item.slug || `${university}-${program}`.toLowerCase().replace(/[^a-z0-9]/g, '-'),
                 university: university,
                 faculty: item.faculty || '',
                 program: program,
+                program_code: item.program_code || null,
                 score: typeof item.score === 'number' ? item.score : parseFloat(item.score || '0'),
                 rank: typeof item.rank === 'number' ? item.rank : parseInt(item.rank || '0'),
-                score_type: item.type || item.scoreType || 'SAY',
-                city: city,
-                type: uniType
-            };
+                score_type: item.scoreType || item.type || 'SAY', // Default or map
+                city: item.city || city, // Prioritize item.city if available, otherwise use inferred
+                type: item.uni_type || uniType, // Prioritize item.uni_type if available, otherwise use inferred
 
+                // Detailed fields
+                quota: detail ? detail.quota : null,
+                tyt_turkce_net: detail?.tyt?.turkce || null,
+                tyt_sosyal_net: detail?.tyt?.sosyal || null,
+                tyt_mat_net: detail?.tyt?.matematik || null,
+                tyt_fen_net: detail?.tyt?.fen || null,
+                ayt_mat_net: detail?.ayt?.matematik || null,
+                ayt_fizik_net: detail?.ayt?.fizik || null,
+                ayt_kimya_net: detail?.ayt?.kimya || null,
+                ayt_biyoloji_net: detail?.ayt?.biyoloji || null,
+                ayt_edebiyat_net: detail?.ayt?.edebiyat || null,
+                ayt_tarih1_net: detail?.ayt?.tarih1 || null,
+                ayt_cografya1_net: detail?.ayt?.cografya1 || null
+            };
             validUniversities.push(newItem);
         });
 

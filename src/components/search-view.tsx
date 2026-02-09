@@ -4,6 +4,7 @@ import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { useState, useMemo, Suspense, useEffect } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabaseClient";
+import { HighSchool, UniversityProgram } from "@/types";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card";
@@ -55,7 +56,7 @@ export function SearchView({ initialType }: SearchViewProps) {
     const [uniScoreType, setUniScoreType] = useState<string>(searchParams.get("scoreType") || "ALL");
 
     // Data State
-    const [results, setResults] = useState<any[]>([]);
+    const [results, setResults] = useState<(HighSchool | UniversityProgram)[]>([]);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
@@ -135,9 +136,29 @@ export function SearchView({ initialType }: SearchViewProps) {
 
                 const { data, error } = await query;
                 if (error) throw error;
-                setResults(data || []);
 
-            } catch (err) {
+                // Map DB keys (snake_case) to Type keys (camelCase)
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                const formattedData = (data || []).map((item: any) => {
+                    if (type === 'lise') {
+                        return {
+                            ...item,
+                            educationDuration: item.education_duration,
+                            admissionType: item.admission_type,
+                        } as HighSchool;
+                    } else {
+                        return {
+                            ...item,
+                            universityName: item.university_name,
+                            programName: item.program_name,
+                            scoreType: item.score_type,
+                        } as UniversityProgram;
+                    }
+                });
+
+                setResults(formattedData);
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            } catch (err: any) {
                 console.error("Error fetching data:", err);
                 setResults([]);
             } finally {
@@ -312,14 +333,14 @@ export function SearchView({ initialType }: SearchViewProps) {
                                 </CardContent>
                             </Card>
                         ) : (
-                            results.map((item: any) => (
+                            results.map((item: HighSchool | UniversityProgram) => (
                                 <Card key={item.id} className="group overflow-hidden hover:shadow-md transition-all border-l-4 border-l-transparent hover:border-l-indigo-500">
                                     <CardContent className="p-0">
                                         <div className="flex flex-col md:flex-row">
                                             {/* Image Placeholder or Real Image */}
                                             <div className="hidden md:block w-48 bg-muted relative">
                                                 {item.images && item.images[0] ? (
-                                                    <img src={item.images[0]} alt={item.name || item.university_name} className="object-cover w-full h-full" />
+                                                    <img src={item.images[0]} alt={type === 'lise' ? (item as HighSchool).name : (item as UniversityProgram).universityName} className="object-cover w-full h-full" />
                                                 ) : (
                                                     <div className="flex items-center justify-center h-full text-muted-foreground/30">
                                                         {type === 'lise' ? <School className="h-12 w-12" /> : <Building2 className="h-12 w-12" />}
@@ -341,18 +362,18 @@ export function SearchView({ initialType }: SearchViewProps) {
                                                         ) : (
                                                             <div className="flex gap-2 mb-2">
                                                                 <Badge variant="secondary">{item.type}</Badge>
-                                                                <Badge variant="outline">{item.score_type}</Badge>
+                                                                <Badge variant="outline">{(item as UniversityProgram).scoreType}</Badge>
                                                             </div>
                                                         )}
                                                         <h3 className="text-xl font-bold group-hover:text-indigo-600 transition-colors">
                                                             <Link href={type === 'lise' ? `/lise/${item.slug}` : `/universite/${item.slug}`}>
-                                                                {type === 'lise' ? item.name : item.program_name}
+                                                                {type === 'lise' ? (item as HighSchool).name : (item as UniversityProgram).programName}
                                                             </Link>
                                                         </h3>
                                                         <p className="text-muted-foreground flex items-center gap-1 mt-1">
                                                             <MapPin className="h-4 w-4" />
-                                                            {item.city} {item.district && `/ ${item.district}`}
-                                                            {type === 'universite' && ` • ${item.university_name}`}
+                                                            {item.city} {type === 'lise' ? (item as HighSchool).district && `/ ${(item as HighSchool).district}` : ''}
+                                                            {type === 'universite' && ` • ${(item as UniversityProgram).universityName}`}
                                                         </p>
                                                     </div>
                                                 </div>
@@ -361,7 +382,7 @@ export function SearchView({ initialType }: SearchViewProps) {
                                                     <div className="flex items-center gap-2 text-sm">
                                                         <Trophy className="h-4 w-4 text-orange-500" />
                                                         <span className="font-medium text-foreground">
-                                                            {type === 'lise' ? `%${item.percentile}` : `#${item.ranking || '---'}`}
+                                                            {type === 'lise' ? `%${(item as HighSchool).percentile}` : `#${(item as UniversityProgram).ranking || '---'}`}
                                                         </span>
                                                         <span className="text-muted-foreground text-xs">
                                                             {type === 'lise' ? 'Dilim' : 'Sıralama'}

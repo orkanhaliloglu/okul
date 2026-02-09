@@ -16,17 +16,24 @@ export function StudentBackground() {
     const [processedImage, setProcessedImage] = useState<string | null>(null);
     const [mounted, setMounted] = useState(false);
 
-    // Initial random selection
+    // Initial mount and random selection
     useEffect(() => {
-        setMounted(true);
-        setCurrentImageSrc(STUDENT_IMAGES[Math.floor(Math.random() * STUDENT_IMAGES.length)]);
+        const timer = setTimeout(() => {
+            setMounted(true);
+            setCurrentImageSrc(STUDENT_IMAGES[Math.floor(Math.random() * STUDENT_IMAGES.length)]);
+        }, 0);
+        return () => clearTimeout(timer);
     }, []);
 
     // Change image on navigation
     useEffect(() => {
         if (mounted) {
-            const randomIdx = Math.floor(Math.random() * STUDENT_IMAGES.length);
-            setCurrentImageSrc(STUDENT_IMAGES[randomIdx]);
+            // Use setTimeout to avoid synchronous state update warning during render phase integration
+            const timer = setTimeout(() => {
+                const randomIdx = Math.floor(Math.random() * STUDENT_IMAGES.length);
+                setCurrentImageSrc(STUDENT_IMAGES[randomIdx]);
+            }, 0);
+            return () => clearTimeout(timer);
         }
     }, [pathname, mounted]);
 
