@@ -40,18 +40,18 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background"></div>
 
             {/* Student Image - Realistic & Charming */}
-            <div className="absolute right-[-10%] md:right-0 lg:right-[5%] bottom-0 h-[80%] sm:h-[85%] md:h-[95%] w-auto z-0 pointer-events-none select-none flex items-end justify-end">
+            <div className="absolute right-0 md:right-10 lg:right-20 bottom-0 h-[60vh] md:h-[80vh] lg:h-[90vh] w-auto z-0 pointer-events-none select-none flex items-end justify-end">
               {/* Back Glow for Dark Mode */}
               <div className="absolute bottom-1/4 right-1/4 w-[80%] h-[60%] bg-indigo-500/30 blur-[120px] rounded-full dark:bg-indigo-600/20 mix-blend-screen"></div>
 
               <img
-                src="/images/hero-student.png"
+                src="/images/hero-student-new.png"
                 alt="Mutlu Öğrenci"
                 className="h-full w-auto object-contain object-bottom drop-shadow-2xl dark:drop-shadow-[0_0_30px_rgba(79,70,229,0.3)] animate-in fade-in slide-in-from-bottom-10 duration-1000"
               />
 
               {/* Blending Gradients */}
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent h-[30%] bottom-0"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent h-[20%] bottom-0"></div>
             </div>
           </div>
 
