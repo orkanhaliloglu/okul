@@ -62,9 +62,31 @@ export default function RootLayout({
           inter.variable
         )}
       >
-        <Header />
-        {children}
-        <GoogleAnalytics gaId="G-9NVZP6QKWH" />
+        import {ReviewsSection} from "@/components/reviews-section";
+
+        // ... (existing imports)
+
+        export default function RootLayout({
+          children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+        <html lang="en">
+          <body
+            className={cn(
+              "min-h-screen bg-background font-sans antialiased",
+              inter.variable
+            )}
+          >
+            <Header />
+            {children}
+            <ReviewsSection />
+            <GoogleAnalytics gaId="G-9NVZP6QKWH" />
+          </body>
+        </html>
+        );
+}
       </body>
     </html>
   );
