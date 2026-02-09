@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { StudentBackground } from "@/components/student-background";
+import { ReviewsSection } from "@/components/reviews-section";
 
 export const metadata: Metadata = {
   title: {
@@ -62,31 +63,10 @@ export default function RootLayout({
           inter.variable
         )}
       >
-        import {ReviewsSection} from "@/components/reviews-section";
-
-        // ... (existing imports)
-
-        export default function RootLayout({
-          children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-        <html lang="en">
-          <body
-            className={cn(
-              "min-h-screen bg-background font-sans antialiased",
-              inter.variable
-            )}
-          >
-            <Header />
-            {children}
-            <ReviewsSection />
-            <GoogleAnalytics gaId="G-9NVZP6QKWH" />
-          </body>
-        </html>
-        );
-}
+        <Header />
+        {children}
+        <ReviewsSection />
+        <GoogleAnalytics gaId="G-9NVZP6QKWH" />
       </body>
     </html>
   );
