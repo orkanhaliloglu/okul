@@ -157,6 +157,8 @@ export function SearchView({ initialType }: SearchViewProps) {
                 });
 
                 setResults(formattedData);
+                console.log(`[DEBUG] Fetched ${formattedData.length} results. Type: ${type}`);
+                console.log(`[DEBUG] Params: City=${liseCity || uniCity}, MinScore=${liseMinScore || uniMinScore}, Query=${uniQuery}`);
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
             } catch (err: any) {
                 console.error("Error fetching data:", err);
@@ -400,7 +402,7 @@ export function SearchView({ initialType }: SearchViewProps) {
                                                         2024 Verileri
                                                     </p>
                                                     <Link href={type === 'lise' ? `/lise/${item.slug}` : `/universite/${item.slug}`}>
-                                                        <Button variant="ghost" size="sm" className="gap-2 hover:bg-indigo-50 hover:text-indigo-600 dark:hover:bg-indigo-950">
+                                                        <Button variant="default" size="sm" className="gap-2 bg-indigo-600 hover:bg-indigo-700 text-white shadow-sm">
                                                             İncele <ArrowRight className="h-4 w-4" />
                                                         </Button>
                                                     </Link>

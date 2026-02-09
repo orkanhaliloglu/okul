@@ -1,0 +1,1002 @@
+[
+    {
+        "code": "200690359",
+        "university": "BAŞKENT ÜNİVERSİTESİ",
+        "program": "Tıp (İngilizce) (%50 İndirimli)",
+        "city": "ANKARA",
+        "type": "Vakıf",
+        "quota": "10",
+        "rank": "30.125",
+        "score": "468,8123"
+    },
+    {
+        "code": "105590139",
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği (İngilizce) (Burslu)",
+        "city": "KKTC-GAZİMAĞUSA",
+        "type": "Devlet",
+        "quota": "5",
+        "rank": "30.221",
+        "score": "468,7541"
+    },
+    {
+        "code": "108810474",
+        "university": "SAKARYA ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "SAKARYA",
+        "type": "Devlet",
+        "quota": "170",
+        "rank": "30.250",
+        "score": "468,6989"
+    },
+    {
+        "code": "109410227",
+        "university": "TRAKYA ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "EDİRNE",
+        "type": "Devlet",
+        "quota": "230",
+        "rank": "30.265",
+        "score": "468,6854"
+    },
+    {
+        "code": "101410524",
+        "university": "ATATÜRK ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "ERZURUM",
+        "type": "Devlet",
+        "quota": "160",
+        "rank": "30.280",
+        "score": "468,6541"
+    },
+    {
+        "code": "106610234",
+        "university": "KIRIKKALE ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "KIRIKKALE",
+        "type": "Devlet",
+        "quota": "160",
+        "rank": "30.315",
+        "score": "468,5987"
+    },
+    {
+        "code": "110670170",
+        "university": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "BALIKESİR",
+        "type": "Devlet",
+        "quota": "40",
+        "rank": "30.342",
+        "score": "468,5421"
+    },
+    {
+        "code": "209610021",
+        "university": "İZMİR TINAZTEPE ÜNİVERSİTESİ",
+        "program": "Tıp (Burslu)",
+        "city": "İZMİR",
+        "type": "Vakıf",
+        "quota": "10",
+        "rank": "30.365",
+        "score": "468,5123"
+    },
+    {
+        "code": "103010213",
+        "university": "DİCLE ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "DİYARBAKIR",
+        "type": "Devlet",
+        "quota": "250",
+        "rank": "30.388",
+        "score": "468,4951"
+    },
+    {
+        "code": "209410023",
+        "university": "İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "program": "Tıp (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "16",
+        "rank": "30.412",
+        "score": "468,4521"
+    },
+    {
+        "code": "102210302",
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "program": "İnşaat Mühendisliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "30.450",
+        "score": "468,3985"
+    },
+    {
+        "code": "207710089",
+        "university": "SANKO ÜNİVERSİTESİ",
+        "program": "Tıp (Burslu)",
+        "city": "GAZİANTEP",
+        "type": "Vakıf",
+        "quota": "12",
+        "rank": "30.475",
+        "score": "468,3624"
+    },
+    {
+        "code": "110110243",
+        "university": "YILDIZ TEKNİK ÜNİVERSİTESİ",
+        "program": "Makine Mühendisliği",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "215",
+        "rank": "30.498",
+        "score": "468,3214"
+    },
+    {
+        "code": "204010827",
+        "university": "KTO KARATAY ÜNİVERSİTESİ",
+        "program": "Tıp (Burslu)",
+        "city": "KONYA",
+        "type": "Vakıf",
+        "quota": "6",
+        "rank": "30.512",
+        "score": "468,3041"
+    },
+    {
+        "code": "100110257",
+        "university": "BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "BOLU",
+        "type": "Devlet",
+        "quota": "180",
+        "rank": "30.540",
+        "score": "468,2654"
+    },
+    {
+        "code": "107910097",
+        "university": "TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "TEKİRDAĞ",
+        "type": "Devlet",
+        "quota": "130",
+        "rank": "30.565",
+        "score": "468,2174"
+    },
+    {
+        "code": "202610033",
+        "university": "DEMİROĞLU BİLİM ÜNİVERSİTESİ",
+        "program": "Tıp (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "11",
+        "rank": "30.588",
+        "score": "468,1854"
+    },
+    {
+        "code": "105590148",
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği (İngilizce) (Burslu)",
+        "city": "KKTC-GAZİMAĞUSA",
+        "type": "Devlet",
+        "quota": "5",
+        "rank": "30.610",
+        "score": "468,1542"
+    },
+    {
+        "code": "107210508",
+        "university": "MARMARA ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "85",
+        "rank": "30.632",
+        "score": "468,1241"
+    },
+    {
+        "code": "109970323",
+        "university": "YALOVA ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "YALOVA",
+        "type": "Devlet",
+        "quota": "50",
+        "rank": "30.655",
+        "score": "468,0951"
+    },
+    {
+        "code": "209410061",
+        "university": "İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "program": "Tıp (İngilizce) (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "8",
+        "rank": "30.683",
+        "score": "468,0654"
+    },
+    {
+        "code": "101510435",
+        "university": "BALIKESİR ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "BALIKESİR",
+        "type": "Devlet",
+        "quota": "170",
+        "rank": "30.712",
+        "score": "468,0214"
+    },
+    {
+        "code": "105510574",
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "program": "Gemi ve Deniz Teknolojisi Mühendisliği",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "40",
+        "rank": "30.748",
+        "score": "467,9854"
+    },
+    {
+        "code": "105310567",
+        "university": "İNÖNÜ ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "MALATYA",
+        "type": "Devlet",
+        "quota": "175",
+        "rank": "30.772",
+        "score": "467,9512"
+    },
+    {
+        "code": "108410451",
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "program": "Petrol ve Doğalgaz Mühendisliği (İngilizce)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "30",
+        "rank": "30.812",
+        "score": "467,9123"
+    },
+    {
+        "code": "202910763",
+        "university": "ALTINBAŞ ÜNİVERSİTESİ",
+        "program": "Tıp (İngilizce) (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "7",
+        "rank": "30.840",
+        "score": "467,8854"
+    },
+    {
+        "code": "205410326",
+        "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği (%50 İndirimli)",
+        "city": "ANKARA",
+        "type": "Vakıf",
+        "quota": "25",
+        "rank": "30.865",
+        "score": "467,8541"
+    },
+    {
+        "code": "300112481",
+        "university": "DOĞU AKDENİZ ÜNİVERSİTESİ",
+        "program": "Tıp (İngilizce) (Burslu)",
+        "city": "KKTC-GAZİMAĞUSA",
+        "type": "Kıbrıs",
+        "quota": "5",
+        "rank": "30.888",
+        "score": "467,8214"
+    },
+    {
+        "code": "200190144",
+        "university": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+        "program": "Tıp (İngilizce) (%50 İndirimli)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "35",
+        "rank": "30.912",
+        "score": "467,7854"
+    },
+    {
+        "code": "110110473",
+        "university": "YILDIZ TEKNİK ÜNİVERSİTESİ",
+        "program": "Mekatronik Mühendisliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "55",
+        "rank": "30.940",
+        "score": "467,7541"
+    },
+    {
+        "code": "102270105",
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "program": "Fizik (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "30.950",
+        "score": "467,7214"
+    },
+    {
+        "code": "110510018",
+        "university": "ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "ANTALYA",
+        "type": "Devlet",
+        "quota": "130",
+        "rank": "30.965",
+        "score": "467,6985"
+    },
+    {
+        "code": "101111022",
+        "university": "ANKARA ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği (İngilizce)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "80",
+        "rank": "30.988",
+        "score": "467,6541"
+    },
+    {
+        "code": "206210697",
+        "university": "İSTANBUL YENİ YÜZYIL ÜNİVERSİTESİ",
+        "program": "Tıp (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "16",
+        "rank": "31.012",
+        "score": "467,6241"
+    },
+    {
+        "code": "206190377",
+        "university": "YEDİTEPE ÜNİVERSİTESİ",
+        "program": "Endüstri Mühendisliği (İngilizce) (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "14",
+        "rank": "31.040",
+        "score": "467,5854"
+    },
+    {
+        "code": "112610315",
+        "university": "AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "AFYONKARAHİSAR",
+        "type": "Devlet",
+        "quota": "210",
+        "rank": "31.065",
+        "score": "467,5541"
+    },
+    {
+        "code": "108410151",
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "program": "Matematik (İngilizce)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "80",
+        "rank": "31.088",
+        "score": "467,5214"
+    },
+    {
+        "code": "105590167",
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "program": "Endüstri Mühendisliği (İngilizce) (Burslu)",
+        "city": "KKTC-GAZİMAĞUSA",
+        "type": "Devlet",
+        "quota": "5",
+        "rank": "31.112",
+        "score": "467,4954"
+    },
+    {
+        "code": "102610388",
+        "university": "SİVAS CUMHURİYET ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "SİVAS",
+        "type": "Devlet",
+        "quota": "200",
+        "rank": "31.140",
+        "score": "467,4654"
+    },
+    {
+        "code": "104890264",
+        "university": "HACETTEPE ÜNİVERSİTESİ",
+        "program": "Tıp (İngilizce) (KKTC Uyruklu)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "1",
+        "rank": "31.165",
+        "score": "467,4214"
+    },
+    {
+        "code": "104112074",
+        "university": "GAZİ ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği (İngilizce)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "31.188",
+        "score": "467,3985"
+    },
+    {
+        "code": "203910433",
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "program": "Endüstri Mühendisliği (İngilizce) (%50 İndirimli)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "20",
+        "rank": "31.212",
+        "score": "467,3624"
+    },
+    {
+        "code": "112190319",
+        "university": "TRABZON ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "TRABZON",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "31.240",
+        "score": "467,3214"
+    },
+    {
+        "code": "109610076",
+        "university": "TÜRK-ALMAN ÜNİVERSİTESİ",
+        "program": "Endüstri Mühendisliği (Almanca)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "55",
+        "rank": "31.265",
+        "score": "467,2985"
+    },
+    {
+        "code": "103310097",
+        "university": "DÜZCE ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "DÜZCE",
+        "type": "Devlet",
+        "quota": "140",
+        "rank": "31.288",
+        "score": "467,2654"
+    },
+    {
+        "code": "102270133",
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "program": "Moleküler Biyoloji ve Genetik (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "50",
+        "rank": "31.312",
+        "score": "467,2214"
+    },
+    {
+        "code": "202390209",
+        "university": "İSTANBUL AREL ÜNİVERSİTESİ",
+        "program": "Tıp (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "7",
+        "rank": "31.340",
+        "score": "467,1854"
+    },
+    {
+        "code": "104210402",
+        "university": "GAZİANTEP ÜNİVERSİTESİ",
+        "program": "Tıp (İngilizce)",
+        "city": "GAZİANTEP",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "31.365",
+        "score": "467,1541"
+    },
+    {
+        "code": "109610218",
+        "university": "TÜRK-ALMAN ÜNİVERSİTESİ",
+        "program": "Makine Mühendisliği (Almanca)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "55",
+        "rank": "31.388",
+        "score": "467,1241"
+    },
+    {
+        "code": "104111976",
+        "university": "GAZİ ÜNİVERSİTESİ",
+        "program": "Tıp (KKTC Uyruklu)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "1",
+        "rank": "31.412",
+        "score": "467,0951"
+    },
+    {
+        "code": "203511453",
+        "university": "İZMİR EKONOMİ ÜNİVERSİTESİ",
+        "program": "Havacılık ve Uzay Mühendisliği (İngilizce) (Burslu)",
+        "city": "İZMİR",
+        "type": "Vakıf",
+        "quota": "6",
+        "rank": "31.440",
+        "score": "467,0654"
+    },
+    {
+        "code": "111410405",
+        "university": "KÜTAHYA SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "KÜTAHYA",
+        "type": "Devlet",
+        "quota": "165",
+        "rank": "31.465",
+        "score": "467,0214"
+    },
+    {
+        "code": "110310144",
+        "university": "ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "ZONGULDAK",
+        "type": "Devlet",
+        "quota": "170",
+        "rank": "31.488",
+        "score": "466,9854"
+    },
+    {
+        "code": "103910364",
+        "university": "FIRAT ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "ELAZIĞ",
+        "type": "Devlet",
+        "quota": "210",
+        "rank": "31.512",
+        "score": "466,9512"
+    },
+    {
+        "code": "108310161",
+        "university": "ORDU ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "ORDU",
+        "type": "Devlet",
+        "quota": "125",
+        "rank": "31.540",
+        "score": "466,9123"
+    },
+    {
+        "code": "110210269",
+        "university": "VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "VAN",
+        "type": "Devlet",
+        "quota": "165",
+        "rank": "31.565",
+        "score": "466,8854"
+    },
+    {
+        "code": "111091509",
+        "university": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+        "program": "Tıp (Burslu) (UOLP)",
+        "city": "SARAYBOSNA",
+        "type": "Devlet",
+        "quota": "1",
+        "rank": "31.588",
+        "score": "466,8541"
+    },
+    {
+        "code": "109810577",
+        "university": "UŞAK ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "UŞAK",
+        "type": "Devlet",
+        "quota": "125",
+        "rank": "31.610",
+        "score": "466,8214"
+    },
+    {
+        "code": "111091392",
+        "university": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "ERZURUM",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "31.632",
+        "score": "466,7854"
+    },
+    {
+        "code": "101410993",
+        "university": "ATATÜRK ÜNİVERSİTESİ",
+        "program": "Tıp (İngilizce)",
+        "city": "ERZURUM",
+        "type": "Devlet",
+        "quota": "65",
+        "rank": "31.655",
+        "score": "466,7541"
+    },
+    {
+        "code": "105610043",
+        "university": "İSTANBUL ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "160",
+        "rank": "31.683",
+        "score": "466,7214"
+    },
+    {
+        "code": "108410169",
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "program": "Moleküler Biyoloji ve Genetik (İngilizce)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "50",
+        "rank": "31.712",
+        "score": "466,6985"
+    },
+    {
+        "code": "101110369",
+        "university": "ANKARA ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "140",
+        "rank": "31.748",
+        "score": "466,6541"
+    },
+    {
+        "code": "111110175",
+        "university": "İZMİR DEMOKRASİ ÜNİVERSİTESİ",
+        "program": "Tıp (İngilizce)",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "31.772",
+        "score": "466,6241"
+    },
+    {
+        "code": "210302061",
+        "university": "İSTANBUL BEYKENT ÜNİVERSİTESİ",
+        "program": "Tıp (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "8",
+        "rank": "31.812",
+        "score": "466,5854"
+    },
+    {
+        "code": "100910285",
+        "university": "AMASYA ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "AMASYA",
+        "type": "Devlet",
+        "quota": "80",
+        "rank": "31.840",
+        "score": "466,5541"
+    },
+    {
+        "code": "106770727",
+        "university": "KIRKLARELİ ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "KIRKLARELİ",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "31.865",
+        "score": "466,5214"
+    },
+    {
+        "code": "101990051",
+        "university": "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "BİLECİK",
+        "type": "Devlet",
+        "quota": "70",
+        "rank": "31.888",
+        "score": "466,4954"
+    },
+    {
+        "code": "105310301",
+        "university": "İNÖNÜ ÜNİVERSİTESİ",
+        "program": "Tıp (İngilizce)",
+        "city": "MALATYA",
+        "type": "Devlet",
+        "quota": "70",
+        "rank": "31.912",
+        "score": "466,4654"
+    },
+    {
+        "code": "101190406",
+        "university": "ANKARA ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği (İngilizce)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "30",
+        "rank": "31.940",
+        "score": "466,4214"
+    },
+    {
+        "code": "201911094",
+        "university": "HALİÇ ÜNİVERSİTESİ",
+        "program": "Tıp (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "16",
+        "rank": "31.965",
+        "score": "466,3985"
+    },
+    {
+        "code": "110110279",
+        "university": "YILDIZ TEKNİK ÜNİVERSİTESİ",
+        "program": "Mekatronik Mühendisliği",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "65",
+        "rank": "31.988",
+        "score": "466,3624"
+    },
+    {
+        "code": "108110569",
+        "university": "NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "NİĞDE",
+        "type": "Devlet",
+        "quota": "115",
+        "rank": "32.012",
+        "score": "466,3214"
+    },
+    {
+        "code": "201990530",
+        "university": "HALİÇ ÜNİVERSİTESİ",
+        "program": "Tıp (İngilizce) (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "5",
+        "rank": "32.040",
+        "score": "466,2985"
+    },
+    {
+        "code": "203910406",
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği (İngilizce) (%50 İndirimli)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "20",
+        "rank": "32.065",
+        "score": "466,2654"
+    },
+    {
+        "code": "210402544",
+        "university": "İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ",
+        "program": "Tıp (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "6",
+        "rank": "32.088",
+        "score": "466,2214"
+    },
+    {
+        "code": "104410207",
+        "university": "GEBZE TEKNİK ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği (İngilizce)",
+        "city": "KOCAELİ",
+        "type": "Devlet",
+        "quota": "95",
+        "rank": "32.112",
+        "score": "466,1854"
+    },
+    {
+        "code": "107710169",
+        "university": "HATAY MUSTAFA KEMAL ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "HATAY",
+        "type": "Devlet",
+        "quota": "40",
+        "rank": "32.140",
+        "score": "466,1541"
+    },
+    {
+        "code": "106390056",
+        "university": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "KARAMAN",
+        "type": "Devlet",
+        "quota": "80",
+        "rank": "32.165",
+        "score": "466,1241"
+    },
+    {
+        "code": "100810541",
+        "university": "AKSARAY ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "AKSARAY",
+        "type": "Devlet",
+        "quota": "115",
+        "rank": "32.188",
+        "score": "466,0951"
+    },
+    {
+        "code": "105690886",
+        "university": "İSTANBUL ÜNİVERSİTESİ",
+        "program": "Yapay Zeka ve Veri Mühendisliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "20",
+        "rank": "32.212",
+        "score": "466,0654"
+    },
+    {
+        "code": "103890229",
+        "university": "ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ",
+        "program": "Uçak Mühendisliği (İngilizce)",
+        "city": "ESKİŞEHİR",
+        "type": "Devlet",
+        "quota": "65",
+        "rank": "32.240",
+        "score": "466,0214"
+    },
+    {
+        "code": "105510035",
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "program": "Deniz Ulaştırma İşletme Mühendisliği (İngilizce) (%50 İndirimli)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "1",
+        "rank": "32.265",
+        "score": "465,9854"
+    },
+    {
+        "code": "104310164",
+        "university": "TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "TOKAT",
+        "type": "Devlet",
+        "quota": "150",
+        "rank": "32.288",
+        "score": "465,9512"
+    },
+    {
+        "code": "106410518",
+        "university": "KASTAMONU ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "KASTAMONU",
+        "type": "Devlet",
+        "quota": "110",
+        "rank": "32.312",
+        "score": "465,9123"
+    },
+    {
+        "code": "103410015",
+        "university": "EGE ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "150",
+        "rank": "32.340",
+        "score": "465,8854"
+    },
+    {
+        "code": "111210046",
+        "university": "GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "GAZİANTEP",
+        "type": "Devlet",
+        "quota": "75",
+        "rank": "32.365",
+        "score": "465,8541"
+    },
+    {
+        "code": "106010188",
+        "university": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "KAHRAMANMARAŞ",
+        "type": "Devlet",
+        "quota": "130",
+        "rank": "32.388",
+        "score": "465,8214"
+    },
+    {
+        "code": "200910054",
+        "university": "BEZM-İ ÂLEM VAKIF ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "13",
+        "rank": "32.412",
+        "score": "465,7854"
+    },
+    {
+        "code": "100610331",
+        "university": "KIRŞEHİR AHİ EVRAN ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "KIRŞEHİR",
+        "type": "Devlet",
+        "quota": "140",
+        "rank": "32.440",
+        "score": "465,7541"
+    },
+    {
+        "code": "112490510",
+        "university": "ESKİŞEHİR TEKNİK ÜNİVERSİTESİ",
+        "program": "Havacılık ve Uzay Mühendisliği (İngilizce)",
+        "city": "ESKİŞEHİR",
+        "type": "Devlet",
+        "quota": "20",
+        "rank": "32.450",
+        "score": "465,7214"
+    },
+    {
+        "code": "111570309",
+        "university": "MALATYA TURGUT ÖZAL ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "MALATYA",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "32.465",
+        "score": "465,6985"
+    },
+    {
+        "code": "105010164",
+        "university": "HARRAN ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "ŞANLIURFA",
+        "type": "Devlet",
+        "quota": "150",
+        "rank": "32.488",
+        "score": "465,6541"
+    },
+    {
+        "code": "108710112",
+        "university": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "RİZE",
+        "type": "Devlet",
+        "quota": "150",
+        "rank": "32.512",
+        "score": "465,6241"
+    },
+    {
+        "code": "203110026",
+        "university": "İSTANBUL MEDİPOL ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "13",
+        "rank": "32.540",
+        "score": "465,5854"
+    },
+    {
+        "code": "110110491",
+        "university": "YILDIZ TEKNİK ÜNİVERSİTESİ",
+        "program": "Kimya Mühendisliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "50",
+        "rank": "32.565",
+        "score": "465,5541"
+    },
+    {
+        "code": "206110635",
+        "university": "YEDİTEPE ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği (İngilizce) (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "14",
+        "rank": "32.588",
+        "score": "465,5214"
+    },
+    {
+        "code": "206710549",
+        "university": "TED ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği (İngilizce) (Burslu)",
+        "city": "ANKARA",
+        "type": "Vakıf",
+        "quota": "12",
+        "rank": "32.610",
+        "score": "465,4954"
+    },
+    {
+        "code": "104510189",
+        "university": "GİRESUN ÜNİVERSİTESİ",
+        "program": "Tıp",
+        "city": "GİRESUN",
+        "type": "Devlet",
+        "quota": "145",
+        "rank": "32.632",
+        "score": "465,4654"
+    },
+    {
+        "code": "105810077",
+        "university": "İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ",
+        "program": "Elektronik ve Haberleşme Mühendisliği (İngilizce)",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "55",
+        "rank": "32.655",
+        "score": "465,4214"
+    }
+]

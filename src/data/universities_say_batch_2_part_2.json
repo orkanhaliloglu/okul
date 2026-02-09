@@ -1,0 +1,1382 @@
+[
+    {
+        "code": "203410292",
+        "university": "İZMİR DEMOKRASİ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "80",
+        "rank": "32.688",
+        "score": "465,3985"
+    },
+    {
+        "code": "106510068",
+        "university": "KAYSERİ ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "KAYSERİ",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "32.712",
+        "score": "465,3624"
+    },
+    {
+        "code": "111711202",
+        "university": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
+        "program": "Endüstri Mühendisliği",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "70",
+        "rank": "32.740",
+        "score": "465,3214"
+    },
+    {
+        "code": "102910792",
+        "university": "ÇUKUROVA ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "ADANA",
+        "type": "Devlet",
+        "quota": "150",
+        "rank": "32.765",
+        "score": "465,2985"
+    },
+    {
+        "code": "101110041",
+        "university": "ANKARA ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "160",
+        "rank": "32.788",
+        "score": "465,2654"
+    },
+    {
+        "code": "104810238",
+        "university": "HACETTEPE ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "160",
+        "rank": "32.812",
+        "score": "465,2214"
+    },
+    {
+        "code": "208610014",
+        "university": "İZMİR TINK TEKNOLOJİ VE İNOVASYON KOLEJİ",
+        "program": "Yazılım Mühendisliği (Burslu)",
+        "city": "İZMİR",
+        "type": "Vakıf",
+        "quota": "5",
+        "rank": "32.840",
+        "score": "465,1854"
+    },
+    {
+        "code": "103110266",
+        "university": "DOKUZ EYLÜL ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "140",
+        "rank": "32.865",
+        "score": "465,1541"
+    },
+    {
+        "code": "110110155",
+        "university": "YILDIZ TEKNİK ÜNİVERSİTESİ",
+        "program": "İnşaat Mühendisliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "80",
+        "rank": "32.888",
+        "score": "465,1241"
+    },
+    {
+        "code": "102410065",
+        "university": "BURSA TEKNİK ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "BURSA",
+        "type": "Devlet",
+        "quota": "125",
+        "rank": "32.912",
+        "score": "465,0951"
+    },
+    {
+        "code": "105510644",
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "program": "Geomatik Mühendisliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "32.940",
+        "score": "465,0654"
+    },
+    {
+        "code": "108210356",
+        "university": "ONDOKUZ MAYIS ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "SAMSUN",
+        "type": "Devlet",
+        "quota": "130",
+        "rank": "32.965",
+        "score": "465,0214"
+    },
+    {
+        "code": "107210217",
+        "university": "MARMARA ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "32.988",
+        "score": "464,9854"
+    },
+    {
+        "code": "104111304",
+        "university": "GAZİ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "160",
+        "rank": "33.012",
+        "score": "464,9512"
+    },
+    {
+        "code": "201410129",
+        "university": "FATİH SULTAN MEHMET VAKIF ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "13",
+        "rank": "33.040",
+        "score": "464,9123"
+    },
+    {
+        "code": "108910419",
+        "university": "SELÇUK ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "KONYA",
+        "type": "Devlet",
+        "quota": "130",
+        "rank": "33.065",
+        "score": "464,8854"
+    },
+    {
+        "code": "102910243",
+        "university": "ÇUKUROVA ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği (İngilizce)",
+        "city": "ADANA",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "33.088",
+        "score": "464,8541"
+    },
+    {
+        "code": "103510208",
+        "university": "ERCİYES ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "KAYSERİ",
+        "type": "Devlet",
+        "quota": "150",
+        "rank": "33.112",
+        "score": "464,8214"
+    },
+    {
+        "code": "100710172",
+        "university": "AKDENİZ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "ANTALYA",
+        "type": "Devlet",
+        "quota": "130",
+        "rank": "33.140",
+        "score": "464,7854"
+    },
+    {
+        "code": "112910032",
+        "university": "İZMİR BAKIRÇAY ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "80",
+        "rank": "33.165",
+        "score": "464,7541"
+    },
+    {
+        "code": "104810283",
+        "university": "HACETTEPE ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği (KKTC Uyruklu)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "1",
+        "rank": "33.188",
+        "score": "464,7214"
+    },
+    {
+        "code": "100310246",
+        "university": "AYDIN ADNAN MENDERES ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "AYDIN",
+        "type": "Devlet",
+        "quota": "110",
+        "rank": "33.212",
+        "score": "464,6985"
+    },
+    {
+        "code": "106910231",
+        "university": "KOCAELİ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "KOCAELİ",
+        "type": "Devlet",
+        "quota": "110",
+        "rank": "33.240",
+        "score": "464,6541"
+    },
+    {
+        "code": "111610661",
+        "university": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
+        "program": "Eczacılık",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "70",
+        "rank": "33.265",
+        "score": "464,6241"
+    },
+    {
+        "code": "103410299",
+        "university": "EGE ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "170",
+        "rank": "33.288",
+        "score": "464,5854"
+    },
+    {
+        "code": "202010411",
+        "university": "IŞIK ÜNİVERSİTESİ",
+        "program": "Endüstri Mühendisliği (İngilizce) (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "9",
+        "rank": "33.312",
+        "score": "464,5541"
+    },
+    {
+        "code": "107210208",
+        "university": "MARMARA ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "130",
+        "rank": "33.340",
+        "score": "464,5214"
+    },
+    {
+        "code": "102710421",
+        "university": "ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "ÇANAKKALE",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "33.365",
+        "score": "464,4954"
+    },
+    {
+        "code": "109710357",
+        "university": "BURSA ULUDAĞ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "BURSA",
+        "type": "Devlet",
+        "quota": "110",
+        "rank": "33.388",
+        "score": "464,4654"
+    },
+    {
+        "code": "111711203",
+        "university": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "33.412",
+        "score": "464,4214"
+    },
+    {
+        "code": "101410472",
+        "university": "ATATÜRK ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "ERZURUM",
+        "type": "Devlet",
+        "quota": "130",
+        "rank": "33.440",
+        "score": "464,3985"
+    },
+    {
+        "code": "104111322",
+        "university": "GAZİ ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "160",
+        "rank": "33.465",
+        "score": "464,3624"
+    },
+    {
+        "code": "110010023",
+        "university": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği (İngilizce)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "33.488",
+        "score": "464,3214"
+    },
+    {
+        "code": "104010149",
+        "university": "GALATASARAY ÜNİVERSİTESİ",
+        "program": "Matematik (Fransızca)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "40",
+        "rank": "33.512",
+        "score": "464,2985"
+    },
+    {
+        "code": "111010092",
+        "university": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "33.540",
+        "score": "464,2654"
+    },
+    {
+        "code": "202310156",
+        "university": "İSTANBUL AREL ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği (İngilizce) (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "12",
+        "rank": "33.565",
+        "score": "464,2214"
+    },
+    {
+        "code": "103810268",
+        "university": "ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "ESKİŞEHİR",
+        "type": "Devlet",
+        "quota": "110",
+        "rank": "33.588",
+        "score": "464,1854"
+    },
+    {
+        "code": "109210283",
+        "university": "SÜLEYMAN DEMİREL ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "ISPARTA",
+        "type": "Devlet",
+        "quota": "130",
+        "rank": "33.610",
+        "score": "464,1542"
+    },
+    {
+        "code": "105611623",
+        "university": "İSTANBUL ÜNİVERSİTESİ",
+        "program": "Eczacılık (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "33.632",
+        "score": "464,1241"
+    },
+    {
+        "code": "112210609",
+        "university": "VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "VAN",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "33.655",
+        "score": "464,0951"
+    },
+    {
+        "code": "111010189",
+        "university": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği (Erkek) (MSB)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "25",
+        "rank": "33.683",
+        "score": "464,0654"
+    },
+    {
+        "code": "102910711",
+        "university": "ÇUKUROVA ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "ADANA",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "33.712",
+        "score": "464,0214"
+    },
+    {
+        "code": "101510108",
+        "university": "BALIKESİR ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği",
+        "city": "BALIKESİR",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "33.748",
+        "score": "463,9854"
+    },
+    {
+        "code": "105410187",
+        "university": "İSTANBUL MEDENİYET ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "110",
+        "rank": "33.772",
+        "score": "463,9512"
+    },
+    {
+        "code": "108410203",
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "program": "İnşaat Mühendisliği (İngilizce)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "155",
+        "rank": "33.812",
+        "score": "463,9123"
+    },
+    {
+        "code": "107010214",
+        "university": "NECMETTİN ERBAKAN ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "KONYA",
+        "type": "Devlet",
+        "quota": "115",
+        "rank": "33.840",
+        "score": "463,8854"
+    },
+    {
+        "code": "102510256",
+        "university": "MANİSA CELÂL BAYAR ÜNİVERSİTESİ",
+        "program": "Mühendislik ve Doğa Bilimleri Programları",
+        "city": "MANİSA",
+        "type": "Devlet",
+        "quota": "50",
+        "rank": "33.865",
+        "score": "463,8541"
+    },
+    {
+        "code": "202110514",
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "program": "Mimarlık (%50 İndirimli)",
+        "city": "ANKARA",
+        "type": "Vakıf",
+        "quota": "25",
+        "rank": "33.888",
+        "score": "463,8214"
+    },
+    {
+        "code": "110610086",
+        "university": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği",
+        "city": "BALIKESİR",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "33.912",
+        "score": "463,7854"
+    },
+    {
+        "code": "103110309",
+        "university": "DOKUZ EYLÜL ÜNİVERSİTESİ",
+        "program": "Mimarlık",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "33.940",
+        "score": "463,7541"
+    },
+    {
+        "code": "105310231",
+        "university": "İNÖNÜ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "MALATYA",
+        "type": "Devlet",
+        "quota": "120",
+        "rank": "33.950",
+        "score": "463,7214"
+    },
+    {
+        "code": "102510123",
+        "university": "MANİSA CELÂL BAYAR ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "MANİSA",
+        "type": "Devlet",
+        "quota": "80",
+        "rank": "33.965",
+        "score": "463,6985"
+    },
+    {
+        "code": "204111242",
+        "university": "MALTEPE ÜNİVERSİTESİ",
+        "program": "Yazılım Mühendisliği (İngilizce) (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "9",
+        "rank": "33.988",
+        "score": "463,6541"
+    },
+    {
+        "code": "106610261",
+        "university": "KIRIKKALE ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "KIRIKKALE",
+        "type": "Devlet",
+        "quota": "120",
+        "rank": "34.012",
+        "score": "463,6241"
+    },
+    {
+        "code": "107410215",
+        "university": "MERSİN ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "MERSİN",
+        "type": "Devlet",
+        "quota": "110",
+        "rank": "34.040",
+        "score": "463,5854"
+    },
+    {
+        "code": "107610337",
+        "university": "MUĞLA SITKI KOÇMAN ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "MUĞLA",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "34.065",
+        "score": "463,5541"
+    },
+    {
+        "code": "111610996",
+        "university": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
+        "program": "Makine Mühendisliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "70",
+        "rank": "34.088",
+        "score": "463,5214"
+    },
+    {
+        "code": "108610273",
+        "university": "PAMUKKALE ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "DENİZLİ",
+        "type": "Devlet",
+        "quota": "130",
+        "rank": "34.112",
+        "score": "463,4954"
+    },
+    {
+        "code": "104210156",
+        "university": "GAZİANTEP ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "GAZİANTEP",
+        "type": "Devlet",
+        "quota": "130",
+        "rank": "34.140",
+        "score": "463,4654"
+    },
+    {
+        "code": "104110827",
+        "university": "GAZİ ÜNİVERSİTESİ",
+        "program": "Mimarlık",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "115",
+        "rank": "34.165",
+        "score": "463,4214"
+    },
+    {
+        "code": "111010171",
+        "university": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "34.188",
+        "score": "463,3985"
+    },
+    {
+        "code": "111710601",
+        "university": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
+        "program": "Maden Mühendisliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "50",
+        "rank": "34.212",
+        "score": "463,3624"
+    },
+    {
+        "code": "105610537",
+        "university": "İSTANBUL ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "150",
+        "rank": "34.240",
+        "score": "463,3214"
+    },
+    {
+        "code": "100110593",
+        "university": "BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "BOLU",
+        "type": "Devlet",
+        "quota": "120",
+        "rank": "34.265",
+        "score": "463,2985"
+    },
+    {
+        "code": "109210292",
+        "university": "SÜLEYMAN DEMİREL ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "ISPARTA",
+        "type": "Devlet",
+        "quota": "110",
+        "rank": "34.288",
+        "score": "463,2654"
+    },
+    {
+        "code": "111711204",
+        "university": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
+        "program": "Elektrik-Elektronik Mühendisliği",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "70",
+        "rank": "34.312",
+        "score": "463,2214"
+    },
+    {
+        "code": "202410546",
+        "university": "İSTANBUL AYDIN ÜNİVERSİTESİ",
+        "program": "Yazılım Mühendisliği (İngilizce) (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "10",
+        "rank": "34.340",
+        "score": "463,1854"
+    },
+    {
+        "code": "111010074",
+        "university": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "34.365",
+        "score": "463,1541"
+    },
+    {
+        "code": "107210226",
+        "university": "MARMARA ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "160",
+        "rank": "34.388",
+        "score": "463,1241"
+    },
+    {
+        "code": "112610263",
+        "university": "AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "AFYONKARAHİSAR",
+        "type": "Devlet",
+        "quota": "110",
+        "rank": "34.412",
+        "score": "463,0951"
+    },
+    {
+        "code": "104910129",
+        "university": "HALİÇ ÜNİVERSİTESİ",
+        "program": "Yazılım Mühendisliği (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "13",
+        "rank": "34.440",
+        "score": "463,0654"
+    },
+    {
+        "code": "102910234",
+        "university": "ÇUKUROVA ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "ADANA",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "34.465",
+        "score": "463,0214"
+    },
+    {
+        "code": "110310241",
+        "university": "ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "ZONGULDAK",
+        "type": "Devlet",
+        "quota": "110",
+        "rank": "34.488",
+        "score": "462,9854"
+    },
+    {
+        "code": "109810338",
+        "university": "UŞAK ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "UŞAK",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "34.512",
+        "score": "462,9512"
+    },
+    {
+        "code": "102510344",
+        "university": "MANİSA CELÂL BAYAR ÜNİVERSİTESİ",
+        "program": "Endüstri Mühendisliği",
+        "city": "MANİSA",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "34.540",
+        "score": "462,9123"
+    },
+    {
+        "code": "103110275",
+        "university": "DOKUZ EYLÜL ÜNİVERSİTESİ",
+        "program": "Hukuk",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "420",
+        "rank": "34.565",
+        "score": "462,8854"
+    },
+    {
+        "code": "107910104",
+        "university": "TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "TEKİRDAĞ",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "34.588",
+        "score": "462,8541"
+    },
+    {
+        "code": "100910197",
+        "university": "AMASYA ÜNİVERSİTESİ",
+        "program": "Mimarlık",
+        "city": "AMASYA",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "34.610",
+        "score": "462,8214"
+    },
+    {
+        "code": "110010165",
+        "university": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği (İngilizce)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "80",
+        "rank": "34.632",
+        "score": "462,7854"
+    },
+    {
+        "code": "108310116",
+        "university": "ORDU ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "ORDU",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "34.655",
+        "score": "462,7541"
+    },
+    {
+        "code": "101110599",
+        "university": "ANKARA ÜNİVERSİTESİ",
+        "program": "Veteriner",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "190",
+        "rank": "34.683",
+        "score": "462,7214"
+    },
+    {
+        "code": "103810144",
+        "university": "ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği (İngilizce)",
+        "city": "ESKİŞEHİR",
+        "type": "Devlet",
+        "quota": "80",
+        "rank": "34.712",
+        "score": "462,6985"
+    },
+    {
+        "code": "105710033",
+        "university": "İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği (İngilizce)",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "120",
+        "rank": "34.748",
+        "score": "462,6541"
+    },
+    {
+        "code": "202510041",
+        "university": "İSTANBUL BİLGİ ÜNİVERSİTESİ",
+        "program": "Endüstri Mühendisliği (İngilizce) (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "11",
+        "rank": "34.772",
+        "score": "462,6241"
+    },
+    {
+        "code": "103010152",
+        "university": "DİCLE ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "DİYARBAKIR",
+        "type": "Devlet",
+        "quota": "140",
+        "rank": "34.812",
+        "score": "462,5854"
+    },
+    {
+        "code": "104510162",
+        "university": "GİRESUN ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "GİRESUN",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "34.840",
+        "score": "462,5541"
+    },
+    {
+        "code": "103410281",
+        "university": "EGE ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "34.865",
+        "score": "462,5214"
+    },
+    {
+        "code": "105810059",
+        "university": "İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ",
+        "program": "Makine Mühendisliği (İngilizce)",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "70",
+        "rank": "34.888",
+        "score": "462,4954"
+    },
+    {
+        "code": "202710103",
+        "university": "İSTANBUL GELİŞİM ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "15",
+        "rank": "34.912",
+        "score": "462,4654"
+    },
+    {
+        "code": "105510653",
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "program": "Cevher Hazırlama Mühendisliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "40",
+        "rank": "34.940",
+        "score": "462,4214"
+    },
+    {
+        "code": "102710157",
+        "university": "ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "ÇANAKKALE",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "34.965",
+        "score": "462,3985"
+    },
+    {
+        "code": "107310086",
+        "university": "MEHMET AKİF ERSOY ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "BURDUR",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "34.988",
+        "score": "462,3624"
+    },
+    {
+        "code": "108410248",
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "program": "Kimya (İngilizce)",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "80",
+        "rank": "35.012",
+        "score": "462,3214"
+    },
+    {
+        "code": "103110372",
+        "university": "DOKUZ EYLÜL ÜNİVERSİTESİ",
+        "program": "İngilizce Mütercim ve Tercümanlık",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "70",
+        "rank": "35.040",
+        "score": "462,2985"
+    },
+    {
+        "code": "101410939",
+        "university": "ATATÜRK ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "ERZURUM",
+        "type": "Devlet",
+        "quota": "120",
+        "rank": "35.065",
+        "score": "462,2654"
+    },
+    {
+        "code": "108110287",
+        "university": "NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "NİĞDE",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "35.088",
+        "score": "462,2214"
+    },
+    {
+        "code": "111610933",
+        "university": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
+        "program": "Endüstri Mühendisliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "40",
+        "rank": "35.112",
+        "score": "462,1854"
+    },
+    {
+        "code": "208610011",
+        "university": "İZMİR TINK TEKNOLOJİ VE İNOVASYON KOLEJİ",
+        "program": "Bilişim Sistemleri ve Teknolojileri (Burslu)",
+        "city": "İZMİR",
+        "type": "Vakıf",
+        "quota": "5",
+        "rank": "35.140",
+        "score": "462,1541"
+    },
+    {
+        "code": "110210675",
+        "university": "VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "VAN",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "35.165",
+        "score": "462,1241"
+    },
+    {
+        "code": "104310234",
+        "university": "TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "TOKAT",
+        "type": "Devlet",
+        "quota": "115",
+        "rank": "35.188",
+        "score": "462,0951"
+    },
+    {
+        "code": "300112472",
+        "university": "DOĞU AKDENİZ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği (İngilizce) (Burslu)",
+        "city": "KKTC-GAZİMAĞUSA",
+        "type": "Kıbrıs",
+        "quota": "5",
+        "rank": "35.212",
+        "score": "462,0654"
+    },
+    {
+        "code": "106810232",
+        "university": "KİLİS 7 ARALIK ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği",
+        "city": "KİLİS",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "35.240",
+        "score": "462,0214"
+    },
+    {
+        "code": "100710154",
+        "university": "AKDENİZ ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği",
+        "city": "ANTALYA",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "35.265",
+        "score": "461,9854"
+    },
+    {
+        "code": "107210614",
+        "university": "MARMARA ÜNİVERSİTESİ",
+        "program": "Endüstri Mühendisliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "70",
+        "rank": "35.288",
+        "score": "461,9512"
+    },
+    {
+        "code": "106410299",
+        "university": "KASTAMONU ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "KASTAMONU",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "35.312",
+        "score": "461,9123"
+    },
+    {
+        "code": "202010862",
+        "university": "IŞIK ÜNİVERSİTESİ",
+        "program": "Yazılım Mühendisliği (İngilizce) (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "9",
+        "rank": "35.340",
+        "score": "461,8854"
+    },
+    {
+        "code": "108710324",
+        "university": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "RİZE",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "35.365",
+        "score": "461,8541"
+    },
+    {
+        "code": "204510065",
+        "university": "NİŞANTAŞI ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "10",
+        "rank": "35.388",
+        "score": "461,8214"
+    },
+    {
+        "code": "204711342",
+        "university": "İSTANBUL OKAN ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "13",
+        "rank": "35.412",
+        "score": "461,7854"
+    },
+    {
+        "code": "101110545",
+        "university": "ANKARA ÜNİVERSİTESİ",
+        "program": "Siyaset Bilimi ve Kamu Yönetimi",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "35.440",
+        "score": "461,7541"
+    },
+    {
+        "code": "102210162",
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "program": "Kimya (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "35.450",
+        "score": "461,7214"
+    },
+    {
+        "code": "109410193",
+        "university": "TRAKYA ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "EDİRNE",
+        "type": "Devlet",
+        "quota": "120",
+        "rank": "35.465",
+        "score": "461,6985"
+    },
+    {
+        "code": "100110196",
+        "university": "BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "BOLU",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "35.488",
+        "score": "461,6541"
+    },
+    {
+        "code": "101010373",
+        "university": "ANADOLU ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "ESKİŞEHİR",
+        "type": "Devlet",
+        "quota": "160",
+        "rank": "35.512",
+        "score": "461,6241"
+    },
+    {
+        "code": "106510032",
+        "university": "KAYSERİ ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği",
+        "city": "KAYSERİ",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "35.540",
+        "score": "461,5854"
+    },
+    {
+        "code": "201710126",
+        "university": "İSTANBUL GEDİK ÜNİVERSİTESİ",
+        "program": "Yazılım Mühendisliği (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "8",
+        "rank": "35.565",
+        "score": "461,5541"
+    },
+    {
+        "code": "109210274",
+        "university": "SÜLEYMAN DEMİREL ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "ISPARTA",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "35.588",
+        "score": "461,5214"
+    },
+    {
+        "code": "103010461",
+        "university": "DİCLE ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "DİYARBAKIR",
+        "type": "Devlet",
+        "quota": "110",
+        "rank": "35.610",
+        "score": "461,4954"
+    },
+    {
+        "code": "111010153",
+        "university": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "ANKARA",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "35.632",
+        "score": "461,4654"
+    },
+    {
+        "code": "106610216",
+        "university": "KIRIKKALE ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "KIRIKKALE",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "35.655",
+        "score": "461,4214"
+    },
+    {
+        "code": "105010146",
+        "university": "HARRAN ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "ŞANLIURFA",
+        "type": "Devlet",
+        "quota": "110",
+        "rank": "35.683",
+        "score": "461,3854"
+    },
+    {
+        "code": "111210082",
+        "university": "GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği",
+        "city": "GAZİANTEP",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "35.712",
+        "score": "461,3541"
+    },
+    {
+        "code": "110310611",
+        "university": "ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "ZONGULDAK",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "35.748",
+        "score": "461,3214"
+    },
+    {
+        "code": "102410056",
+        "university": "BURSA TEKNİK ÜNİVERSİTESİ",
+        "program": "Mekatronik Mühendisliği",
+        "city": "BURSA",
+        "type": "Devlet",
+        "quota": "70",
+        "rank": "35.772",
+        "score": "461,2854"
+    },
+    {
+        "code": "101910243",
+        "university": "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "BİLECİK",
+        "type": "Devlet",
+        "quota": "80",
+        "rank": "35.812",
+        "score": "461,2541"
+    },
+    {
+        "code": "109710321",
+        "university": "BURSA ULUDAĞ ÜNİVERSİTESİ",
+        "program": "Elektrik-Elektronik Mühendisliği",
+        "city": "BURSA",
+        "type": "Devlet",
+        "quota": "100",
+        "rank": "35.840",
+        "score": "461,2214"
+    },
+    {
+        "code": "202910772",
+        "university": "ALTINBAŞ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği (İngilizce) (Burslu)",
+        "city": "İSTANBUL",
+        "type": "Vakıf",
+        "quota": "13",
+        "rank": "35.865",
+        "score": "461,1854"
+    },
+    {
+        "code": "107910113",
+        "university": "TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "TEKİRDAĞ",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "35.888",
+        "score": "461,1541"
+    },
+    {
+        "code": "111710928",
+        "university": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
+        "program": "Kimya Mühendisliği.",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "75",
+        "rank": "35.912",
+        "score": "461,1241"
+    },
+    {
+        "code": "105210214",
+        "university": "IĞDIR ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "IĞDIR",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "35.940",
+        "score": "461,0951"
+    },
+    {
+        "code": "106210633",
+        "university": "KARADENİZ TEKNİK ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "TRABZON",
+        "type": "Devlet",
+        "quota": "130",
+        "rank": "35.965",
+        "score": "461,0654"
+    },
+    {
+        "code": "111710982",
+        "university": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
+        "program": "Metalurji ve Malzeme Mühendisliği (İngilizce)",
+        "city": "İSTANBUL",
+        "type": "Devlet",
+        "quota": "60",
+        "rank": "35.988",
+        "score": "461,0214"
+    },
+    {
+        "code": "107710151",
+        "university": "HATAY MUSTAFA KEMAL ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "HATAY",
+        "type": "Devlet",
+        "quota": "110",
+        "rank": "36.012",
+        "score": "460,9854"
+    },
+    {
+        "code": "111110033",
+        "university": "İZMİR DEMOKRASİ ÜNİVERSİTESİ",
+        "program": "Diş Hekimliği",
+        "city": "İZMİR",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "36.040",
+        "score": "460,9512"
+    },
+    {
+        "code": "105310601",
+        "university": "İNÖNÜ ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "MALATYA",
+        "type": "Devlet",
+        "quota": "150",
+        "rank": "36.065",
+        "score": "460,9123"
+    },
+    {
+        "code": "100710781",
+        "university": "AKDENİZ ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği",
+        "city": "ANTALYA",
+        "type": "Devlet",
+        "quota": "90",
+        "rank": "36.088",
+        "score": "460,8854"
+    },
+    {
+        "code": "106210265",
+        "university": "KARADENİZ TEKNİK ÜNİVERSİTESİ",
+        "program": "Eczacılık",
+        "city": "TRABZON",
+        "type": "Devlet",
+        "quota": "130",
+        "rank": "36.112",
+        "score": "460,8541"
+    },
+    {
+        "code": "100310255",
+        "university": "AYDIN ADNAN MENDERES ÜNİVERSİTESİ",
+        "program": "Bilgisayar Mühendisliği (İngilizce)",
+        "city": "AYDIN",
+        "type": "Devlet",
+        "quota": "80",
+        "rank": "36.140",
+        "score": "460,8214"
+    }
+]

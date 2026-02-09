@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { highSchools } from "@/data/mock-data";
+import { supabase } from "@/lib/supabaseClient";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -8,19 +8,52 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ArrowLeft, MapPin, School, Users, GraduationCap, Languages, Clock, Phone, Globe, BookOpen, Home, ChevronRight } from "lucide-react";
 import { ScoreWizard } from "@/components/score-wizard";
 
-export function generateStaticParams() {
-    return highSchools.map((school) => ({
+// Revalidate every hour
+export const revalidate = 3600;
+
+export async function generateStaticParams() {
+    // Only generate static params for top schools to avoid build timeout
+    const { data: schools } = await supabase
+        .from('high_schools')
+        .select('slug')
+        .order('score', { ascending: false })
+        .limit(50);
+
+    return (schools || []).map((school) => ({
         slug: school.slug,
     }));
 }
 
 export default async function HighSchoolDetailPage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
-    const school = highSchools.find((s) => s.slug === slug);
 
-    if (!school) {
+    // Fetch from Supabase
+    const { data: school, error } = await supabase
+        .from('high_schools')
+        .select('*')
+        .eq('slug', slug)
+        .single();
+
+    if (error || !school) {
+        console.error("Error fetching school:", error);
         notFound();
     }
+
+    // Normalize data structure if needed (Supabase returns snake_case, component might expect camelCase or mapped)
+    // But basic fields like name, city, score, quota match. 
+    // Types might need casting if strict.
+    const schoolData = {
+        ...school,
+        educationDuration: school.education_duration,
+        admissionType: school.admission_type,
+        // Mocking missing fields for now
+        description: school.description || `${school.name}, ${school.city} ilinde bulunan ${school.type || 'bir eğitim kurumu'}.`,
+        images: [], // DB doesn't have images yet
+        departments: [],
+        address: `${school.district}, ${school.city}`,
+        website: `https://www.google.com/search?q=${encodeURIComponent(school.name)}`,
+        phone: '',
+    };
 
     return (
         <div className="container py-8 max-w-5xl relative">
@@ -115,7 +148,7 @@ export default async function HighSchoolDetailPage({ params }: { params: Promise
                                         </p>
                                         {school.images && school.images.length > 0 && (
                                             <div className="mt-6 grid grid-cols-2 gap-4">
-                                                {school.images.map((img, idx) => (
+                                                {school.images.map((img: string, idx: number) => (
                                                     <img
                                                         key={idx}
                                                         src={img}
@@ -166,7 +199,7 @@ export default async function HighSchoolDetailPage({ params }: { params: Promise
                             <CardContent>
                                 {school.departments && school.departments.length > 0 ? (
                                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                        {school.departments.map((dept, idx) => (
+                                        {school.departments.map((dept: string, idx: number) => (
                                             <li key={idx} className="flex items-center p-4 border rounded-lg hover:bg-muted/50 transition-colors">
                                                 <BookOpen className="h-5 w-5 mr-3 text-primary" />
                                                 <span className="font-medium">{dept}</span>

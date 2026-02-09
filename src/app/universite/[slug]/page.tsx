@@ -168,91 +168,96 @@ export default async function UniversityDetailPage({ params }: { params: Promise
                         <Card>
                             <CardHeader>
                                 <CardTitle>Yerleşenlerin Net Ortalamaları (2024)</CardTitle>
+                                <p className="text-sm text-muted-foreground">Bu programa yerleşen son öğrencinin tahmini netleridir.</p>
                             </CardHeader>
                             <CardContent>
-                                {!uni.tyt_turkce_net ? (
-                                    <div className="text-center py-8 text-muted-foreground">
-                                        Bu program için net verisi henüz eklenmemiş.
+                                {(!uni.tyt_turkce_net && !uni.ayt_mat_net) ? (
+                                    <div className="text-center py-12 bg-muted/20 rounded-lg border-2 border-dashed">
+                                        <BookOpen className="h-10 w-10 mx-auto text-muted-foreground opacity-50 mb-3" />
+                                        <p className="text-muted-foreground font-medium">Bu program için net verisi henüz eklenmemiş.</p>
+                                        <p className="text-xs text-muted-foreground mt-1">YÖK Atlas verileri güncellendikçe eklenecektir.</p>
                                     </div>
                                 ) : (
                                     <div className="space-y-8">
-                                        <div>
-                                            <h3 className="font-semibold text-lg mb-4 flex items-center">
-                                                <span className="bg-primary/10 text-primary p-1 rounded mr-2">TYT</span>
+                                        {/* TYT Section */}
+                                        <div className="bg-slate-50 dark:bg-slate-900/50 p-6 rounded-xl border">
+                                            <h3 className="font-bold text-lg mb-4 flex items-center text-slate-800 dark:text-slate-200">
+                                                <Badge variant="outline" className="mr-3 bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300 border-blue-200">TYT</Badge>
                                                 Temel Yeterlilik Testi
                                             </h3>
                                             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                                                <div className="bg-muted/40 p-4 rounded-lg border text-center">
-                                                    <div className="text-sm text-muted-foreground mb-1">Türkçe</div>
-                                                    <div className="text-2xl font-bold text-primary">{uni.tyt_turkce_net}</div>
-                                                    <div className="text-xs text-muted-foreground mt-1">40 soru</div>
+                                                <div className="bg-white dark:bg-slate-800 p-4 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                                                    <div className="text-sm font-medium text-muted-foreground mb-1">Türkçe</div>
+                                                    <div className="text-2xl font-bold text-primary">{uni.tyt_turkce_net || '-'}</div>
+                                                    <div className="text-xs text-muted-foreground mt-1 bg-slate-100 dark:bg-slate-700/50 inline-block px-2 py-0.5 rounded-full">40 Soru</div>
                                                 </div>
-                                                <div className="bg-muted/40 p-4 rounded-lg border text-center">
-                                                    <div className="text-sm text-muted-foreground mb-1">Sosyal</div>
-                                                    <div className="text-2xl font-bold text-primary">{uni.tyt_sosyal_net}</div>
-                                                    <div className="text-xs text-muted-foreground mt-1">20 soru</div>
+                                                <div className="bg-white dark:bg-slate-800 p-4 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                                                    <div className="text-sm font-medium text-muted-foreground mb-1">Sosyal</div>
+                                                    <div className="text-2xl font-bold text-primary">{uni.tyt_sosyal_net || '-'}</div>
+                                                    <div className="text-xs text-muted-foreground mt-1 bg-slate-100 dark:bg-slate-700/50 inline-block px-2 py-0.5 rounded-full">20 Soru</div>
                                                 </div>
-                                                <div className="bg-muted/40 p-4 rounded-lg border text-center">
-                                                    <div className="text-sm text-muted-foreground mb-1">Matematik</div>
-                                                    <div className="text-2xl font-bold text-primary">{uni.tyt_mat_net}</div>
-                                                    <div className="text-xs text-muted-foreground mt-1">40 soru</div>
+                                                <div className="bg-white dark:bg-slate-800 p-4 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                                                    <div className="text-sm font-medium text-muted-foreground mb-1">Matematik</div>
+                                                    <div className="text-2xl font-bold text-primary">{uni.tyt_mat_net || '-'}</div>
+                                                    <div className="text-xs text-muted-foreground mt-1 bg-slate-100 dark:bg-slate-700/50 inline-block px-2 py-0.5 rounded-full">40 Soru</div>
                                                 </div>
-                                                <div className="bg-muted/40 p-4 rounded-lg border text-center">
-                                                    <div className="text-sm text-muted-foreground mb-1">Fen</div>
-                                                    <div className="text-2xl font-bold text-primary">{uni.tyt_fen_net}</div>
-                                                    <div className="text-xs text-muted-foreground mt-1">20 soru</div>
+                                                <div className="bg-white dark:bg-slate-800 p-4 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                                                    <div className="text-sm font-medium text-muted-foreground mb-1">Fen</div>
+                                                    <div className="text-2xl font-bold text-primary">{uni.tyt_fen_net || '-'}</div>
+                                                    <div className="text-xs text-muted-foreground mt-1 bg-slate-100 dark:bg-slate-700/50 inline-block px-2 py-0.5 rounded-full">20 Soru</div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div>
-                                            <h3 className="font-semibold text-lg mb-4 flex items-center">
-                                                <span className="bg-primary/10 text-primary p-1 rounded mr-2">AYT</span>
+                                        {/* AYT Section */}
+                                        <div className="bg-slate-50 dark:bg-slate-900/50 p-6 rounded-xl border">
+                                            <h3 className="font-bold text-lg mb-4 flex items-center text-slate-800 dark:text-slate-200">
+                                                <Badge variant="outline" className="mr-3 bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300 border-purple-200">AYT</Badge>
                                                 Alan Yeterlilik Testi
                                             </h3>
                                             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                                                <div className="bg-muted/40 p-4 rounded-lg border text-center">
-                                                    <div className="text-sm text-muted-foreground mb-1">Matematik</div>
-                                                    <div className="text-2xl font-bold text-primary">{uni.ayt_mat_net}</div>
-                                                    <div className="text-xs text-muted-foreground mt-1">40 soru</div>
+                                                <div className="bg-white dark:bg-slate-800 p-4 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                                                    <div className="text-sm font-medium text-muted-foreground mb-1">Matematik</div>
+                                                    <div className="text-2xl font-bold text-primary">{uni.ayt_mat_net || '-'}</div>
+                                                    <div className="text-xs text-muted-foreground mt-1 bg-slate-100 dark:bg-slate-700/50 inline-block px-2 py-0.5 rounded-full">40 Soru</div>
                                                 </div>
 
                                                 {uni.score_type === 'SAY' && (
                                                     <>
-                                                        <div className="bg-muted/40 p-4 rounded-lg border text-center">
-                                                            <div className="text-sm text-muted-foreground mb-1">Fizik</div>
-                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_fizik_net}</div>
-                                                            <div className="text-xs text-muted-foreground mt-1">14 soru</div>
+                                                        <div className="bg-white dark:bg-slate-800 p-4 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                                                            <div className="text-sm font-medium text-muted-foreground mb-1">Fizik</div>
+                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_fizik_net || '-'}</div>
+                                                            <div className="text-xs text-muted-foreground mt-1 bg-slate-100 dark:bg-slate-700/50 inline-block px-2 py-0.5 rounded-full">14 Soru</div>
                                                         </div>
-                                                        <div className="bg-muted/40 p-4 rounded-lg border text-center">
-                                                            <div className="text-sm text-muted-foreground mb-1">Kimya</div>
-                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_kimya_net}</div>
-                                                            <div className="text-xs text-muted-foreground mt-1">13 soru</div>
+                                                        <div className="bg-white dark:bg-slate-800 p-4 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                                                            <div className="text-sm font-medium text-muted-foreground mb-1">Kimya</div>
+                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_kimya_net || '-'}</div>
+                                                            <div className="text-xs text-muted-foreground mt-1 bg-slate-100 dark:bg-slate-700/50 inline-block px-2 py-0.5 rounded-full">13 Soru</div>
                                                         </div>
-                                                        <div className="bg-muted/40 p-4 rounded-lg border text-center">
-                                                            <div className="text-sm text-muted-foreground mb-1">Biyoloji</div>
-                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_biyoloji_net}</div>
-                                                            <div className="text-xs text-muted-foreground mt-1">13 soru</div>
+                                                        <div className="bg-white dark:bg-slate-800 p-4 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                                                            <div className="text-sm font-medium text-muted-foreground mb-1">Biyoloji</div>
+                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_biyoloji_net || '-'}</div>
+                                                            <div className="text-xs text-muted-foreground mt-1 bg-slate-100 dark:bg-slate-700/50 inline-block px-2 py-0.5 rounded-full">13 Soru</div>
                                                         </div>
                                                     </>
                                                 )}
 
                                                 {uni.score_type === 'EA' && (
                                                     <>
-                                                        <div className="bg-muted/40 p-4 rounded-lg border text-center">
-                                                            <div className="text-sm text-muted-foreground mb-1">Edebiyat</div>
-                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_edebiyat_net}</div>
-                                                            <div className="text-xs text-muted-foreground mt-1">24 soru</div>
+                                                        <div className="bg-white dark:bg-slate-800 p-4 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                                                            <div className="text-sm font-medium text-muted-foreground mb-1">Edebiyat</div>
+                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_edebiyat_net || '-'}</div>
+                                                            <div className="text-xs text-muted-foreground mt-1 bg-slate-100 dark:bg-slate-700/50 inline-block px-2 py-0.5 rounded-full">24 Soru</div>
                                                         </div>
-                                                        <div className="bg-muted/40 p-4 rounded-lg border text-center">
-                                                            <div className="text-sm text-muted-foreground mb-1">Tarih-1</div>
-                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_tarih1_net}</div>
-                                                            <div className="text-xs text-muted-foreground mt-1">10 soru</div>
+                                                        <div className="bg-white dark:bg-slate-800 p-4 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                                                            <div className="text-sm font-medium text-muted-foreground mb-1">Tarih-1</div>
+                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_tarih1_net || '-'}</div>
+                                                            <div className="text-xs text-muted-foreground mt-1 bg-slate-100 dark:bg-slate-700/50 inline-block px-2 py-0.5 rounded-full">10 Soru</div>
                                                         </div>
-                                                        <div className="bg-muted/40 p-4 rounded-lg border text-center">
-                                                            <div className="text-sm text-muted-foreground mb-1">Coğrafya-1</div>
-                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_cografya1_net}</div>
-                                                            <div className="text-xs text-muted-foreground mt-1">6 soru</div>
+                                                        <div className="bg-white dark:bg-slate-800 p-4 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                                                            <div className="text-sm font-medium text-muted-foreground mb-1">Coğrafya-1</div>
+                                                            <div className="text-2xl font-bold text-primary">{uni.ayt_cografya1_net || '-'}</div>
+                                                            <div className="text-xs text-muted-foreground mt-1 bg-slate-100 dark:bg-slate-700/50 inline-block px-2 py-0.5 rounded-full">6 Soru</div>
                                                         </div>
                                                     </>
                                                 )}
