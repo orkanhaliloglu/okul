@@ -402,7 +402,7 @@ export function SearchView({ initialType }: SearchViewProps) {
                                                         2024 Verileri
                                                     </p>
                                                     <Link href={type === 'lise' ? `/lise/${item.slug}` : `/universite/${item.slug}`}>
-                                                        <Button variant="default" size="sm" className="gap-2 bg-indigo-600 hover:bg-indigo-700 text-white shadow-sm">
+                                                        <Button variant="default" size="sm" className="gap-2 bg-white/90 hover:bg-white text-zinc-950 font-medium shadow-sm transition-colors">
                                                             İncele <ArrowRight className="h-4 w-4" />
                                                         </Button>
                                                     </Link>

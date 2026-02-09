@@ -53,7 +53,7 @@ export default function RootLayout({
         )}
       >
         <Header />
-        <StudentBackground />
+        <Header />
         {children}
         <GoogleAnalytics gaId="G-9NVZP6QKWH" />
       </body>
