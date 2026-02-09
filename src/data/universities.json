@@ -1,0 +1,902 @@
+[
+    {
+        "university": "İSTANBUL MEDİPOL ÜNİVERSİTESİ",
+        "faculty": "Uluslararası Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (Burslu) (6 Yıllık)",
+        "score": 554.91557,
+        "rank": 31,
+        "type": "SAY",
+        "slug": "istanbul-medipol-universitesi-tip-ingilizce-burslu-6-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (Burslu) (6 Yıllık)",
+        "score": 555.4201,
+        "rank": 24,
+        "type": "SAY",
+        "slug": "koc-universitesi-tip-ingilizce-burslu-6-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Bilgisayar Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 550.88113,
+        "rank": 122,
+        "type": "SAY",
+        "slug": "koc-universitesi-bilgisayar-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (Burslu) (6 Yıllık)",
+        "score": 549.12085,
+        "rank": 203,
+        "type": "SAY",
+        "slug": "acibadem-mehmet-ali-aydinlar-universitesi-tip-ingilizce-burslu-6-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Elektrik-Elektronik Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 545.60719,
+        "rank": 386,
+        "type": "SAY",
+        "slug": "koc-universitesi-elektrik-elektronik-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Bilgisayar Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 547.38649,
+        "rank": 286,
+        "type": "SAY",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-bilgisayar-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İSTANBUL MEDİPOL ÜNİVERSİTESİ",
+        "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+        "program": "Yapay Zeka Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 0,
+        "rank": 0,
+        "type": "SAY",
+        "slug": "istanbul-medipol-universitesi-yapay-zeka-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Elektrik-Elektronik Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 544.67094,
+        "rank": 452,
+        "type": "SAY",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-elektrik-elektronik-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Endüstri Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 541.61792,
+        "rank": 758,
+        "type": "SAY",
+        "slug": "koc-universitesi-endustri-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "Fen Fakültesi",
+        "program": "Fizik (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 543.48383,
+        "rank": 550,
+        "type": "SAY",
+        "slug": "koc-universitesi-fizik-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İSTANBUL MEDİPOL ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (Burslu) (6 Yıllık)",
+        "score": 545.97879,
+        "rank": 363,
+        "type": "SAY",
+        "slug": "istanbul-medipol-universitesi-tip-burslu-6-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "Fen Fakültesi",
+        "program": "Matematik (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 537.27415,
+        "rank": 1234,
+        "type": "SAY",
+        "slug": "koc-universitesi-matematik-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "HACETTEPE ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (6 Yıllık)",
+        "score": 537.19919,
+        "rank": 1242,
+        "type": "SAY",
+        "slug": "hacettepe-universitesi-tip-ingilizce-6-yillik"
+    },
+    {
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Bilgisayar Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 539.85314,
+        "rank": 945,
+        "type": "SAY",
+        "slug": "orta-dogu-teknik-universitesi-bilgisayar-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Makine Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 535.83881,
+        "rank": 1391,
+        "type": "SAY",
+        "slug": "koc-universitesi-makine-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İSTANBUL MEDİPOL ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (Burslu) (6 Yıllık)",
+        "score": 0,
+        "rank": 0,
+        "type": "SAY",
+        "slug": "istanbul-medipol-universitesi-tip-ingilizce-burslu-6-yillik"
+    },
+    {
+        "university": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
+        "faculty": "Cerrahpaşa Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (6 Yıllık)",
+        "score": 536.61927,
+        "rank": 1311,
+        "type": "SAY",
+        "slug": "istanbul-universitesi-cerrahpasa-tip-ingilizce-6-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Bilgisayar ve Bilişim Fakültesi",
+        "program": "Bilgisayar Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 536.3077,
+        "rank": 1348,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-bilgisayar-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Bilgisayar Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 539.31607,
+        "rank": 1008,
+        "type": "SAY",
+        "slug": "bogazici-universitesi-bilgisayar-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Elektrik-Elektronik Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 534.41115,
+        "rank": 1603,
+        "type": "SAY",
+        "slug": "orta-dogu-teknik-universitesi-elektrik-elektronik-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "ÖZYEĞİN ÜNİVERSİTESİ",
+        "faculty": "Havacılık ve Uzay Bilimleri Fakültesi",
+        "program": "Pilotaj (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 525.79407,
+        "rank": 3064,
+        "type": "SAY",
+        "slug": "ozyegin-universitesi-pilotaj-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "HACETTEPE ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (6 Yıllık)",
+        "score": 532.11949,
+        "rank": 1935,
+        "type": "SAY",
+        "slug": "hacettepe-universitesi-tip-6-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Bilgisayar ve Bilişim Fakültesi",
+        "program": "Yapay Zeka ve Veri Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 533.26505,
+        "rank": 1763,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-yapay-zeka-ve-veri-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Elektrik-Elektronik Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 532.61394,
+        "rank": 1858,
+        "type": "SAY",
+        "slug": "bogazici-universitesi-elektrik-elektronik-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "Fen Fakültesi",
+        "program": "Moleküler Biyoloji ve Genetik (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 535.6393,
+        "rank": 1419,
+        "type": "SAY",
+        "slug": "koc-universitesi-molekuler-biyoloji-ve-genetik-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Kimya-Biyoloji Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 530.85631,
+        "rank": 2140,
+        "type": "SAY",
+        "slug": "koc-universitesi-kimya-biyoloji-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Endüstri Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 531.37897,
+        "rank": 2053,
+        "type": "SAY",
+        "slug": "bogazici-universitesi-endustri-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (%50 İndirimli) (6 Yıllık)",
+        "score": 526.63166,
+        "rank": 2887,
+        "type": "SAY",
+        "slug": "koc-universitesi-tip-ingilizce-50-indirimli-6-yillik"
+    },
+    {
+        "university": "ESKİŞEHİR TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Havacılık ve Uzay Bilimleri Fakültesi",
+        "program": "Pilotaj (4 Yıllık)",
+        "score": 528.66706,
+        "rank": 2519,
+        "type": "SAY",
+        "slug": "eskisehir-teknik-universitesi-pilotaj-4-yillik"
+    },
+    {
+        "university": "SABANCI ÜNİVERSİTESİ",
+        "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+        "program": "Mühendislik ve Doğa Bilimleri Programları (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 536.76188,
+        "rank": 1288,
+        "type": "SAY",
+        "slug": "sabanci-universitesi-muhendislik-ve-doga-bilimleri-programlari-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (Burslu) (6 Yıllık)",
+        "score": 543.68639,
+        "rank": 532,
+        "type": "SAY",
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-tip-burslu-6-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Elektrik-Elektronik Fakültesi",
+        "program": "Elektronik ve Haberleşme Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 529.41707,
+        "rank": 2388,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-elektronik-ve-haberlesme-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Endüstri Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 533.90009,
+        "rank": 1676,
+        "type": "SAY",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-endustri-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Bilgisayar Mühendisliği (Burslu) (4 Yıllık)",
+        "score": 532.97144,
+        "rank": 1804,
+        "type": "SAY",
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-bilgisayar-muhendisligi-burslu-4-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Uçak ve Uzay Bilimleri Fakültesi",
+        "program": "Uçak Mühendisliği (4 Yıllık)",
+        "score": 526.27204,
+        "rank": 2963,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-ucak-muhendisligi-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Makine Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 531.1867,
+        "rank": 2086,
+        "type": "SAY",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-makine-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "TÜRK HAVA KURUMU ÜNİVERSİTESİ",
+        "faculty": "Hava Ulaştırma Fakültesi",
+        "program": "Pilotaj (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 528.77936,
+        "rank": 2508,
+        "type": "SAY",
+        "slug": "turk-hava-kurumu-universitesi-pilotaj-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Havacılık ve Uzay Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 527.10936,
+        "rank": 2792,
+        "type": "SAY",
+        "slug": "orta-dogu-teknik-universitesi-havacilik-ve-uzay-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Makine Mühendisliği (İngilizce) (KKTC Uyruklu) (4 Yıllık)",
+        "score": 393.55538,
+        "rank": 89543,
+        "type": "SAY",
+        "slug": "orta-dogu-teknik-universitesi-makine-muhendisligi-ingilizce-kktc-uyruklu-4-yillik"
+    },
+    {
+        "university": "YEDİTEPE ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (Burslu) (6 Yıllık)",
+        "score": 524.93678,
+        "rank": 3237,
+        "type": "SAY",
+        "slug": "yeditepe-universitesi-tip-ingilizce-burslu-6-yillik"
+    },
+    {
+        "university": "ANKARA ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (6 Yıllık)",
+        "score": 526.9789,
+        "rank": 2826,
+        "type": "SAY",
+        "slug": "ankara-universitesi-tip-ingilizce-6-yillik"
+    },
+    {
+        "university": "ÖZYEĞİN ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Bilgisayar Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 533.51781,
+        "rank": 1734,
+        "type": "SAY",
+        "slug": "ozyegin-universitesi-bilgisayar-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Endüstri Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 529.32583,
+        "rank": 2408,
+        "type": "SAY",
+        "slug": "orta-dogu-teknik-universitesi-endustri-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Elektrik-Elektronik Mühendisliği (Burslu) (4 Yıllık)",
+        "score": 527.87995,
+        "rank": 2681,
+        "type": "SAY",
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-elektrik-elektronik-muhendisligi-burslu-4-yillik"
+    },
+    {
+        "university": "BAHÇEŞEHİR ÜNİVERSİTESİ",
+        "faculty": "Uygulamalı Bilimler Yüksekokulu",
+        "program": "Pilotaj (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 521.18041,
+        "rank": 4035,
+        "type": "SAY",
+        "slug": "bahcesehir-universitesi-pilotaj-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Elektrik-Elektronik Fakültesi",
+        "program": "Elektronik ve Haberleşme Mühendisliği (4 Yıllık)",
+        "score": 522.83058,
+        "rank": 3658,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-elektronik-ve-haberlesme-muhendisligi-4-yillik"
+    },
+    {
+        "university": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
+        "faculty": "Cerrahpaşa Tıp Fakültesi",
+        "program": "Tıp (6 Yıllık)",
+        "score": 524.62574,
+        "rank": 3294,
+        "type": "SAY",
+        "slug": "istanbul-universitesi-cerrahpasa-tip-6-yillik"
+    },
+    {
+        "university": "İSTANBUL AYDIN ÜNİVERSİTESİ",
+        "faculty": "Uygulamalı Bilimler Fakültesi",
+        "program": "Pilotaj (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 503.30512,
+        "rank": 9296,
+        "type": "SAY",
+        "slug": "istanbul-aydin-universitesi-pilotaj-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Makine Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 522.82995,
+        "rank": 3659,
+        "type": "SAY",
+        "slug": "orta-dogu-teknik-universitesi-makine-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "ANKARA ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (6 Yıllık)",
+        "score": 523.29917,
+        "rank": 3577,
+        "type": "SAY",
+        "slug": "ankara-universitesi-tip-6-yillik"
+    },
+    {
+        "university": "İSTANBUL ÜNİVERSİTESİ",
+        "faculty": "İstanbul Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (6 Yıllık)",
+        "score": 522.71678,
+        "rank": 3689,
+        "type": "SAY",
+        "slug": "istanbul-universitesi-tip-ingilizce-6-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "Fen Fakültesi",
+        "program": "Fizik (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 525.92666,
+        "rank": 3035,
+        "type": "SAY",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-fizik-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Fen-Edebiyat Fakültesi",
+        "program": "Matematik Mühendisliği (4 Yıllık)",
+        "score": 517.55503,
+        "rank": 4910,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-matematik-muhendisligi-4-yillik"
+    },
+    {
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Makine Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 522.3873,
+        "rank": 3771,
+        "type": "SAY",
+        "slug": "bogazici-universitesi-makine-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "KTO KARATAY ÜNİVERSİTESİ",
+        "faculty": "Uygulamalı Bilimler Yüksekokulu",
+        "program": "Pilotaj (Burslu) (4 Yıllık)",
+        "score": 511.44475,
+        "rank": 6579,
+        "type": "SAY",
+        "slug": "kto-karatay-universitesi-pilotaj-burslu-4-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "İşletme Fakültesi",
+        "program": "Endüstri Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 524.32042,
+        "rank": 3356,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-endustri-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Yapay Zeka Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 528.94499,
+        "rank": 2474,
+        "type": "SAY",
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-yapay-zeka-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "ATILIM ÜNİVERSİTESİ",
+        "faculty": "Sivil Havacılık Yüksekokulu",
+        "program": "Pilotaj (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 511.23102,
+        "rank": 6650,
+        "type": "SAY",
+        "slug": "atilim-universitesi-pilotaj-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Elektrik-Elektronik Mühendisliği (İngilizce) (%50 İndirimli) (4 Yıllık)",
+        "score": 525.79667,
+        "rank": 3063,
+        "type": "SAY",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-elektrik-elektronik-muhendisligi-ingilizce-50-indirimli-4-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Uçak ve Uzay Bilimleri Fakültesi",
+        "program": "Uzay Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 518.39828,
+        "rank": 4686,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-uzay-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Makine Mühendisliği (Burslu) (4 Yıllık)",
+        "score": 517.76512,
+        "rank": 4840,
+        "type": "SAY",
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-makine-muhendisligi-burslu-4-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "İşletme Fakültesi",
+        "program": "Endüstri Mühendisliği (4 Yıllık)",
+        "score": 519.84288,
+        "rank": 4344,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-endustri-muhendisligi-4-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Elektrik-Elektronik Fakültesi",
+        "program": "Kontrol ve Otomasyon Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 0,
+        "rank": 0,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-kontrol-ve-otomasyon-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Bilgisayar ve Bilişim Fakültesi",
+        "program": "Siber Güvenlik Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 515.79972,
+        "rank": 5361,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-siber-guvenlik-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "İSTANBUL ÜNİVERSİTESİ",
+        "faculty": "İstanbul Tıp Fakültesi",
+        "program": "Tıp (6 Yıllık)",
+        "score": 516.64827,
+        "rank": 5145,
+        "type": "SAY",
+        "slug": "istanbul-universitesi-tip-6-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Elektrik-Elektronik Fakültesi",
+        "program": "Kontrol ve Otomasyon Mühendisliği (4 Yıllık)",
+        "score": 0,
+        "rank": 0,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-kontrol-ve-otomasyon-muhendisligi-4-yillik"
+    },
+    {
+        "university": "GAZİ ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (6 Yıllık)",
+        "score": 516.42441,
+        "rank": 5199,
+        "type": "SAY",
+        "slug": "gazi-universitesi-tip-6-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "Uygulamalı Bilimler Fakültesi",
+        "program": "Bilişim Sistemleri ve Teknolojileri (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 520.79348,
+        "rank": 4122,
+        "type": "SAY",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-bilisim-sistemleri-ve-teknolojileri-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "ÖZYEĞİN ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Yapay Zeka ve Veri Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 518.15819,
+        "rank": 4737,
+        "type": "SAY",
+        "slug": "ozyegin-universitesi-yapay-zeka-ve-veri-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "EGE ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (6 Yıllık)",
+        "score": 516.07446,
+        "rank": 5290,
+        "type": "SAY",
+        "slug": "ege-universitesi-tip-6-yillik"
+    },
+    {
+        "university": "GAZİ ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (6 Yıllık)",
+        "score": 514.0777,
+        "rank": 5787,
+        "type": "SAY",
+        "slug": "gazi-universitesi-tip-ingilizce-6-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "Fen Fakültesi",
+        "program": "Kimya (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 528.5497,
+        "rank": 2544,
+        "type": "SAY",
+        "slug": "koc-universitesi-kimya-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Endüstri Mühendisliği (Burslu) (4 Yıllık)",
+        "score": 522.3256,
+        "rank": 3787,
+        "type": "SAY",
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-endustri-muhendisligi-burslu-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Bilgisayar Mühendisliği (İngilizce) (%50 İndirimli) (4 Yıllık)",
+        "score": 529.39487,
+        "rank": 2392,
+        "type": "SAY",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-bilgisayar-muhendisligi-ingilizce-50-indirimli-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "Fen Fakültesi",
+        "program": "Matematik (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 520.11998,
+        "rank": 4270,
+        "type": "SAY",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-matematik-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "İşletme Fakültesi",
+        "program": "İşletme Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 513.52841,
+        "rank": 5947,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-isletme-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "BAŞKENT ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (Burslu) (6 Yıllık)",
+        "score": 512.94897,
+        "rank": 6128,
+        "type": "SAY",
+        "slug": "baskent-universitesi-tip-burslu-6-yillik"
+    },
+    {
+        "university": "HACETTEPE ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Bilgisayar Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 519.70108,
+        "rank": 4377,
+        "type": "SAY",
+        "slug": "hacettepe-universitesi-bilgisayar-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "BAŞKENT ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (Burslu) (6 Yıllık)",
+        "score": 510.97955,
+        "rank": 6727,
+        "type": "SAY",
+        "slug": "baskent-universitesi-tip-ingilizce-burslu-6-yillik"
+    },
+    {
+        "university": "MARMARA ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (6 Yıllık)",
+        "score": 511.25959,
+        "rank": 6639,
+        "type": "SAY",
+        "slug": "marmara-universitesi-tip-ingilizce-6-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Makine Fakültesi",
+        "program": "Makine Mühendisliği (4 Yıllık)",
+        "score": 508.63864,
+        "rank": 7430,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-makine-muhendisligi-4-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Elektrik-Elektronik Fakültesi",
+        "program": "Elektrik Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 510.86388,
+        "rank": 6762,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-elektrik-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "HACETTEPE ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Elektrik-Elektronik Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 512.355,
+        "rank": 6310,
+        "type": "SAY",
+        "slug": "hacettepe-universitesi-elektrik-elektronik-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ",
+        "faculty": "Sivil Havacılık Yüksekokulu",
+        "program": "Pilotaj (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 494.84769,
+        "rank": 12531,
+        "type": "SAY",
+        "slug": "istanbul-nisantasi-universitesi-pilotaj-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "BEZM-İ ÂLEM VAKIF ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (Burslu) (6 Yıllık)",
+        "score": 511.57471,
+        "rank": 6545,
+        "type": "SAY",
+        "slug": "bezm-i-lem-vakif-universitesi-tip-burslu-6-yillik"
+    },
+    {
+        "university": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (6 Yıllık)",
+        "score": 508.19544,
+        "rank": 7571,
+        "type": "SAY",
+        "slug": "ankara-yildirim-beyazit-universitesi-tip-6-yillik"
+    },
+    {
+        "university": "İSTANBUL OKAN ÜNİVERSİTESİ",
+        "faculty": "Uygulamalı Bilimler Fakültesi",
+        "program": "Pilotaj (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 489.83253,
+        "rank": 14749,
+        "type": "SAY",
+        "slug": "istanbul-okan-universitesi-pilotaj-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "BAHÇEŞEHİR ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (Burslu) (6 Yıllık)",
+        "score": 512.61745,
+        "rank": 6228,
+        "type": "SAY",
+        "slug": "bahcesehir-universitesi-tip-ingilizce-burslu-6-yillik"
+    },
+    {
+        "university": "ÖZYEĞİN ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Elektrik-Elektronik Mühendisliği (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 520.92575,
+        "rank": 4099,
+        "type": "SAY",
+        "slug": "ozyegin-universitesi-elektrik-elektronik-muhendisligi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Elektrik-Elektronik Fakültesi",
+        "program": "Elektrik Mühendisliği (4 Yıllık)",
+        "score": 507.81846,
+        "rank": 7721,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-elektrik-muhendisligi-4-yillik"
+    },
+    {
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Mühendislik Fakültesi",
+        "program": "Metalurji ve Malzeme Mühendisliği (İngilizce) (4 Yıllık)",
+        "score": 509.03505,
+        "rank": 7310,
+        "type": "SAY",
+        "slug": "orta-dogu-teknik-universitesi-metalurji-ve-malzeme-muhendisligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "İSTİNYE ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (İngilizce) (Burslu) (6 Yıllık)",
+        "score": 495.32543,
+        "rank": 12336,
+        "type": "SAY",
+        "slug": "istinye-universitesi-tip-ingilizce-burslu-6-yillik"
+    },
+    {
+        "university": "GALATASARAY ÜNİVERSİTESİ",
+        "faculty": "Mühendislik ve Teknoloji Fakültesi",
+        "program": "Bilgisayar Mühendisliği (Fransızca) (4 Yıllık)",
+        "score": 517.63128,
+        "rank": 4886,
+        "type": "SAY",
+        "slug": "galatasaray-universitesi-bilgisayar-muhendisligi-fransizca-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "Fen Fakültesi",
+        "program": "Moleküler Biyoloji ve Genetik (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 527.20552,
+        "rank": 2774,
+        "type": "SAY",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-molekuler-biyoloji-ve-genetik-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (%50 İndirimli) (6 Yıllık)",
+        "score": 504.88727,
+        "rank": 8734,
+        "type": "SAY",
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-tip-50-indirimli-6-yillik"
+    },
+    {
+        "university": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+        "faculty": "Hamidiye Tıp Fakültesi",
+        "program": "Tıp (6 Yıllık)",
+        "score": 506.74871,
+        "rank": 8071,
+        "type": "SAY",
+        "slug": "saglik-bilimleri-universitesi-tip-6-yillik"
+    },
+    {
+        "university": "YILDIZ TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Elektrik-Elektronik Fakültesi",
+        "program": "Bilgisayar Mühendisliği (4 Yıllık)",
+        "score": 514.28196,
+        "rank": 5725,
+        "type": "SAY",
+        "slug": "yildiz-teknik-universitesi-bilgisayar-muhendisligi-4-yillik"
+    },
+    {
+        "university": "DOKUZ EYLÜL ÜNİVERSİTESİ",
+        "faculty": "Tıp Fakültesi",
+        "program": "Tıp (6 Yıllık)",
+        "score": 508.9957,
+        "rank": 7320,
+        "type": "SAY",
+        "slug": "dokuz-eylul-universitesi-tip-6-yillik"
+    },
+    {
+        "university": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+        "faculty": "Gülhane Tıp Fakültesi",
+        "program": "Tıp (Ankara) (6 Yıllık)",
+        "score": 506.40163,
+        "rank": 8201,
+        "type": "SAY",
+        "slug": "saglik-bilimleri-universitesi-tip-ankara-6-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "İşletme Fakültesi",
+        "program": "Veri Bilimi ve Analitiği (İngilizce) (4 Yıllık)",
+        "score": 504.33451,
+        "rank": 8932,
+        "type": "SAY",
+        "slug": "istanbul-teknik-universitesi-veri-bilimi-ve-analitigi-ingilizce-4-yillik"
+    }
+]

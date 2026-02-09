@@ -3,7 +3,7 @@
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { useState, useMemo, Suspense, useEffect } from "react";
 import Link from "next/link";
-import { highSchools, universities } from "@/data/mock-data";
+import { supabase } from "@/lib/supabaseClient";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card";
@@ -24,7 +24,8 @@ import {
     School,
     Trophy,
     Users,
-    Clock
+    Clock,
+    Loader2
 } from "lucide-react";
 
 interface SearchViewProps {
@@ -51,7 +52,11 @@ export function SearchView({ initialType }: SearchViewProps) {
     const [uniQuery, setUniQuery] = useState(searchParams.get("q") || "");
     const [uniCity, setUniCity] = useState(searchParams.get("city") || "");
     const [uniMinScore, setUniMinScore] = useState(searchParams.get("minScore") || "");
-    const [uniScoreType, setUniScoreType] = useState<string>("ALL");
+    const [uniScoreType, setUniScoreType] = useState<string>(searchParams.get("scoreType") || "ALL");
+
+    // Data State
+    const [results, setResults] = useState<any[]>([]);
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         if (initialType) {
@@ -76,7 +81,6 @@ export function SearchView({ initialType }: SearchViewProps) {
             if (uniScoreType && uniScoreType !== 'ALL') params.set('scoreType', uniScoreType);
         }
 
-        // Only update if params changed (to avoid infinite loops or unnecessary replaces)
         const currentString = searchParams.toString();
         const newString = params.toString();
 
@@ -85,37 +89,67 @@ export function SearchView({ initialType }: SearchViewProps) {
         }
     }, [type, liseCity, liseMinScore, admissionType, uniQuery, uniCity, uniMinScore, uniScoreType, pathname, router, searchParams]);
 
-    const filteredResults = useMemo(() => {
-        if (type === "lise") {
-            return highSchools.filter(school => {
-                const matchesCity = liseCity === "" || school.city.toLowerCase().includes(liseCity.toLowerCase());
-                // Logic: Show schools where school.score <= userScore (if user enters score)
-                // Filter logic for "Min Score" usually means "Filter out schools below this score" (min threshold)
-                // BUT for exam preference, users enter THEIR score.
-                // "My score is 450. Show me schools I can enter." -> Schools with <= 450.
-                const scoreVal = parseFloat(liseMinScore);
-                const matchesScoreLogic = liseMinScore === "" || (school.score && school.score <= scoreVal + 5); // +5 buffer
+    // Fetch Data
+    useEffect(() => {
+        const fetchData = async () => {
+            setLoading(true);
+            try {
+                let query;
+                if (type === 'lise') {
+                    query = supabase.from('high_schools').select('*');
 
-                const matchesAdmission = school.admissionType === admissionType;
+                    if (liseCity) query = query.ilike('city', `%${liseCity}%`);
+                    if (liseMinScore) {
+                        // Show schools where admission score is <= user score (roughly)
+                        // Or just show schools around that score. 
+                        // Typically "Min Score" filter means "Show schools requiring at least X".
+                        // But user prompt says "Puanın / Hedefin". 
+                        // If user enters 450, they want schools <= 450 (which they can enter).
+                        const score = parseFloat(liseMinScore);
+                        if (!isNaN(score)) query = query.lte('score', score + 5);
+                    }
+                    if (admissionType) query = query.eq('admission_type', admissionType);
 
-                return matchesCity && matchesScoreLogic && matchesAdmission;
-            }).sort((a, b) => b.score - a.score); // Highest score first
-        } else {
-            return universities.filter(uni => {
-                const matchesQuery = uniQuery === "" ||
-                    uni.universityName.toLowerCase().includes(uniQuery.toLowerCase()) ||
-                    uni.programName.toLowerCase().includes(uniQuery.toLowerCase());
-                const matchesCity = uniCity === "" || uni.city.toLowerCase().includes(uniCity.toLowerCase());
-                // Same logic for University: user enters THEIR score.
-                const scoreVal = parseFloat(uniMinScore);
-                const matchesScore = uniMinScore === "" || (uni.score && uni.score <= scoreVal + 10);
+                    // Limit results
+                    query = query.order('score', { ascending: false }).limit(50);
 
-                const matchesType = uniScoreType === "ALL" || uni.scoreType === uniScoreType;
+                } else {
+                    query = supabase.from('universities').select('*');
 
-                return matchesQuery && matchesCity && matchesScore && matchesType;
-            }).sort((a, b) => (b.score || 0) - (a.score || 0));
-        }
+                    if (uniQuery) {
+                        // Search in university_name or program_name
+                        // Supabase 'or' query syntax: column.operator.value,column.operator.value
+                        query = query.or(`university_name.ilike.%${uniQuery}%,program_name.ilike.%${uniQuery}%`);
+                    }
+                    if (uniCity) query = query.ilike('city', `%${uniCity}%`);
+                    if (uniMinScore) {
+                        const score = parseFloat(uniMinScore);
+                        // Users want schools they can get into (<= their score)
+                        if (!isNaN(score)) query = query.lte('score', score + 10);
+                    }
+                    if (uniScoreType && uniScoreType !== 'ALL') query = query.eq('score_type', uniScoreType);
+
+                    // Limit results
+                    query = query.order('score', { ascending: false }).limit(50);
+                }
+
+                const { data, error } = await query;
+                if (error) throw error;
+                setResults(data || []);
+
+            } catch (err) {
+                console.error("Error fetching data:", err);
+                setResults([]);
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        // Debounce
+        const timeout = setTimeout(fetchData, 300);
+        return () => clearTimeout(timeout);
     }, [type, liseCity, liseMinScore, admissionType, uniQuery, uniCity, uniMinScore, uniScoreType]);
+
 
     return (
         <div className="container mx-auto py-8 px-4 md:px-6">
@@ -260,12 +294,16 @@ export function SearchView({ initialType }: SearchViewProps) {
                             {type === 'lise' ? 'Lise Tercih Robotu' : 'Üniversite Tercih Robotu'}
                         </h1>
                         <Badge variant="outline" className="text-lg px-4 py-1">
-                            {filteredResults.length} Sonuç
+                            {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : `${results.length} Sonuç`}
                         </Badge>
                     </div>
 
                     <div className="grid gap-4">
-                        {filteredResults.length === 0 ? (
+                        {loading ? (
+                            <div className="py-20 flex justify-center">
+                                <Loader2 className="h-10 w-10 animate-spin text-muted-foreground" />
+                            </div>
+                        ) : results.length === 0 ? (
                             <Card className="bg-muted/50 border-dashed">
                                 <CardContent className="flex flex-col items-center justify-center p-12 text-center text-muted-foreground">
                                     <Search className="h-12 w-12 mb-4 opacity-50" />
@@ -274,14 +312,14 @@ export function SearchView({ initialType }: SearchViewProps) {
                                 </CardContent>
                             </Card>
                         ) : (
-                            filteredResults.map((item: any) => (
+                            results.map((item: any) => (
                                 <Card key={item.id} className="group overflow-hidden hover:shadow-md transition-all border-l-4 border-l-transparent hover:border-l-indigo-500">
                                     <CardContent className="p-0">
                                         <div className="flex flex-col md:flex-row">
                                             {/* Image Placeholder or Real Image */}
                                             <div className="hidden md:block w-48 bg-muted relative">
                                                 {item.images && item.images[0] ? (
-                                                    <img src={item.images[0]} alt={item.name || item.universityName} className="object-cover w-full h-full" />
+                                                    <img src={item.images[0]} alt={item.name || item.university_name} className="object-cover w-full h-full" />
                                                 ) : (
                                                     <div className="flex items-center justify-center h-full text-muted-foreground/30">
                                                         {type === 'lise' ? <School className="h-12 w-12" /> : <Building2 className="h-12 w-12" />}
@@ -290,7 +328,7 @@ export function SearchView({ initialType }: SearchViewProps) {
                                                 {/* Score Badge Overlay */}
                                                 <div className="absolute top-2 left-2">
                                                     <Badge className={`${type === 'lise' ? 'bg-indigo-600' : 'bg-violet-600'}`}>
-                                                        {type === 'lise' ? `${item.score?.toFixed(2) || 'N/A'} Puan` : `${item.score?.toFixed(2) || 'N/A'} Puan`}
+                                                        {item.score?.toFixed(2) || 'N/A'} Puan
                                                     </Badge>
                                                 </div>
                                             </div>
@@ -303,18 +341,18 @@ export function SearchView({ initialType }: SearchViewProps) {
                                                         ) : (
                                                             <div className="flex gap-2 mb-2">
                                                                 <Badge variant="secondary">{item.type}</Badge>
-                                                                <Badge variant="outline">{item.scoreType}</Badge>
+                                                                <Badge variant="outline">{item.score_type}</Badge>
                                                             </div>
                                                         )}
                                                         <h3 className="text-xl font-bold group-hover:text-indigo-600 transition-colors">
                                                             <Link href={type === 'lise' ? `/lise/${item.slug}` : `/universite/${item.slug}`}>
-                                                                {type === 'lise' ? item.name : item.programName}
+                                                                {type === 'lise' ? item.name : item.program_name}
                                                             </Link>
                                                         </h3>
                                                         <p className="text-muted-foreground flex items-center gap-1 mt-1">
                                                             <MapPin className="h-4 w-4" />
                                                             {item.city} {item.district && `/ ${item.district}`}
-                                                            {type === 'universite' && ` • ${item.universityName}`}
+                                                            {type === 'universite' && ` • ${item.university_name}`}
                                                         </p>
                                                     </div>
                                                 </div>
@@ -323,7 +361,7 @@ export function SearchView({ initialType }: SearchViewProps) {
                                                     <div className="flex items-center gap-2 text-sm">
                                                         <Trophy className="h-4 w-4 text-orange-500" />
                                                         <span className="font-medium text-foreground">
-                                                            {type === 'lise' ? `%${item.percentile}` : `#${item.ranking}`}
+                                                            {type === 'lise' ? `%${item.percentile}` : `#${item.ranking || '---'}`}
                                                         </span>
                                                         <span className="text-muted-foreground text-xs">
                                                             {type === 'lise' ? 'Dilim' : 'Sıralama'}
@@ -334,7 +372,6 @@ export function SearchView({ initialType }: SearchViewProps) {
                                                         <span className="font-medium text-foreground">{item.quota}</span>
                                                         <span className="text-muted-foreground text-xs">Kont.</span>
                                                     </div>
-                                                    {/* Additional dynamic stats could go here */}
                                                 </div>
 
                                                 <div className="flex items-center justify-between pt-2 border-t mt-2">

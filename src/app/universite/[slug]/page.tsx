@@ -1,21 +1,23 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { universities } from "@/data/mock-data";
+import { supabase } from "@/lib/supabaseClient";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ArrowLeft, MapPin, GraduationCap, Users, Trophy, BookOpen, Building2, Phone, Globe, Info, Home, ChevronRight } from "lucide-react";
+import { ArrowLeft, MapPin, GraduationCap, Users, Trophy, BookOpen, Building2, Phone, Globe, Home, ChevronRight } from "lucide-react";
 
-export function generateStaticParams() {
-    return universities.map((uni) => ({
-        slug: uni.slug,
-    }));
-}
+export const dynamic = 'force-dynamic';
 
 export default async function UniversityDetailPage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
-    const uni = universities.find((u) => u.slug === slug);
+
+    // Fetch from Supabase
+    const { data: uni } = await supabase
+        .from('universities')
+        .select('*')
+        .eq('slug', slug)
+        .single();
 
     if (!uni) {
         notFound();
@@ -33,15 +35,15 @@ export default async function UniversityDetailPage({ params }: { params: Promise
                     <ArrowLeft className="h-6 w-6" />
                 </Link>
                 <ChevronRight className="h-4 w-4 mx-2 text-muted-foreground/50" />
-                <span className="font-medium text-foreground truncate max-w-[200px] sm:max-w-none">{uni.universityName}</span>
+                <span className="font-medium text-foreground truncate max-w-[200px] sm:max-w-none">{uni.university_name}</span>
             </nav>
 
             <div className="grid gap-6">
                 {/* Header Section */}
                 <div className="flex flex-col md:flex-row justify-between items-start gap-4">
                     <div>
-                        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">{uni.universityName}</h1>
-                        <p className="text-xl md:text-2xl text-muted-foreground mt-2">{uni.programName}</p>
+                        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">{uni.university_name}</h1>
+                        <p className="text-xl md:text-2xl text-muted-foreground mt-2">{uni.program_name}</p>
                         <div className="flex items-center gap-2 mt-2 text-muted-foreground">
                             <MapPin className="h-5 w-5" />
                             <span className="text-lg">{uni.city}</span>
@@ -49,10 +51,10 @@ export default async function UniversityDetailPage({ params }: { params: Promise
                     </div>
                     <div className="flex flex-col items-end gap-2">
                         <div className="flex gap-2">
-                            <Badge variant="secondary" className="text-lg px-4 py-1">{uni.scoreType}</Badge>
-                            <Badge className="text-lg px-4 py-1 bg-primary text-primary-foreground">{uni.score} Puan</Badge>
+                            <Badge variant="secondary" className="text-lg px-4 py-1">{uni.score_type}</Badge>
+                            <Badge className="text-lg px-4 py-1 bg-primary text-primary-foreground">{Number(uni.score).toFixed(2)} Puan</Badge>
                         </div>
-                        <span className="text-sm font-medium text-muted-foreground">Sıralama: {uni.ranking.toLocaleString()}</span>
+                        <span className="text-sm font-medium text-muted-foreground">Sıralama: {uni.ranking ? uni.ranking.toLocaleString() : '---'}</span>
                     </div>
                 </div>
 
@@ -97,7 +99,7 @@ export default async function UniversityDetailPage({ params }: { params: Promise
                                 <CardContent>
                                     <div className="flex items-center gap-2 text-xl font-bold">
                                         <Users className="h-5 w-5 text-primary" />
-                                        {uni.quota}
+                                        {uni.quota || '-'}
                                     </div>
                                 </CardContent>
                             </Card>
@@ -122,15 +124,8 @@ export default async function UniversityDetailPage({ params }: { params: Promise
                                     </CardHeader>
                                     <CardContent>
                                         <p className="text-muted-foreground leading-relaxed">
-                                            {uni.description || `${uni.universityName} bünyesindeki ${uni.programName} bölümü, alanında yetkin akademik kadrosu ve sunduğu imkanlarla öğrencilerini geleceğe hazırlar.`}
+                                            {uni.description || `${uni.university_name} bünyesindeki ${uni.program_name} bölümü, alanında yetkin akademik kadrosu ve sunduğu imkanlarla öğrencilerini geleceğe hazırlar.`}
                                         </p>
-                                        {uni.images && uni.images.length > 0 && (
-                                            <div className="mt-6 grid grid-cols-2 gap-4">
-                                                {uni.images.map((img, idx) => (
-                                                    <img key={idx} src={img} alt={`${uni.universityName} ${idx + 1}`} className="rounded-lg object-cover w-full h-48" />
-                                                ))}
-                                            </div>
-                                        )}
                                     </CardContent>
                                 </Card>
                             </div>
@@ -145,14 +140,14 @@ export default async function UniversityDetailPage({ params }: { params: Promise
                                             <GraduationCap className="h-5 w-5 mr-3 text-primary" />
                                             <div>
                                                 <p className="text-sm font-medium text-muted-foreground">Puan Türü</p>
-                                                <p className="font-semibold">{uni.scoreType}</p>
+                                                <p className="font-semibold">{uni.score_type}</p>
                                             </div>
                                         </div>
                                         <div className="flex items-center p-3 bg-muted/50 rounded-lg">
                                             <Trophy className="h-5 w-5 mr-3 text-primary" />
                                             <div>
                                                 <p className="text-sm font-medium text-muted-foreground">Başarı Sıralaması</p>
-                                                <p className="font-semibold">{uni.ranking.toLocaleString()}.</p>
+                                                <p className="font-semibold">{uni.ranking ? uni.ranking.toLocaleString() : '---'}.</p>
                                             </div>
                                         </div>
                                     </CardContent>
@@ -169,37 +164,24 @@ export default async function UniversityDetailPage({ params }: { params: Promise
                             <CardContent className="space-y-6">
                                 <div className="grid md:grid-cols-2 gap-6">
                                     <div className="space-y-4">
-                                        {uni.address && (
-                                            <div className="flex items-start">
-                                                <MapPin className="h-5 w-5 mr-3 mt-1 text-primary" />
-                                                <div>
-                                                    <p className="font-semibold">Adres</p>
-                                                    <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(uni.address)}`} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                                                        {uni.address}
-                                                    </a>
-                                                </div>
+                                        {/* Placeholder for now as we don't have scraped contact info */}
+                                        <div className="flex items-start">
+                                            <MapPin className="h-5 w-5 mr-3 mt-1 text-primary" />
+                                            <div>
+                                                <p className="font-semibold">Adres</p>
+                                                <p className="text-muted-foreground">{uni.university_name} Kampüsü, {uni.city}</p>
                                             </div>
-                                        )}
-                                        {uni.phone && (
-                                            <div className="flex items-center">
-                                                <Phone className="h-5 w-5 mr-3 text-primary" />
-                                                <div>
-                                                    <p className="font-semibold">Telefon</p>
-                                                    <p className="text-muted-foreground">{uni.phone}</p>
-                                                </div>
+                                        </div>
+
+                                        <div className="flex items-center">
+                                            <Globe className="h-5 w-5 mr-3 text-primary" />
+                                            <div>
+                                                <p className="font-semibold">Web Sitesi</p>
+                                                <a href={`https://www.google.com/search?q=${encodeURIComponent(uni.university_name)}`} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                                                    Web sitesini ara
+                                                </a>
                                             </div>
-                                        )}
-                                        {uni.website && (
-                                            <div className="flex items-center">
-                                                <Globe className="h-5 w-5 mr-3 text-primary" />
-                                                <div>
-                                                    <p className="font-semibold">Web Sitesi</p>
-                                                    <a href={uni.website} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                                                        {uni.website}
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        )}
+                                        </div>
                                     </div>
                                     <div className="h-64 bg-muted rounded-lg flex items-center justify-center text-muted-foreground border-2 border-dashed">
                                         Harita Yeri (Placeholder)

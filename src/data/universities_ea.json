@@ -1,0 +1,452 @@
+[
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "Ekonomi (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 527.81326,
+        "rank": 94,
+        "type": "EA",
+        "slug": "koc-universitesi-ekonomi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "İşletme (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 513.53934,
+        "rank": 277,
+        "type": "EA",
+        "slug": "koc-universitesi-isletme-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "Hukuk Fakültesi",
+        "program": "Hukuk (Burslu) (4 Yıllık)",
+        "score": 504.59636,
+        "rank": 473,
+        "type": "EA",
+        "slug": "koc-universitesi-hukuk-burslu-4-yillik"
+    },
+    {
+        "university": "SABANCI ÜNİVERSİTESİ",
+        "faculty": "Yönetim Bilimleri Fakültesi",
+        "program": "Yönetim Bilimleri Programları (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 514.67764,
+        "rank": 256,
+        "type": "EA",
+        "slug": "sabanci-universitesi-yonetim-bilimleri-programlari-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "Hukuk Fakültesi",
+        "program": "Hukuk (Burslu) (4 Yıllık)",
+        "score": 511.77162,
+        "rank": 305,
+        "type": "EA",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-hukuk-burslu-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+        "program": "İktisat (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 511.5179,
+        "rank": 311,
+        "type": "EA",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-iktisat-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "Uluslararası İlişkiler (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 497.91293,
+        "rank": 651,
+        "type": "EA",
+        "slug": "koc-universitesi-uluslararasi-iliskiler-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "GALATASARAY ÜNİVERSİTESİ",
+        "faculty": "Hukuk Fakültesi",
+        "program": "Hukuk (Fransızca) (4 Yıllık)",
+        "score": 506.5822,
+        "rank": 425,
+        "type": "EA",
+        "slug": "galatasaray-universitesi-hukuk-fransizca-4-yillik"
+    },
+    {
+        "university": "SABANCI ÜNİVERSİTESİ",
+        "faculty": "Sanat ve Sosyal Bilimler Fakültesi",
+        "program": "Sanat ve Sosyal Bilimler Programları (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 507.45773,
+        "rank": 403,
+        "type": "EA",
+        "slug": "sabanci-universitesi-sanat-ve-sosyal-bilimler-programlari-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+        "program": "Psikoloji (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 507.02582,
+        "rank": 414,
+        "type": "EA",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-psikoloji-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "İşletme (İngilizce) (4 Yıllık)",
+        "score": 499.55354,
+        "rank": 609,
+        "type": "EA",
+        "slug": "bogazici-universitesi-isletme-ingilizce-4-yillik"
+    },
+    {
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "İktisat (İngilizce) (4 Yıllık)",
+        "score": 502.36817,
+        "rank": 529,
+        "type": "EA",
+        "slug": "bogazici-universitesi-iktisat-ingilizce-4-yillik"
+    },
+    {
+        "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "faculty": "Hukuk Fakültesi",
+        "program": "Hukuk (Burslu) (4 Yıllık)",
+        "score": 496.90655,
+        "rank": 691,
+        "type": "EA",
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-hukuk-burslu-4-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "İnsani Bilimler ve Edebiyat Fakültesi",
+        "program": "Psikoloji (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 498.66994,
+        "rank": 630,
+        "type": "EA",
+        "slug": "koc-universitesi-psikoloji-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "İnsani Bilimler ve Edebiyat Fakültesi",
+        "program": "Sosyoloji (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 497.41116,
+        "rank": 670,
+        "type": "EA",
+        "slug": "koc-universitesi-sosyoloji-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "İşletme Fakültesi",
+        "program": "İşletme (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 502.7933,
+        "rank": 515,
+        "type": "EA",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-isletme-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "Yönetim Bilişim Sistemleri (İngilizce) (4 Yıllık)",
+        "score": 492.59774,
+        "rank": 845,
+        "type": "EA",
+        "slug": "bogazici-universitesi-yonetim-bilisim-sistemleri-ingilizce-4-yillik"
+    },
+    {
+        "university": "ÖZYEĞİN ÜNİVERSİTESİ",
+        "faculty": "İşletme Fakültesi",
+        "program": "Yönetim Bilişim Sistemleri (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 494.20987,
+        "rank": 768,
+        "type": "EA",
+        "slug": "ozyegin-universitesi-yonetim-bilisim-sistemleri-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "Uluslararası Ticaret (İngilizce) (4 Yıllık)",
+        "score": 484.7241,
+        "rank": 1169,
+        "type": "EA",
+        "slug": "bogazici-universitesi-uluslararasi-ticaret-ingilizce-4-yillik"
+    },
+    {
+        "university": "ÖZYEĞİN ÜNİVERSİTESİ",
+        "faculty": "İşletme Fakültesi",
+        "program": "Ekonomi (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 497.13665,
+        "rank": 683,
+        "type": "EA",
+        "slug": "ozyegin-universitesi-ekonomi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+        "program": "Uluslararası İlişkiler (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 494.57446,
+        "rank": 756,
+        "type": "EA",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-uluslararasi-iliskiler-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "İktisat (Burslu) (4 Yıllık)",
+        "score": 489.07795,
+        "rank": 975,
+        "type": "EA",
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-iktisat-burslu-4-yillik"
+    },
+    {
+        "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "İşletme (Burslu) (4 Yıllık)",
+        "score": 489.15509,
+        "rank": 972,
+        "type": "EA",
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-isletme-burslu-4-yillik"
+    },
+    {
+        "university": "ÖZYEĞİN ÜNİVERSİTESİ",
+        "faculty": "İşletme Fakültesi",
+        "program": "İşletme (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 491.53017,
+        "rank": 879,
+        "type": "EA",
+        "slug": "ozyegin-universitesi-isletme-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "ÖZYEĞİN ÜNİVERSİTESİ",
+        "faculty": "Hukuk Fakültesi",
+        "program": "Hukuk (Burslu) (4 Yıllık)",
+        "score": 486.42701,
+        "rank": 1091,
+        "type": "EA",
+        "slug": "ozyegin-universitesi-hukuk-burslu-4-yillik"
+    },
+    {
+        "university": "KOÇ ÜNİVERSİTESİ",
+        "faculty": "İnsani Bilimler ve Edebiyat Fakültesi",
+        "program": "Felsefe (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 468.7967,
+        "rank": 2083,
+        "type": "EA",
+        "slug": "koc-universitesi-felsefe-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "GALATASARAY ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "İktisat (Fransızca) (4 Yıllık)",
+        "score": 479.22046,
+        "rank": 1447,
+        "type": "EA",
+        "slug": "galatasaray-universitesi-iktisat-fransizca-4-yillik"
+    },
+    {
+        "university": "GALATASARAY ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "İşletme (Fransızca) (4 Yıllık)",
+        "score": 480.42451,
+        "rank": 1389,
+        "type": "EA",
+        "slug": "galatasaray-universitesi-isletme-fransizca-4-yillik"
+    },
+    {
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "İşletme (İngilizce) (4 Yıllık)",
+        "score": 477.59202,
+        "rank": 1520,
+        "type": "EA",
+        "slug": "orta-dogu-teknik-universitesi-isletme-ingilizce-4-yillik"
+    },
+    {
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "faculty": "Hukuk Fakültesi",
+        "program": "Hukuk (4 Yıllık)",
+        "score": 483.20477,
+        "rank": 1240,
+        "type": "EA",
+        "slug": "bogazici-universitesi-hukuk-4-yillik"
+    },
+    {
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "İktisat (İngilizce) (4 Yıllık)",
+        "score": 477.75383,
+        "rank": 1512,
+        "type": "EA",
+        "slug": "orta-dogu-teknik-universitesi-iktisat-ingilizce-4-yillik"
+    },
+    {
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "Siyaset Bilimi ve Uluslararası İlişkiler (İngilizce) (4 Yıllık)",
+        "score": 480.89713,
+        "rank": 1362,
+        "type": "EA",
+        "slug": "bogazici-universitesi-siyaset-bilimi-ve-uluslararasi-iliskiler-ingilizce-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "Hukuk Fakültesi",
+        "program": "Hukuk (%50 İndirimli) (4 Yıllık)",
+        "score": 484.19353,
+        "rank": 1191,
+        "type": "EA",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-hukuk-50-indirimli-4-yillik"
+    },
+    {
+        "university": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "faculty": "İşletme Fakültesi",
+        "program": "Ekonomi (İngilizce) (4 Yıllık)",
+        "score": 475.94136,
+        "rank": 1608,
+        "type": "EA",
+        "slug": "istanbul-teknik-universitesi-ekonomi-ingilizce-4-yillik"
+    },
+    {
+        "university": "ÖZYEĞİN ÜNİVERSİTESİ",
+        "faculty": "İşletme Fakültesi",
+        "program": "Uluslararası Ticaret ve İşletmecilik (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 479.91833,
+        "rank": 1417,
+        "type": "EA",
+        "slug": "ozyegin-universitesi-uluslararasi-ticaret-ve-isletmecilik-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "Uluslararası Girişimcilik (Burslu) (4 Yıllık)",
+        "score": 487.99344,
+        "rank": 1027,
+        "type": "EA",
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-uluslararasi-girisimcilik-burslu-4-yillik"
+    },
+    {
+        "university": "ÖZYEĞİN ÜNİVERSİTESİ",
+        "faculty": "İşletme Fakültesi",
+        "program": "Uluslararası Finans (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 485.20757,
+        "rank": 1142,
+        "type": "EA",
+        "slug": "ozyegin-universitesi-uluslararasi-finans-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "GALATASARAY ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "Uluslararası İlişkiler (Fransızca) (4 Yıllık)",
+        "score": 472.78185,
+        "rank": 1819,
+        "type": "EA",
+        "slug": "galatasaray-universitesi-uluslararasi-iliskiler-fransizca-4-yillik"
+    },
+    {
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "faculty": "İnsan ve Toplum Bilimleri Fakültesi",
+        "program": "Psikoloji (İngilizce) (4 Yıllık)",
+        "score": 473.37888,
+        "rank": 1779,
+        "type": "EA",
+        "slug": "bogazici-universitesi-psikoloji-ingilizce-4-yillik"
+    },
+    {
+        "university": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+        "program": "Siyaset Bilimi ve Kamu Yönetimi (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 474.99118,
+        "rank": 1671,
+        "type": "EA",
+        "slug": "ihsan-dogramaci-bilkent-universitesi-siyaset-bilimi-ve-kamu-yonetimi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "İSTANBUL ÜNİVERSİTESİ",
+        "faculty": "Hukuk Fakültesi",
+        "program": "Hukuk (UOLP-Hamburg Üniversitesi) (Ücretli) (4 Yıllık)",
+        "score": 475.74286,
+        "rank": 1619,
+        "type": "EA",
+        "slug": "istanbul-universitesi-hukuk-uolp-hamburg-universitesi-ucretli-4-yillik"
+    },
+    {
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "Uluslararası İlişkiler (İngilizce) (4 Yıllık)",
+        "score": 467.93389,
+        "rank": 2149,
+        "type": "EA",
+        "slug": "orta-dogu-teknik-universitesi-uluslararasi-iliskiler-ingilizce-4-yillik"
+    },
+    {
+        "university": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "faculty": "İktisadi and İdari Bilimler Fakültesi",
+        "program": "Siyaset Bilimi ve Uluslararası İlişkiler (Burslu) (4 Yıllık)",
+        "score": 469.99593,
+        "rank": 1993,
+        "type": "EA",
+        "slug": "tobb-ekonomi-ve-teknoloji-universitesi-siyaset-bilimi-ve-uluslararasi-iliskiler-burslu-4-yillik"
+    },
+    {
+        "university": "YEDİTEPE ÜNİVERSİTESİ",
+        "faculty": "Hukuk Fakültesi",
+        "program": "Hukuk (Burslu) (4 Yıllık)",
+        "score": 476.80859,
+        "rank": 1559,
+        "type": "EA",
+        "slug": "yeditepe-universitesi-hukuk-burslu-4-yillik"
+    },
+    {
+        "university": "YEDİTEPE ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "Ekonomi (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 471.35727,
+        "rank": 1900,
+        "type": "EA",
+        "slug": "yeditepe-universitesi-ekonomi-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "ÖZYEĞİN ÜNİVERSİTESİ",
+        "faculty": "Sosyal Bilimler Fakültesi",
+        "program": "Uluslararası İlişkiler (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 475.21132,
+        "rank": 1657,
+        "type": "EA",
+        "slug": "ozyegin-universitesi-uluslararasi-iliskiler-ingilizce-burslu-4-yillik"
+    },
+    {
+        "university": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "Turizm İşletmeciliği (İngilizce) (4 Yıllık)",
+        "score": 464.11191,
+        "rank": 2450,
+        "type": "EA",
+        "slug": "bogazici-universitesi-turizm-isletmeciligi-ingilizce-4-yillik"
+    },
+    {
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "faculty": "İktisadi ve İdari Bilimler Fakültesi",
+        "program": "İşletme (İngilizce) (UOLP-Suny Binghamton) (%50 İndirimli) (4 Yıllık)",
+        "score": 476.6765,
+        "rank": 1568,
+        "type": "EA",
+        "slug": "orta-dogu-teknik-universitesi-isletme-ingilizce-uolp-suny-binghamton-50-indirimli-4-yillik"
+    },
+    {
+        "university": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ",
+        "faculty": "Fen-Edebiyat Fakültesi",
+        "program": "Psikoloji (İngilizce) (4 Yıllık)",
+        "score": 467.83988,
+        "rank": 2155,
+        "type": "EA",
+        "slug": "orta-dogu-teknik-universitesi-psikoloji-ingilizce-4-yillik"
+    },
+    {
+        "university": "YEDİTEPE ÜNİVERSİTESİ",
+        "faculty": "Bilgisayar ve Bilişim Bilimleri Fakültesi",
+        "program": "Yönetim Bilişim Sistemleri (İngilizce) (Burslu) (4 Yıllık)",
+        "score": 467.99321,
+        "rank": 2143,
+        "type": "EA",
+        "slug": "yeditepe-universitesi-yonetim-bilisim-sistemleri-ingilizce-burslu-4-yillik"
+    }
+]
