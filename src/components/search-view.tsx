@@ -239,13 +239,13 @@ export function SearchView({ initialType }: SearchViewProps) {
                                     </div>
 
                                     <div className="space-y-2">
-                                        <Label>Okul Türü</Label>
-                                        <Select value={liseType} onValueChange={setLiseType}>
+                                        <label>Okul Türü</label>
+                                        <Select value={liseType || "all"} onValueChange={(val) => setLiseType(val === "all" ? "" : val)}>
                                             <SelectTrigger>
                                                 <SelectValue placeholder="Tümü" />
                                             </SelectTrigger>
                                             <SelectContent>
-                                                <SelectItem value="">Tümü</SelectItem>
+                                                <SelectItem value="all">Tümü</SelectItem>
                                                 <SelectItem value="Fen">Fen Lisesi</SelectItem>
                                                 <SelectItem value="Anadolu">Anadolu Lisesi</SelectItem>
                                                 <SelectItem value="Anadolu İmam Hatip">Anadolu İmam Hatip</SelectItem>

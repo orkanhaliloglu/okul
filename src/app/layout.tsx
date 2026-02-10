@@ -65,6 +65,7 @@ export default function RootLayout({
         <Header />
         {children}
         <ReviewsSection />
+        <Toaster />
         <GoogleAnalytics gaId="G-9NVZP6QKWH" />
       </body>
     </html>
