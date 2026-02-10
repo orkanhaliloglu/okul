@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, Suspense } from "react";
 import Link from "next/link";
 import { GraduationCap, School, Search, MapPin, ChevronRight, BookOpen, Calculator, ArrowLeft, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
