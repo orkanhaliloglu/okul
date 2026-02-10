@@ -21,41 +21,10 @@ export default function Home() {
 }
 
 function HomeContent() {
-  const searchParams = useSearchParams();
-  const router = useRouter();
-  const pathname = usePathname();
-
-  // Derived state from URL
-  const activeTab = searchParams.get("tab");
-
-  const [admissionType, setAdmissionType] = useState<'LGS' | 'OBP'>('LGS');
-  const [filters, setFilters] = useState({
-    liseQuery: '',
-    liseCity: '',
-    liseType: '',
-    liseMinScore: '',
-    uniQuery: '',
-    uniCity: '',
-    uniMinScore: ''
-  });
-
-  const handleTabChange = (tab: string | null) => {
-    const params = new URLSearchParams(searchParams.toString());
-    if (tab) {
-      params.set("tab", tab);
-    } else {
-      params.delete("tab");
-    }
-    router.replace(`${pathname}?${params.toString()}`, { scroll: false });
-  };
-
   return (
     <div className="flex min-h-screen flex-col">
-      {/* Header removed - now in RootLayout */}
-
       <main className="flex-1">
         <section className="relative space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32 min-h-[95vh] flex flex-col justify-center overflow-hidden">
-          {/* Background Image with Overlay */}
           {/* Background Image with Overlay */}
           <div className="absolute inset-0 z-0 overflow-hidden">
             <img
@@ -100,243 +69,58 @@ function HomeContent() {
             </p>
 
             <div className="w-full max-w-4xl mt-12">
-              {!activeTab ? (
-                <div className="grid md:grid-cols-2 gap-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
-                  <Card
-                    className="group cursor-pointer border-2 hover:border-indigo-500 transition-all hover:scale-105 hover:shadow-xl bg-white/80 dark:bg-black/50 backdrop-blur-sm"
-                    onClick={() => handleTabChange("lise")}
-                  >
-                    <CardContent className="p-8 flex flex-col items-center text-center space-y-4">
+              <div className="grid md:grid-cols-2 gap-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
+                <Link href="/lgs-tercih-robotu" className="block h-full">
+                  <Card className="group cursor-pointer border-2 hover:border-indigo-500 transition-all hover:scale-105 hover:shadow-xl bg-white/80 dark:bg-black/50 backdrop-blur-sm h-full">
+                    <CardContent className="p-8 flex flex-col items-center text-center space-y-4 h-full">
                       <div className="p-4 rounded-full bg-indigo-100 dark:bg-indigo-900/30 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
                         <School className="h-10 w-10 text-indigo-600 dark:text-indigo-400 group-hover:text-white" />
                       </div>
                       <h3 className="text-2xl font-bold">Lise Arıyorum</h3>
-                      <p className="text-muted-foreground">
+                      <p className="text-muted-foreground flex-1">
                         LGS puanınla veya okul ortalamanla (OBP) gidebileceğin en iyi liseleri keşfet.
                       </p>
-                      <Button variant="outline" className="mt-4 group-hover:bg-indigo-600 group-hover:text-white">
+                      <Button variant="outline" className="mt-4 group-hover:bg-indigo-600 group-hover:text-white w-full">
                         Liseleri İncele <ChevronRight className="ml-2 h-4 w-4" />
                       </Button>
                     </CardContent>
                   </Card>
+                </Link>
 
-                  <Card
-                    className="group cursor-pointer border-2 hover:border-violet-500 transition-all hover:scale-105 hover:shadow-xl bg-white/80 dark:bg-black/50 backdrop-blur-sm"
-                    onClick={() => handleTabChange("universite")}
-                  >
-                    <CardContent className="p-8 flex flex-col items-center text-center space-y-4">
+                <Link href="/yks-tercih-robotu" className="block h-full">
+                  <Card className="group cursor-pointer border-2 hover:border-violet-500 transition-all hover:scale-105 hover:shadow-xl bg-white/80 dark:bg-black/50 backdrop-blur-sm h-full">
+                    <CardContent className="p-8 flex flex-col items-center text-center space-y-4 h-full">
                       <div className="p-4 rounded-full bg-violet-100 dark:bg-violet-900/30 group-hover:bg-violet-600 group-hover:text-white transition-colors">
                         <GraduationCap className="h-10 w-10 text-violet-600 dark:text-violet-400 group-hover:text-white" />
                       </div>
                       <h3 className="text-2xl font-bold">Üniversite Arıyorum</h3>
-                      <p className="text-muted-foreground">
+                      <p className="text-muted-foreground flex-1">
                         YKS (TYT-AYT) puanına veya başarı sıralamana göre hayalindeki üniversiteyi bul.
                       </p>
-                      <Button variant="outline" className="mt-4 group-hover:bg-violet-600 group-hover:text-white">
+                      <Button variant="outline" className="mt-4 group-hover:bg-violet-600 group-hover:text-white w-full">
                         Üniversiteleri İncele <ChevronRight className="ml-2 h-4 w-4" />
                       </Button>
                     </CardContent>
                   </Card>
+                </Link>
 
-                  <Card
-                    className="md:col-span-2 group cursor-pointer border-2 hover:border-emerald-500 transition-all hover:shadow-xl bg-white/80 dark:bg-black/50 backdrop-blur-sm mt-4"
-                    onClick={() => handleTabChange("calculator")}
-                  >
+                <Link href="/puan-hesaplama" className="block h-full md:col-span-2">
+                  <Card className="group cursor-pointer border-2 hover:border-emerald-500 transition-all hover:shadow-xl bg-white/80 dark:bg-black/50 backdrop-blur-sm mt-0 h-full">
                     <CardContent className="p-6 flex items-center justify-between">
                       <div className="flex items-center gap-4">
                         <div className="p-3 rounded-full bg-emerald-100 dark:bg-emerald-900/30 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
                           <Calculator className="h-6 w-6 text-emerald-600 dark:text-emerald-400 group-hover:text-white" />
                         </div>
                         <div className="text-left">
-                          <h3 className="text-lg font-bold">LGS Puan Hesaplama</h3>
-                          <p className="text-sm text-muted-foreground">Netlerini gir, tahmini puanını anında öğren.</p>
+                          <h3 className="text-lg font-bold">Puan Hesaplama</h3>
+                          <p className="text-sm text-muted-foreground">LGS ve YKS (TYT-AYT) puanını anında hesapla.</p>
                         </div>
                       </div>
                       <ChevronRight className="h-5 w-5 text-muted-foreground group-hover:translate-x-1 transition-transform" />
                     </CardContent>
                   </Card>
-                </div>
-              ) : (
-                <div className="animate-in fade-in slide-in-from-right-8 duration-500">
-                  <div className="mb-6 flex justify-start">
-                    <Button
-                      variant="ghost"
-                      onClick={() => handleTabChange(null)}
-                      className="text-muted-foreground hover:text-foreground"
-                    >
-                      <ArrowLeft className="mr-2 h-4 w-4" /> Geri Dön
-                    </Button>
-                  </div>
-
-                  <Card className="border-0 shadow-2xl ring-1 ring-gray-900/5 backdrop-blur-sm bg-white/80 dark:bg-black/50 overflow-hidden">
-                    <CardContent className="p-0">
-                      <Tabs value={activeTab as string} onValueChange={(val) => handleTabChange(val)} className="w-full">
-                        <div className="bg-muted/30 border-b p-4">
-                          <h2 className="text-2xl font-bold flex items-center gap-3">
-                            {activeTab === "lise" && <><School className="h-6 w-6 text-indigo-600" /> Lise Arama Filtreleri</>}
-                            {activeTab === "universite" && <><GraduationCap className="h-6 w-6 text-violet-600" /> Üniversite Arama Filtreleri</>}
-                            {activeTab === "calculator" && <><Calculator className="h-6 w-6 text-emerald-600" /> Puan Hesaplama</>}
-                          </h2>
-                        </div>
-
-                        <div className="p-6">
-                          <TabsContent value="lise" className="mt-0 space-y-6">
-                            <p className="text-muted-foreground text-left mb-4">
-                              Aradığın lisenin özelliklerini aşağıdan seçerek filtreleyebilirsin.
-                            </p>
-                            <div className="space-y-3 text-left">
-                              <label className="text-sm font-medium">Giriş Türü</label>
-                              <div className="grid grid-cols-2 gap-4">
-                                <button
-                                  onClick={() => setAdmissionType('LGS')}
-                                  className={`relative flex flex-col items-center gap-2 rounded-lg border-2 p-4 transition-all ${admissionType === 'LGS' ? "border-indigo-600 bg-indigo-50 dark:bg-indigo-900/20" : "border-muted bg-transparent hover:bg-accent hover:text-accent-foreground"}`}
-                                >
-                                  <span className="text-lg font-bold">LGS Puanı</span>
-                                  <span className="text-xs text-muted-foreground text-center">Merkezi Sınav ile</span>
-                                  {admissionType === 'LGS' && <Check className="absolute top-2 right-2 h-4 w-4 text-indigo-600" />}
-                                </button>
-                                <button
-                                  onClick={() => setAdmissionType('OBP')}
-                                  className={`relative flex flex-col items-center gap-2 rounded-lg border-2 p-4 transition-all ${admissionType === 'OBP' ? "border-indigo-600 bg-indigo-50 dark:bg-indigo-900/20" : "border-muted bg-transparent hover:bg-accent hover:text-accent-foreground"}`}
-                                >
-                                  <span className="text-lg font-bold">Diploma Notu</span>
-                                  <span className="text-xs text-muted-foreground text-center">Okul Başarısı ile</span>
-                                  {admissionType === 'OBP' && <Check className="absolute top-2 right-2 h-4 w-4 text-indigo-600" />}
-                                </button>
-                              </div>
-                            </div>
-
-                            <div className="space-y-2 text-left">
-                              <label className="text-sm font-medium">Okul Adı (İsteğe Bağlı)</label>
-                              <div className="relative">
-                                <Search className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-                                <Input
-                                  placeholder="Örn: Fen Lisesi, Anadolu Lisesi..."
-                                  className="pl-9"
-                                  value={filters.liseQuery}
-                                  onChange={(e) => setFilters({ ...filters, liseQuery: e.target.value })}
-                                />
-                              </div>
-                            </div>
-
-                            <div className="space-y-2 text-left">
-                              <label className="text-sm font-medium">Okul Türü</label>
-                              <Select value={filters.liseType} onValueChange={(val) => setFilters({ ...filters, liseType: val === 'all' ? '' : val })}>
-                                <SelectTrigger className="bg-white/90 dark:bg-black/20">
-                                  <SelectValue placeholder="Tümü" />
-                                </SelectTrigger>
-                                <SelectContent>
-                                  <SelectItem value="all">Tümü</SelectItem>
-                                  <SelectItem value="Fen">Fen Lisesi</SelectItem>
-                                  <SelectItem value="Anadolu">Anadolu Lisesi</SelectItem>
-                                  <SelectItem value="Anadolu İmam Hatip">Anadolu İmam Hatip Lisesi</SelectItem>
-                                  <SelectItem value="Sosyal Bilimler">Sosyal Bilimler Lisesi</SelectItem>
-                                  <SelectItem value="Mesleki ve Teknik">Mesleki ve Teknik Anadolu Lisesi</SelectItem>
-                                </SelectContent>
-                              </Select>
-                            </div>
-
-                            <div className="grid gap-6 md:grid-cols-2">
-                              <div className="space-y-2 text-left">
-                                <label className="text-sm font-medium">Şehir</label>
-                                <div className="relative">
-                                  <MapPin className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-                                  <Input
-                                    placeholder="İl Seçiniz (Örn: İstanbul)"
-                                    className="pl-9"
-                                    value={filters.liseCity}
-                                    onChange={(e) => setFilters({ ...filters, liseCity: e.target.value })}
-                                  />
-                                </div>
-                              </div>
-                              <div className="space-y-2 text-left">
-                                <label className="text-sm font-medium">Puan (Min)</label>
-                                <div className="relative">
-                                  <School className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-                                  <Input
-                                    placeholder="Örn: 400"
-                                    className="pl-9"
-                                    type="number"
-                                    value={filters.liseMinScore}
-                                    onChange={(e) => setFilters({ ...filters, liseMinScore: e.target.value })}
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                            <Link
-                              href={`/lgs-tercih-robotu?admission=${admissionType}${filters.liseCity ? `&city=${filters.liseCity}` : ''}${filters.liseMinScore ? `&minScore=${filters.liseMinScore}` : ''}${filters.liseQuery ? `&q=${filters.liseQuery}` : ''}${filters.liseType ? `&schoolType=${filters.liseType}` : ''}`}
-                              className="block w-full"
-                            >
-                              <Button size="lg" className="w-full bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white shadow-lg shadow-indigo-500/25 mt-4">
-                                <Search className="mr-2 h-5 w-5" />
-                                Liseleri Listele
-                              </Button>
-                            </Link>
-                          </TabsContent>
-
-                          <TabsContent value="universite" className="mt-0 space-y-6">
-                            <p className="text-muted-foreground text-left mb-4">
-                              Üniversite ve bölüm tercihlerine göre arama yap.
-                            </p>
-                            <div className="grid gap-6 md:grid-cols-3">
-                              <div className="space-y-2 text-left">
-                                <label className="text-sm font-medium">Bölüm / Üniversite Adı</label>
-                                <div className="relative">
-                                  <BookOpen className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-                                  <Input
-                                    placeholder="Örn: Bilgisayar, ODTÜ..."
-                                    className="pl-9"
-                                    value={filters.uniQuery}
-                                    onChange={(e) => setFilters({ ...filters, uniQuery: e.target.value })}
-                                  />
-                                </div>
-                              </div>
-                              <div className="space-y-2 text-left">
-                                <label className="text-sm font-medium">Şehir</label>
-                                <div className="relative">
-                                  <MapPin className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-                                  <Input
-                                    placeholder="İl Seçiniz"
-                                    className="pl-9"
-                                    value={filters.uniCity}
-                                    onChange={(e) => setFilters({ ...filters, uniCity: e.target.value })}
-                                  />
-                                </div>
-                              </div>
-                              <div className="space-y-2 text-left">
-                                <label className="text-sm font-medium">Puan (Min)</label>
-                                <div className="relative">
-                                  <GraduationCap className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-                                  <Input
-                                    placeholder="Örn: 450"
-                                    className="pl-9"
-                                    type="number"
-                                    value={filters.uniMinScore}
-                                    onChange={(e) => setFilters({ ...filters, uniMinScore: e.target.value })}
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                            <Link
-                              href={`/yks-tercih-robotu?${filters.uniQuery ? `q=${filters.uniQuery}` : ''}${filters.uniQuery && filters.uniCity ? '&' : ''}${filters.uniCity ? `city=${filters.uniCity}` : ''}${filters.uniMinScore ? `&minScore=${filters.uniMinScore}` : ''}`}
-                              className="block w-full"
-                            >
-                              <Button size="lg" className="w-full bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white shadow-lg shadow-indigo-500/25 mt-4">
-                                <Search className="mr-2 h-5 w-5" />
-                                Üniversite Ara
-                              </Button>
-                            </Link>
-                          </TabsContent>
-
-                          <TabsContent value="calculator" className="mt-0">
-                            <ScoreWizard />
-                          </TabsContent>
-                        </div>
-                      </Tabs>
-                    </CardContent>
-                  </Card>
-                </div>
-              )}
+                </Link>
+              </div>
             </div>
           </div>
         </section>
