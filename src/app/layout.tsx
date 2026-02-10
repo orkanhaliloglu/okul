@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { ReviewsSection } from "@/components/reviews-section";
+import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: {
