@@ -221,12 +221,12 @@ function HomeContent() {
 
                             <div className="space-y-2 text-left">
                               <label className="text-sm font-medium">Okul Türü</label>
-                              <Select value={filters.liseType} onValueChange={(val) => setFilters({ ...filters, liseType: val === 'ALL' ? '' : val })}>
+                              <Select value={filters.liseType} onValueChange={(val) => setFilters({ ...filters, liseType: val === 'all' ? '' : val })}>
                                 <SelectTrigger className="bg-white/90 dark:bg-black/20">
                                   <SelectValue placeholder="Tümü" />
                                 </SelectTrigger>
                                 <SelectContent>
-                                  <SelectItem value="ALL">Tümü</SelectItem>
+                                  <SelectItem value="all">Tümü</SelectItem>
                                   <SelectItem value="Fen">Fen Lisesi</SelectItem>
                                   <SelectItem value="Anadolu">Anadolu Lisesi</SelectItem>
                                   <SelectItem value="Anadolu İmam Hatip">Anadolu İmam Hatip Lisesi</SelectItem>
