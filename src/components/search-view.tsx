@@ -46,7 +46,8 @@ export function SearchView({ initialType }: SearchViewProps) {
 
     // High School Filters
     const [liseCity, setLiseCity] = useState(searchParams.get("city") || "");
-    const [liseQuery, setLiseQuery] = useState(searchParams.get("q") || ""); // Reusing 'q' param for Lise name search
+    const [liseQuery, setLiseQuery] = useState(searchParams.get("q") || "");
+    const [liseType, setLiseType] = useState(searchParams.get("schoolType") || ""); // 'Fen', 'Anadolu' etc.
     const [liseMinScore, setLiseMinScore] = useState(searchParams.get("minScore") || "");
     const [admissionType, setAdmissionType] = useState(searchParams.get("admission") || "LGS"); // LGS or OBP
 
@@ -75,6 +76,7 @@ export function SearchView({ initialType }: SearchViewProps) {
         if (type === 'lise') {
             if (liseCity) params.set('city', liseCity);
             if (liseQuery) params.set('q', liseQuery);
+            if (liseType) params.set('schoolType', liseType);
             if (liseMinScore) params.set('minScore', liseMinScore);
             if (admissionType) params.set('admission', admissionType);
         } else {
@@ -90,7 +92,7 @@ export function SearchView({ initialType }: SearchViewProps) {
         if (currentString !== newString) {
             router.replace(`${pathname}?${newString}`, { scroll: false });
         }
-    }, [type, liseCity, liseQuery, liseMinScore, admissionType, uniQuery, uniCity, uniMinScore, uniScoreType, pathname, router, searchParams]);
+    }, [type, liseCity, liseQuery, liseType, liseMinScore, admissionType, uniQuery, uniCity, uniMinScore, uniScoreType, pathname, router, searchParams]);
 
     // Fetch Data
     useEffect(() => {
@@ -102,7 +104,9 @@ export function SearchView({ initialType }: SearchViewProps) {
                     query = supabase.from('high_schools').select('*');
 
                     if (liseCity) query = query.ilike('city', `%${liseCity}%`);
+                    if (liseCity) query = query.ilike('city', `%${liseCity}%`);
                     if (liseQuery) query = query.ilike('name', `%${liseQuery}%`);
+                    if (liseType) query = query.eq('type', liseType);
                     if (liseMinScore) {
                         // Show schools where admission score is <= user score (roughly)
                         // Or just show schools around that score. 
@@ -174,7 +178,7 @@ export function SearchView({ initialType }: SearchViewProps) {
         // Debounce
         const timeout = setTimeout(fetchData, 300);
         return () => clearTimeout(timeout);
-    }, [type, liseCity, liseQuery, liseMinScore, admissionType, uniQuery, uniCity, uniMinScore, uniScoreType]);
+    }, [type, liseCity, liseQuery, liseType, liseMinScore, admissionType, uniQuery, uniCity, uniMinScore, uniScoreType]);
 
 
     return (
@@ -233,6 +237,23 @@ export function SearchView({ initialType }: SearchViewProps) {
                                                 onChange={(e) => setLiseCity(e.target.value)}
                                             />
                                         </div>
+                                    </div>
+
+                                    <div className="space-y-2">
+                                        <Label>Okul Türü</Label>
+                                        <Select value={liseType} onValueChange={setLiseType}>
+                                            <SelectTrigger>
+                                                <SelectValue placeholder="Tümü" />
+                                            </SelectTrigger>
+                                            <SelectContent>
+                                                <SelectItem value="">Tümü</SelectItem>
+                                                <SelectItem value="Fen">Fen Lisesi</SelectItem>
+                                                <SelectItem value="Anadolu">Anadolu Lisesi</SelectItem>
+                                                <SelectItem value="Anadolu İmam Hatip">Anadolu İmam Hatip</SelectItem>
+                                                <SelectItem value="Sosyal Bilimler">Sosyal Bilimler</SelectItem>
+                                                <SelectItem value="Mesleki ve Teknik">Meslek Lisesi</SelectItem>
+                                            </SelectContent>
+                                        </Select>
                                     </div>
 
                                     <div className="space-y-2">

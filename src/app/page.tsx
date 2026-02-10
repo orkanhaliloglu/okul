@@ -1,12 +1,13 @@
 "use client";
 
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
-import { Suspense } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { GraduationCap, School, Search, MapPin, ChevronRight, BookOpen, Calculator, ArrowLeft, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ScoreWizard } from "@/components/score-wizard";
@@ -31,6 +32,7 @@ function HomeContent() {
   const [filters, setFilters] = useState({
     liseQuery: '',
     liseCity: '',
+    liseType: '',
     liseMinScore: '',
     uniQuery: '',
     uniCity: '',
@@ -217,6 +219,23 @@ function HomeContent() {
                               </div>
                             </div>
 
+                            <div className="space-y-2 text-left">
+                              <label className="text-sm font-medium">Okul Türü</label>
+                              <Select value={filters.liseType} onValueChange={(val) => setFilters({ ...filters, liseType: val === 'ALL' ? '' : val })}>
+                                <SelectTrigger className="bg-white/90 dark:bg-black/20">
+                                  <SelectValue placeholder="Tümü" />
+                                </SelectTrigger>
+                                <SelectContent>
+                                  <SelectItem value="ALL">Tümü</SelectItem>
+                                  <SelectItem value="Fen">Fen Lisesi</SelectItem>
+                                  <SelectItem value="Anadolu">Anadolu Lisesi</SelectItem>
+                                  <SelectItem value="Anadolu İmam Hatip">Anadolu İmam Hatip Lisesi</SelectItem>
+                                  <SelectItem value="Sosyal Bilimler">Sosyal Bilimler Lisesi</SelectItem>
+                                  <SelectItem value="Mesleki ve Teknik">Mesleki ve Teknik Anadolu Lisesi</SelectItem>
+                                </SelectContent>
+                              </Select>
+                            </div>
+
                             <div className="grid gap-6 md:grid-cols-2">
                               <div className="space-y-2 text-left">
                                 <label className="text-sm font-medium">Şehir</label>
@@ -245,7 +264,7 @@ function HomeContent() {
                               </div>
                             </div>
                             <Link
-                              href={`/lgs-tercih-robotu?admission=${admissionType}${filters.liseCity ? `&city=${filters.liseCity}` : ''}${filters.liseMinScore ? `&minScore=${filters.liseMinScore}` : ''}${filters.liseQuery ? `&q=${filters.liseQuery}` : ''}`}
+                              href={`/lgs-tercih-robotu?admission=${admissionType}${filters.liseCity ? `&city=${filters.liseCity}` : ''}${filters.liseMinScore ? `&minScore=${filters.liseMinScore}` : ''}${filters.liseQuery ? `&q=${filters.liseQuery}` : ''}${filters.liseType ? `&schoolType=${filters.liseType}` : ''}`}
                               className="block w-full"
                             >
                               <Button size="lg" className="w-full bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white shadow-lg shadow-indigo-500/25 mt-4">
