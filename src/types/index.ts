@@ -44,4 +44,16 @@ export interface UniversityProgram {
     phone?: string;
     address?: string;
     images?: string[];
+    // Net Averages (Optional as they might not exist for all or be fetched in list view)
+    tyt_turkce_net?: number;
+    tyt_mat_net?: number;
+    tyt_fen_net?: number;
+    tyt_sosyal_net?: number;
+    ayt_mat_net?: number;
+    ayt_fizik_net?: number;
+    ayt_kimya_net?: number;
+    ayt_biyoloji_net?: number;
+    ayt_edebiyat_net?: number;
+    ayt_tarih1_net?: number;
+    ayt_cografya1_net?: number;
 }

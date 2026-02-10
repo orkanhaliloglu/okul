@@ -158,6 +158,18 @@ export function SearchView({ initialType }: SearchViewProps) {
                             universityName: item.university_name,
                             programName: item.program_name,
                             scoreType: item.score_type,
+                            // Map net averages if they exist in DB response
+                            tyt_turkce_net: item.tyt_turkce_net,
+                            tyt_mat_net: item.tyt_mat_net,
+                            tyt_fen_net: item.tyt_fen_net,
+                            tyt_sosyal_net: item.tyt_sosyal_net,
+                            ayt_mat_net: item.ayt_mat_net,
+                            ayt_fizik_net: item.ayt_fizik_net,
+                            ayt_kimya_net: item.ayt_kimya_net,
+                            ayt_biyoloji_net: item.ayt_biyoloji_net,
+                            ayt_edebiyat_net: item.ayt_edebiyat_net,
+                            ayt_tarih1_net: item.ayt_tarih1_net,
+                            ayt_cografya1_net: item.ayt_cografya1_net,
                         } as UniversityProgram;
                     }
                 });
@@ -433,13 +445,35 @@ export function SearchView({ initialType }: SearchViewProps) {
                                                     </div>
                                                 </div>
 
-                                                <div className="flex items-center justify-between pt-2 border-t mt-2">
-                                                    <p className="text-xs text-muted-foreground">
-                                                        2024 Verileri
-                                                    </p>
+                                                {/* Net Averages Summary for Universities */}
+                                                {type === 'universite' && (
+                                                    <div className="grid grid-cols-2 gap-2 py-2 border-t border-b border-dashed my-2">
+                                                        <div className="text-sm">
+                                                            <span className="text-muted-foreground text-xs block">Ort. TYT Net</span>
+                                                            <span className="font-bold text-foreground">
+                                                                {((item as UniversityProgram).tyt_mat_net || 0) + ((item as UniversityProgram).tyt_turkce_net || 0) + ((item as UniversityProgram).tyt_fen_net || 0) + ((item as UniversityProgram).tyt_sosyal_net || 0) > 0
+                                                                    ? (((item as UniversityProgram).tyt_mat_net || 0) + ((item as UniversityProgram).tyt_turkce_net || 0) + ((item as UniversityProgram).tyt_fen_net || 0) + ((item as UniversityProgram).tyt_sosyal_net || 0)).toFixed(1)
+                                                                    : '---'}
+                                                            </span>
+                                                        </div>
+                                                        <div className="text-sm">
+                                                            <span className="text-muted-foreground text-xs block">Ort. AYT Net</span>
+                                                            <span className="font-bold text-foreground">
+                                                                {((item as UniversityProgram).ayt_mat_net || 0) + ((item as UniversityProgram).ayt_edebiyat_net || 0) > 0
+                                                                    ? (((item as UniversityProgram).ayt_mat_net || 0) + ((item as UniversityProgram).ayt_edebiyat_net || 0) + ((item as UniversityProgram).ayt_fizik_net || 0) + ((item as UniversityProgram).ayt_kimya_net || 0) + ((item as UniversityProgram).ayt_biyoloji_net || 0) + ((item as UniversityProgram).ayt_tarih1_net || 0) + ((item as UniversityProgram).ayt_cografya1_net || 0)).toFixed(1)
+                                                                    : '---'}
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                )}
+
+                                                <div className="flex items-center justify-between pt-2 mt-2">
+                                                    <Badge variant="outline" className="text-xs font-normal border-indigo-200 bg-indigo-50 text-indigo-700 dark:bg-indigo-900/20 dark:text-indigo-300 dark:border-indigo-800">
+                                                        2024 Yerleştirme Verileri
+                                                    </Badge>
                                                     <Link href={type === 'lise' ? `/lise/${item.slug}` : `/universite/${item.slug}`}>
-                                                        <Button variant="default" size="sm" className="gap-2 bg-white/90 hover:bg-white text-zinc-950 font-medium shadow-sm transition-colors">
-                                                            İncele <ArrowRight className="h-4 w-4" />
+                                                        <Button variant="default" size="sm" className="gap-2 bg-indigo-600 hover:bg-indigo-700 text-white shadow-sm transition-colors">
+                                                            Detaylı İncele <ArrowRight className="h-4 w-4" />
                                                         </Button>
                                                     </Link>
                                                 </div>
