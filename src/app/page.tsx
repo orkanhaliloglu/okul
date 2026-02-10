@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import Link from "next/link";
 import { GraduationCap, School, Search, ChevronRight, BookOpen, Calculator } from "lucide-react";
 import { Button } from "@/components/ui/button";
