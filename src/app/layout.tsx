@@ -8,7 +8,6 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { StudentBackground } from "@/components/student-background";
-import { StudentBackground } from "@/components/student-background";
 import { ReviewsSection } from "@/components/reviews-section";
 import { Toaster } from "@/components/ui/toaster";
 
@@ -66,7 +65,6 @@ export default function RootLayout({
         )}
       >
         <Header />
-        {children}
         {children}
         <ReviewsSection />
         <Toaster />
