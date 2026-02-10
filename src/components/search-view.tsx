@@ -104,7 +104,6 @@ export function SearchView({ initialType }: SearchViewProps) {
                     query = supabase.from('high_schools').select('*');
 
                     if (liseCity) query = query.ilike('city', `%${liseCity}%`);
-                    if (liseCity) query = query.ilike('city', `%${liseCity}%`);
                     if (liseQuery) query = query.ilike('name', `%${liseQuery}%`);
                     if (liseType) query = query.eq('type', liseType);
                     if (liseMinScore) {
