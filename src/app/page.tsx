@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useSearchParams, useRouter, usePathname } from "next/navigation";
+import { Suspense } from "react";
 import Link from "next/link";
 import { GraduationCap, School, Search, MapPin, ChevronRight, BookOpen, Calculator, ArrowLeft, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -11,15 +12,40 @@ import { Badge } from "@/components/ui/badge";
 import { ScoreWizard } from "@/components/score-wizard";
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState<string | null>(null);
+  return (
+    <Suspense fallback={<div>Yükleniyor...</div>}>
+      <HomeContent />
+    </Suspense>
+  );
+}
+
+function HomeContent() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  // Derived state from URL
+  const activeTab = searchParams.get("tab");
+
   const [admissionType, setAdmissionType] = useState<'LGS' | 'OBP'>('LGS');
   const [filters, setFilters] = useState({
+    liseQuery: '',
     liseCity: '',
     liseMinScore: '',
     uniQuery: '',
     uniCity: '',
     uniMinScore: ''
   });
+
+  const handleTabChange = (tab: string | null) => {
+    const params = new URLSearchParams(searchParams.toString());
+    if (tab) {
+      params.set("tab", tab);
+    } else {
+      params.delete("tab");
+    }
+    router.replace(`${pathname}?${params.toString()}`, { scroll: false });
+  };
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -76,7 +102,7 @@ export default function Home() {
                 <div className="grid md:grid-cols-2 gap-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
                   <Card
                     className="group cursor-pointer border-2 hover:border-indigo-500 transition-all hover:scale-105 hover:shadow-xl bg-white/80 dark:bg-black/50 backdrop-blur-sm"
-                    onClick={() => setActiveTab("lise")}
+                    onClick={() => handleTabChange("lise")}
                   >
                     <CardContent className="p-8 flex flex-col items-center text-center space-y-4">
                       <div className="p-4 rounded-full bg-indigo-100 dark:bg-indigo-900/30 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
@@ -94,7 +120,7 @@ export default function Home() {
 
                   <Card
                     className="group cursor-pointer border-2 hover:border-violet-500 transition-all hover:scale-105 hover:shadow-xl bg-white/80 dark:bg-black/50 backdrop-blur-sm"
-                    onClick={() => setActiveTab("universite")}
+                    onClick={() => handleTabChange("universite")}
                   >
                     <CardContent className="p-8 flex flex-col items-center text-center space-y-4">
                       <div className="p-4 rounded-full bg-violet-100 dark:bg-violet-900/30 group-hover:bg-violet-600 group-hover:text-white transition-colors">
@@ -112,7 +138,7 @@ export default function Home() {
 
                   <Card
                     className="md:col-span-2 group cursor-pointer border-2 hover:border-emerald-500 transition-all hover:shadow-xl bg-white/80 dark:bg-black/50 backdrop-blur-sm mt-4"
-                    onClick={() => setActiveTab("calculator")}
+                    onClick={() => handleTabChange("calculator")}
                   >
                     <CardContent className="p-6 flex items-center justify-between">
                       <div className="flex items-center gap-4">
@@ -133,7 +159,7 @@ export default function Home() {
                   <div className="mb-6 flex justify-start">
                     <Button
                       variant="ghost"
-                      onClick={() => setActiveTab(null)}
+                      onClick={() => handleTabChange(null)}
                       className="text-muted-foreground hover:text-foreground"
                     >
                       <ArrowLeft className="mr-2 h-4 w-4" /> Geri Dön
@@ -142,7 +168,7 @@ export default function Home() {
 
                   <Card className="border-0 shadow-2xl ring-1 ring-gray-900/5 backdrop-blur-sm bg-white/80 dark:bg-black/50 overflow-hidden">
                     <CardContent className="p-0">
-                      <Tabs value={activeTab as string} onValueChange={(val) => setActiveTab(val)} className="w-full">
+                      <Tabs value={activeTab as string} onValueChange={(val) => handleTabChange(val)} className="w-full">
                         <div className="bg-muted/30 border-b p-4">
                           <h2 className="text-2xl font-bold flex items-center gap-3">
                             {activeTab === "lise" && <><School className="h-6 w-6 text-indigo-600" /> Lise Arama Filtreleri</>}
@@ -178,6 +204,19 @@ export default function Home() {
                               </div>
                             </div>
 
+                            <div className="space-y-2 text-left">
+                              <label className="text-sm font-medium">Okul Adı (İsteğe Bağlı)</label>
+                              <div className="relative">
+                                <Search className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
+                                <Input
+                                  placeholder="Örn: Fen Lisesi, Anadolu Lisesi..."
+                                  className="pl-9"
+                                  value={filters.liseQuery}
+                                  onChange={(e) => setFilters({ ...filters, liseQuery: e.target.value })}
+                                />
+                              </div>
+                            </div>
+
                             <div className="grid gap-6 md:grid-cols-2">
                               <div className="space-y-2 text-left">
                                 <label className="text-sm font-medium">Şehir</label>
@@ -206,7 +245,7 @@ export default function Home() {
                               </div>
                             </div>
                             <Link
-                              href={`/lgs-tercih-robotu?admission=${admissionType}${filters.liseCity ? `&city=${filters.liseCity}` : ''}${filters.liseMinScore ? `&minScore=${filters.liseMinScore}` : ''}`}
+                              href={`/lgs-tercih-robotu?admission=${admissionType}${filters.liseCity ? `&city=${filters.liseCity}` : ''}${filters.liseMinScore ? `&minScore=${filters.liseMinScore}` : ''}${filters.liseQuery ? `&q=${filters.liseQuery}` : ''}`}
                               className="block w-full"
                             >
                               <Button size="lg" className="w-full bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white shadow-lg shadow-indigo-500/25 mt-4">

@@ -46,6 +46,7 @@ export function SearchView({ initialType }: SearchViewProps) {
 
     // High School Filters
     const [liseCity, setLiseCity] = useState(searchParams.get("city") || "");
+    const [liseQuery, setLiseQuery] = useState(searchParams.get("q") || ""); // Reusing 'q' param for Lise name search
     const [liseMinScore, setLiseMinScore] = useState(searchParams.get("minScore") || "");
     const [admissionType, setAdmissionType] = useState(searchParams.get("admission") || "LGS"); // LGS or OBP
 
@@ -73,6 +74,7 @@ export function SearchView({ initialType }: SearchViewProps) {
 
         if (type === 'lise') {
             if (liseCity) params.set('city', liseCity);
+            if (liseQuery) params.set('q', liseQuery);
             if (liseMinScore) params.set('minScore', liseMinScore);
             if (admissionType) params.set('admission', admissionType);
         } else {
@@ -88,7 +90,7 @@ export function SearchView({ initialType }: SearchViewProps) {
         if (currentString !== newString) {
             router.replace(`${pathname}?${newString}`, { scroll: false });
         }
-    }, [type, liseCity, liseMinScore, admissionType, uniQuery, uniCity, uniMinScore, uniScoreType, pathname, router, searchParams]);
+    }, [type, liseCity, liseQuery, liseMinScore, admissionType, uniQuery, uniCity, uniMinScore, uniScoreType, pathname, router, searchParams]);
 
     // Fetch Data
     useEffect(() => {
@@ -100,6 +102,7 @@ export function SearchView({ initialType }: SearchViewProps) {
                     query = supabase.from('high_schools').select('*');
 
                     if (liseCity) query = query.ilike('city', `%${liseCity}%`);
+                    if (liseQuery) query = query.ilike('name', `%${liseQuery}%`);
                     if (liseMinScore) {
                         // Show schools where admission score is <= user score (roughly)
                         // Or just show schools around that score. 
@@ -171,7 +174,7 @@ export function SearchView({ initialType }: SearchViewProps) {
         // Debounce
         const timeout = setTimeout(fetchData, 300);
         return () => clearTimeout(timeout);
-    }, [type, liseCity, liseMinScore, admissionType, uniQuery, uniCity, uniMinScore, uniScoreType]);
+    }, [type, liseCity, liseQuery, liseMinScore, admissionType, uniQuery, uniCity, uniMinScore, uniScoreType]);
 
 
     return (
@@ -228,6 +231,19 @@ export function SearchView({ initialType }: SearchViewProps) {
                                                 className="pl-9"
                                                 value={liseCity}
                                                 onChange={(e) => setLiseCity(e.target.value)}
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <div className="space-y-2">
+                                        <Label>Okul Adı</Label>
+                                        <div className="relative">
+                                            <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
+                                            <Input
+                                                placeholder="Örn: Fen Lisesi..."
+                                                className="pl-9"
+                                                value={liseQuery}
+                                                onChange={(e) => setLiseQuery(e.target.value)}
                                             />
                                         </div>
                                     </div>
