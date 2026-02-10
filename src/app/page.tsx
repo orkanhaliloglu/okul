@@ -1,16 +1,10 @@
 "use client";
 
-import { useSearchParams, useRouter, usePathname } from "next/navigation";
-import { useState, Suspense } from "react";
 import Link from "next/link";
-import { GraduationCap, School, Search, MapPin, ChevronRight, BookOpen, Calculator, ArrowLeft, Check } from "lucide-react";
+import { GraduationCap, School, Search, ChevronRight, BookOpen, Calculator } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ScoreWizard } from "@/components/score-wizard";
 
 export default function Home() {
   return (
