@@ -6,8 +6,8 @@ import { Header } from "@/components/header";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-import { GoogleAnalytics } from '@next/third-parties/google';
 import { ReviewsSection } from "@/components/reviews-section";
+import { Footer } from "@/components/footer";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
@@ -50,13 +50,15 @@ export const metadata: Metadata = {
   },
 };
 
+import { GoogleAnalytics } from '@next/third-parties/google';
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="tr">
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
@@ -66,6 +68,7 @@ export default function RootLayout({
         <Header />
         {children}
         <ReviewsSection />
+        <Footer />
         <Toaster />
         <GoogleAnalytics gaId="G-9NVZP6QKWH" />
       </body>
